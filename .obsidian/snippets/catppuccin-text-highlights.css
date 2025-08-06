@@ -1,0 +1,25 @@
+/* Catppuccin Mocha Text Highlights for Obsidian */
+
+/* Bold Text */
+.markdown-preview-view strong, !important
+.cm-strong {
+    color: #f5c2e7; /* Pink */
+    font-weight: bold;
+}
+
+/* Italic Text */
+.markdown-preview-view em, !important
+.cm-em {
+    color: #94e2d5; /* Teal */
+    font-style: italic;
+}
+
+/* Inline Code */
+.markdown-preview-view code, !important
+.cm-inline-code {
+    background-color: rgba(250, 179, 135, 0.15);  /* Soft Peach background */
+    color: #fab387; /* Peach text */
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-family: monospace;
+}
