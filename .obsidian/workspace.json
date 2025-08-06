@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todos/2025-08-05.md",
+                "file": "todos/2025-08-06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-05"
+              "title": "2025-08-06"
             }
           },
           {
@@ -35,7 +35,8 @@
               "title": "QA Pipeline"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -219,15 +220,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "79f191ac7e5bca55",
+  "active": "9c312ea2259a70bd",
   "lastOpenFiles": [
     "todos/2025-08-06.md",
+    "windschitl/notes/first meeting with hourcade.md",
+    "todos/2025-08-05.md",
     "todos/2025-08-04.md",
     "hbc/HR/QA Pipeline.md",
     "pdfs/hbc/jc/vis.pdf",
     "todos/2025-08-08.md",
     "todos/2025-08-07.md",
-    "todos/2025-08-05.md",
     "hbc/jc/vis behavior change.md",
     "Untitled.md",
     "todos/2025-08-01.md",
@@ -239,7 +241,6 @@
     "todos/2025-07-29.md",
     "todos/2025-07-28.md",
     "todos/2025-07-25.md",
-    "windschitl/notes/first meeting with hourcade.md",
     "hbc/HR/HR - initial look & meeting notes olivia.md",
     "todos/2025-07-24.md",
     "windschitl/notes",
