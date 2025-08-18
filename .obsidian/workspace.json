@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "ece04e342bafbd10",
+        "id": "c93ba2519ced61e6",
         "type": "tabs",
         "children": [
           {
-            "id": "79f191ac7e5bca55",
+            "id": "f311aff08c7b4f04",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todos/2025-08-06.md",
+                "file": "todos/2025-08-18.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-06"
-            }
-          },
-          {
-            "id": "9c312ea2259a70bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hbc/HR/QA Pipeline.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "QA Pipeline"
+              "title": "2025-08-18"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -48,7 +33,7 @@
       {
         "id": "80ccd4906b5d240f",
         "type": "tabs",
-        "dimension": 72.76632302405498,
+        "dimension": 68.15352697095436,
         "children": [
           {
             "id": "59fa5a7f9af2f8ac",
@@ -95,7 +80,7 @@
       {
         "id": "9b14055cc9cc3e86",
         "type": "tabs",
-        "dimension": 27.233676975945016,
+        "dimension": 31.84647302904564,
         "children": [
           {
             "id": "4e9a00619e7f4d83",
@@ -220,18 +205,35 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9c312ea2259a70bd",
+  "active": "f311aff08c7b4f04",
   "lastOpenFiles": [
+    "hbc/mv/08-15-2025.md",
+    "todos/2025-08-18.md",
+    "todos/2025-08-15.md",
+    "todos/2025-08-14.md",
+    "todos/2025-07-28.md",
+    "windschitl/notes/first-iteration.md",
+    "todos/2025-08-13.md",
+    "hbc/mv/08/15/2025.md",
+    "hbc/mv/08/15",
+    "hbc/mv/08",
+    "hbc/mv",
+    "todos/2025-08-12.md",
+    "hbc/HR/HR - initial look & meeting notes olivia.md",
+    "todos/2025-08-11.md",
     "todos/2025-08-06.md",
-    "windschitl/notes/first meeting with hourcade.md",
-    "todos/2025-08-05.md",
-    "todos/2025-08-04.md",
-    "hbc/HR/QA Pipeline.md",
-    "pdfs/hbc/jc/vis.pdf",
-    "todos/2025-08-08.md",
-    "todos/2025-08-07.md",
-    "hbc/jc/vis behavior change.md",
+    "Untitled",
+    "Pasted image 20250723131055.png",
     "Untitled.md",
+    "Untitled 1.md",
+    "todos/2025-08-07.md",
+    "todos/2025-08-08.md",
+    "todos/2025-08-05.md",
+    "hbc/HR/QA Pipeline.md",
+    "windschitl/notes/first meeting with hourcade.md",
+    "todos/2025-08-04.md",
+    "pdfs/hbc/jc/vis.pdf",
+    "hbc/jc/vis behavior change.md",
     "todos/2025-08-01.md",
     "todos/2025-07-31.md",
     "windschitl/notes/First Lit Review.md",
@@ -239,27 +241,11 @@
     "windschitl/papers/vis_effects.pdf",
     "hbc/act/nonwear.md",
     "todos/2025-07-29.md",
-    "todos/2025-07-28.md",
-    "todos/2025-07-25.md",
-    "hbc/HR/HR - initial look & meeting notes olivia.md",
-    "todos/2025-07-24.md",
     "windschitl/notes",
-    "mc/home coordinates.md",
     "mc",
     "Untitled.canvas",
-    "Pasted image 20250723131055.png",
-    "todos/2025-07-23.md",
     "windschitl/papers",
-    "windschitl",
-    "todos/2025-07-22.md",
     "Extras/Pasted image 20250721150158.png",
-    "todos/2025-07-21.md",
-    "Extras/checkbox syntax.md",
-    "hbc/neuroimage/review of subcortical snr.md",
-    "hbc/neuroimage/iron accumulation - magnetic interference.md",
-    "pdfs/hbc/fmri/iron-accumulation-1.pdf",
-    "Extras/Pasted image 20250717081304.png",
-    "pdfs/hbc/fmri/snr-review.pdf",
-    "pdfs/hbc/jc/De Godoy et al. - 2023 - Phenotyping Superagers Using Resting-State fMRI.pdf"
+    "Extras/Pasted image 20250717081304.png"
   ]
 }
