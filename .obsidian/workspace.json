@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Extras/Prompts.md",
+                "file": "hbc/act/Accelerometer Distributions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prompts"
+              "title": "Accelerometer Distributions"
             }
           },
           {
@@ -218,13 +218,22 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f311aff08c7b4f04",
+  "active": "59fa5a7f9af2f8ac",
   "lastOpenFiles": [
-    "Extras/Prompts.md",
+    "school/fa25/HH",
+    "school/fa25/DESIGN",
+    "school/fa25/SERVE",
+    "school/fa25/STAT",
+    "school/fa25/DB",
+    "school/fa25",
+    "school/Untitled.md",
     "hbc/act/Accelerometer Distributions.md",
+    "school",
+    "Untitled.md",
+    "hbc/mv/08-15-2025.md",
+    "Extras/Prompts.md",
     "todos/2025-08-20.md",
     "todos/2025-08-18.md",
-    "hbc/mv/08-15-2025.md",
     "todos/2025-08-15.md",
     "todos/2025-08-14.md",
     "todos/2025-07-28.md",
@@ -238,9 +247,7 @@
     "hbc/HR/HR - initial look & meeting notes olivia.md",
     "todos/2025-08-11.md",
     "todos/2025-08-06.md",
-    "Untitled",
     "Pasted image 20250723131055.png",
-    "Untitled.md",
     "Untitled 1.md",
     "todos/2025-08-07.md",
     "todos/2025-08-08.md",
@@ -250,14 +257,7 @@
     "todos/2025-08-04.md",
     "pdfs/hbc/jc/vis.pdf",
     "hbc/jc/vis behavior change.md",
-    "todos/2025-08-01.md",
-    "todos/2025-07-31.md",
-    "windschitl/papers/vis_framework.pdf",
-    "windschitl/papers/vis_effects.pdf",
-    "windschitl/notes",
-    "mc",
     "Untitled.canvas",
-    "windschitl/papers",
     "Extras/Pasted image 20250721150158.png",
     "Extras/Pasted image 20250717081304.png"
   ]

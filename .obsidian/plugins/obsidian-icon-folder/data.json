@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiSchool2",
       "LiBlocks",
       "LiAlignVerticalSpaceBetween",
       "LiBrainCircuit",
-      "LiHeartPulse",
-      "LiMessageSquareQuote"
+      "LiHeartPulse"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -43,5 +43,6 @@
   "hbc/neuroimage": "LiBrainCircuit",
   "school-26-s1": "LiUniversity",
   "windschitl": "LiAlignVerticalSpaceBetween",
-  "mc": "LiBlocks"
+  "mc": "LiBlocks",
+  "school": "LiSchool2"
 }
