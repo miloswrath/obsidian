@@ -3,7 +3,12 @@
 - [<]
 
 ## Tasks
-- [ ]
+
+*school*
+- [ ] 
+
+*work*
+- [ ] 
 
 ## Notes
 - 

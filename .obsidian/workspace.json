@@ -22,43 +22,17 @@
             }
           },
           {
-            "id": "4fd43c6a868ba555",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.10"
-            }
-          },
-          {
-            "id": "4ebe9fb4a16139cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "school-26-s1/db/w1/intro.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "intro"
-            }
-          },
-          {
             "id": "203d5b3acd3decea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hbc/act/new_file.md",
+                "file": "todos/2025-08-26.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "new_file"
+              "title": "2025-08-26"
             }
           },
           {
@@ -67,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todos/2025-08-25.md",
+                "file": "school-26-s1/db/w1/Intro cont....md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-25"
+              "title": "Intro cont..."
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -261,25 +235,34 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "203d5b3acd3decea",
+  "active": "d3770f920e55c910",
   "lastOpenFiles": [
-    "todos/2025-08-25.md",
-    "hbc/act/new_file.md",
-    "school-26-s1/db/w1/intro.md",
+    "todos/2025-08-27.md",
+    "school-26-s1/db/w1/Intro cont....md",
+    "todos/template 1.md",
+    "todos/2025-08-26.md",
+    "school-26-s1/hh/lec/lec 1 -.md",
+    "school-26-s1/design/lec",
     "hbc/act/Accelerometer Distributions.md",
-    "Untitled.md",
+    "school-26-s1/db/w1/intro.md",
+    "todos/2025-08-25.md",
     "school-26-s1/db/w1/skills assessment.md",
+    "school-26-s1/hh/lec",
+    "school-26-s1/hh",
+    "school-26-s1/bios/lec/lec 1.md",
+    "school-26-s1/design/projects/P1 intro - personal icons.md",
+    "school-26-s1/bios/lab",
+    "school-26-s1/bios/lec",
+    "school-26-s1/bios",
+    "school-26-s1/design/lec/principles.md",
+    "school-26-s1/design/projects",
+    "hbc/act/new_file.md",
+    "school-26-s1/design",
+    "Untitled.md",
     "school-26-s1/Untitled.md",
     "school-26-s1/db/w1",
     "school-26-s1/db",
-    "school/fa25/HH",
-    "school/fa25/DESIGN",
-    "school/fa25/SERVE",
-    "school/fa25/STAT",
-    "school/fa25/DB",
-    "school/fa25",
     "school/Untitled.md",
-    "school",
     "hbc/mv/08-15-2025.md",
     "Extras/Prompts.md",
     "todos/2025-08-20.md",
@@ -290,16 +273,7 @@
     "windschitl/notes/first-iteration.md",
     "todos/2025-08-13.md",
     "hbc/mv/08/15/2025.md",
-    "hbc/mv/08/15",
-    "todos/2025-08-12.md",
-    "hbc/HR/HR - initial look & meeting notes olivia.md",
-    "todos/2025-08-11.md",
-    "todos/2025-08-06.md",
     "Pasted image 20250723131055.png",
-    "Untitled 1.md",
-    "todos/2025-08-07.md",
-    "todos/2025-08-08.md",
-    "todos/2025-08-05.md",
     "Untitled.canvas",
     "Extras/Pasted image 20250721150158.png",
     "Extras/Pasted image 20250717081304.png"
