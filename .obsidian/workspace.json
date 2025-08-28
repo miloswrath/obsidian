@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hbc/act/Accelerometer Distributions.md",
+                "file": "windschitl/notes/Meeting 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Accelerometer Distributions"
+              "title": "Meeting 2"
             }
           },
           {
@@ -218,8 +218,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "59fa5a7f9af2f8ac",
+  "active": "f311aff08c7b4f04",
   "lastOpenFiles": [
+    "windschitl/notes/First Lit Review.md",
+    "windschitl/notes/Meeting 2.md",
+    "hbc/act/Accelerometer Distributions.md",
     "school/fa25/HH",
     "school/fa25/DESIGN",
     "school/fa25/SERVE",
@@ -227,7 +230,6 @@
     "school/fa25/DB",
     "school/fa25",
     "school/Untitled.md",
-    "hbc/act/Accelerometer Distributions.md",
     "school",
     "Untitled.md",
     "hbc/mv/08-15-2025.md",
@@ -255,8 +257,6 @@
     "hbc/HR/QA Pipeline.md",
     "windschitl/notes/first meeting with hourcade.md",
     "todos/2025-08-04.md",
-    "pdfs/hbc/jc/vis.pdf",
-    "hbc/jc/vis behavior change.md",
     "Untitled.canvas",
     "Extras/Pasted image 20250721150158.png",
     "Extras/Pasted image 20250717081304.png"
