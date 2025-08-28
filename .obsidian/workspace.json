@@ -22,18 +22,35 @@
             }
           },
           {
-            "id": "4fd43c6a868ba555",
+            "id": "203d5b3acd3decea",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.10"
+                "file": "todos/2025-08-26.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.10"
+              "icon": "lucide-file",
+              "title": "2025-08-26"
+            }
+          },
+          {
+            "id": "d3770f920e55c910",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "school-26-s1/db/w1/Intro cont....md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Intro cont..."
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,7 +134,7 @@
       {
         "id": "034e5fd705daa5ee",
         "type": "tabs",
-        "dimension": 44.1025641025641,
+        "dimension": 28.753753753753752,
         "children": [
           {
             "id": "bb24cc5425f8865d",
@@ -166,7 +183,7 @@
       {
         "id": "ce5ee67a543fd5a4",
         "type": "tabs",
-        "dimension": 55.897435897435905,
+        "dimension": 71.24624624624624,
         "children": [
           {
             "id": "f688e89abf9a4038",
@@ -232,6 +249,10 @@
     "school/Untitled.md",
     "school",
     "Untitled.md",
+    "school-26-s1/Untitled.md",
+    "school-26-s1/db/w1",
+    "school-26-s1/db",
+    "school/Untitled.md",
     "hbc/mv/08-15-2025.md",
     "Extras/Prompts.md",
     "todos/2025-08-20.md",
@@ -242,13 +263,6 @@
     "windschitl/notes/first-iteration.md",
     "todos/2025-08-13.md",
     "hbc/mv/08/15/2025.md",
-    "hbc/mv/08/15",
-    "hbc/mv/08",
-    "hbc/mv",
-    "todos/2025-08-12.md",
-    "hbc/HR/HR - initial look & meeting notes olivia.md",
-    "todos/2025-08-11.md",
-    "todos/2025-08-06.md",
     "Pasted image 20250723131055.png",
     "Untitled 1.md",
     "todos/2025-08-07.md",
