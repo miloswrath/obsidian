@@ -8,49 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f311aff08c7b4f04",
+            "id": "f57346910d89c077",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hbc/act/Accelerometer Distributions.md",
+                "file": "todos/2025-09-15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Accelerometer Distributions"
+              "title": "2025-09-15"
             }
           },
           {
-            "id": "203d5b3acd3decea",
+            "id": "f85fb103cc131388",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todos/2025-08-26.md",
+                "file": "school-26-s1/bios/hw/h2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-26"
-            }
-          },
-          {
-            "id": "d3770f920e55c910",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "todos/2025-08-28.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-08-28"
+              "title": "h2"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -71,7 +57,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -104,7 +90,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "9b14055cc9cc3e86",
@@ -235,47 +222,55 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "d3770f920e55c910",
+  "active": "afbc35d2f02198de",
   "lastOpenFiles": [
-    "school-26-s1/bios/lec/lec 2.md",
+    "school-26-s1/bios/hw/hw1.md",
+    "hw1-paper.pdf",
+    "Pasted image 20250908163727.png",
+    "Pasted image 20250908163713.png",
+    "Pasted image 20250908155218.png",
+    "Pasted image 20250908154307.png",
+    "Pasted image 20250908153954.png",
+    "Pasted image 20250908143605.png",
+    "Pasted image 20250908143557.png",
+    "Pasted image 20250908143535.png",
+    "Pasted image 20250908143521.png",
+    "Pasted image 20250908143513.png",
+    "todos/2025-09-17.md",
+    "todos/2025-09-19.md",
+    "school-26-s1/bios/hw/h2.md",
+    "todos/2025-09-15.md",
+    "school-26-s1/hh/hw/Active Listening.md",
+    "school-26-s1/db/w3/icp-03.md",
+    "todos/2025-09-11.md",
+    "school-26-s1/db/w3",
+    "school-26-s1/hh/hw",
+    "school-26-s1/hh/Untitled.md",
+    "todos/2025-09-10.md",
+    "todos/2025-09-09.md",
+    "school-26-s1/hh/lec/active listening activity.md",
+    "school-26-s1/bios/hw",
+    "todos/2025-09-08.md",
+    "hbc/jc/09-04-2025.md",
+    "hbc/mv/09-03-2025.md",
+    "todos/2025-09-05.md",
+    "todos/2025-08-26.md",
+    "school-26-s1/db/w2/Terminology, tables, relations.md",
+    "windschitl/notes/Meeting 2.md",
+    "school-26-s1/db/w2",
+    "school-26-s1/db/Untitled.canvas",
+    "todos/2025-09-02.md",
     "todos/2025-08-28.md",
+    "school-26-s1/bios/lec/lec 2.md",
     "school-26-s1/db/w1/Intro cont....md",
     "todos/2025-08-27.md",
     "todos/template 1.md",
-    "todos/2025-08-26.md",
     "school-26-s1/hh/lec/lec 1 -.md",
     "school-26-s1/design/lec",
-    "hbc/act/Accelerometer Distributions.md",
-    "school-26-s1/db/w1/intro.md",
-    "todos/2025-08-25.md",
-    "school-26-s1/db/w1/skills assessment.md",
     "school-26-s1/hh/lec",
     "school-26-s1/hh",
-    "school-26-s1/bios/lec/lec 1.md",
-    "school-26-s1/design/projects/P1 intro - personal icons.md",
     "school-26-s1/bios/lab",
     "school-26-s1/bios/lec",
-    "school-26-s1/bios",
-    "school-26-s1/design/lec/principles.md",
-    "school-26-s1/design/projects",
-    "hbc/act/new_file.md",
-    "school-26-s1/design",
-    "Untitled.md",
-    "school-26-s1/Untitled.md",
-    "school-26-s1/db/w1",
-    "school-26-s1/db",
-    "school/Untitled.md",
-    "hbc/mv/08-15-2025.md",
-    "Extras/Prompts.md",
-    "todos/2025-08-20.md",
-    "todos/2025-08-18.md",
-    "todos/2025-08-15.md",
-    "todos/2025-08-14.md",
-    "todos/2025-07-28.md",
-    "windschitl/notes/first-iteration.md",
-    "Pasted image 20250723131055.png",
-    "Untitled.canvas",
-    "Extras/Pasted image 20250721150158.png",
-    "Extras/Pasted image 20250717081304.png"
+    "Untitled.canvas"
   ]
 }
