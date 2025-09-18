@@ -1,3 +1,5 @@
+> I only got through question 4 - i finished through question 2 in class but only had the brainpower for 3&4.
+
 ## Question 1
 *list the names of all female assistants*
 
@@ -29,27 +31,51 @@ $$
 $$
 \begin{flalign*}
 \{ \text{fn, ln} |
-&\text{ } \exists_{\text{ sn, fn, ln, pos, sx, dob, sal, bn, st, ct, pc}} &\\
+&\text{ } \exists\text{ sn, fn, ln, pos, sx, dob, sal, bn, st, ct, pc} &\\
 &(\text{Staff(sn, fn, ln, pos, sx, dob, sal, bn) } \land \text{ Branch(bn, st, ct, pc) } \land \text{ ct = 'London})
 \end{flalign*}
 $$
 
 ## Question 3
+*tuple*
+$$
+\begin{flalign*}
+\{\, S.fName,\; S.lName \mid & \\
+   &Staff(S)\ \land
+   \exists J \big[ Staff(J) \land
+   J.fName = 'Julie' \land
+   J.lName = 'Lee' \land \\
+   & S.salary > J.salary \big] \,\}
+\end{flalign*}
+$$
+
 
 *domain*
 $$
 \begin{flalign*}
-\{ \text{fn, ln } | \exists \text{ fn, pos, sx, dob, sal bn} &\\
-& (\text{Staff(sn, fn, ln, pos, sx, dob, sal, bn) } \land &\\
-& \exists \text{ sn1, pos1, sx1, dpob1, sal1, bn1 (Staff(sn1, 'Julie', 'Lee'} &\\
-& \text{pos1, sx1, dob1, sal1, bn1 })
-
-
+\{\,  F,L  \mid &
+   \exists P,S,D,Sal,B \;
+   \exists Fj,Lj,Pj,Sj,Dj,Salj,Bj \big[ \\
+   & Staff(F,L,P,S,D,Sal,B) \land
+     Staff('Julie','Lee',Pj,Sj,Dj,Salj,Bj) \\
+     & \land Sal > Salj \big] \,\}
 \end{flalign*}
 $$
 
 ## Question 4
 
 *tuple*
-
-{ S.fName, S.lName | $\land$ $\forall$ A(~(staff(A) $\land$ A.position='Assistant) $\lor$ S.salary > A.salary)}
+$$
+\begin{flalign*}
+\{ \text{ S.fName, S.lName } | &\\
+& \land \forall A((Staff(A) \land \text{A.position = 'Assistant'} \lor S.salary > A.salary)\}
+\end{flalign*}
+$$
+*domain*
+$$
+\begin{flalign*}
+\{\,  F,L  \mid &
+   \forall P',S',D',Sal',B' \big[ Staff(F,L,P,S,D,Sal,B)
+   \land Staff(F,L,P,S,D,Sal,B) \big] \land Sal > S' \,\}
+\end{flalign*}
+$$
