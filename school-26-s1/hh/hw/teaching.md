@@ -8,7 +8,11 @@ Humanities as a general field focuses on the whole human experience and day to d
 
 
 *What is biomedical science*
-
+Biomedical science is the study of healthcare with a specific focus on data, modeling, and statistics. Everything is cold and empirical and must follow specific orders of logic. The goal of this is to isolate problems, find their root causes, and then propose efficient and effective solutions that will work in healthcare, public health, etc..
 
 
 *What is health humanities and how is it different?*
+Health humanities is a very different field. It involves understanding the emotional and cultural impact(s) that medical conditions have on people. For example, a Deaf person might be defined as deaf and lumped together with other d/Deaf people in biomedical research, but health humanities separates each individual and gives them a voice to tell their own stories and experiences from living with the condition. 
+
+Hey mom, 
+In one of my classes we are learning about a different perspective on healthcare that I think you might find interesting. When you go to the doctor, you tend to be treated like a subject in a lab. They do tests on you, which return some numbers, which they then use to diagnose you and lump you with other people to then treat you. What I am learning, health humanities, is quite different. In health humanities, instead of treating each condition as something that needs to be fixed with treatment as soon as possible, the goal is to give everyone with a condition or experience in healthcare a voice to share their story and how it has affected them. For example, I know Lita just got diagnosed with dementia - at the doctor, they ran some cognitive testing to assess her memory function and then diagnosed her and suggested next steps. This is a purely biomedical way of looking at things which does not give any focus as to how you were feeling during this process. I know caregiving has been hard for you with Lita and health humanities puts a focus on you as well, to tell your story about how caregiving for Lita has affected you. I hope you find that this new perspective is interesting since it's not on the forefront of what you might think as healthcare, and I can't wait to share more with you!
