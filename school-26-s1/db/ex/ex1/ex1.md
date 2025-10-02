@@ -2,7 +2,7 @@
 ---
 ## TODO
 ---
-- [ ] finish what's covered 
+- [x] finish what's covered 
 	- [x] ensure all is on this doc
 - [ ] plan what needs to be read from the book
 - [ ] make some practice problems for each subject
