@@ -1,0 +1,5 @@
+![[Pasted image 20251001144659.png]]
+
+![[Pasted image 20251001144712.png]]
+
+GIVE MV ACCES TO TRANSFER
