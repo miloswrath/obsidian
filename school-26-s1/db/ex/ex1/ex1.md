@@ -17,7 +17,7 @@
 [[keys]]
 - PK, FK, SK, etc.
 
-*Relational Algebra/Calculus*
+[[Relational Algebra]] / [[Calculus]]
 - Set theory (unions, intersections etc)
 - Tuple, Domain Calculus
 - Joins
