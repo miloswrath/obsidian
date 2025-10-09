@@ -13,40 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school-26-s1/db/ex/ex1/keys.md",
+                "file": "personal/jobs/list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "keys"
+              "title": "list"
             }
           },
           {
-            "id": "22d8ca6112fa380d",
+            "id": "a23c9184b78f49a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todos/2025-09-29.md",
+                "file": "todos/2025-10-09.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-29"
+              "title": "2025-10-09"
             }
           },
           {
-            "id": "7ffc3a151ed98ad8",
+            "id": "edba80e516167f94",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school-26-s1/db/ex/ex1/ex1.md",
+                "file": "school-26-s1/db/ex/ex1/calculus.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ex1"
+              "title": "calculus"
             }
           }
         ],
@@ -104,7 +104,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "db10d1fb91e2b3b0",
@@ -134,7 +135,7 @@
       {
         "id": "034e5fd705daa5ee",
         "type": "tabs",
-        "dimension": 33.2415059687787,
+        "dimension": 25.431357839459864,
         "children": [
           {
             "id": "bb24cc5425f8865d",
@@ -176,14 +177,24 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "81b59c2f075ad708",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "ce5ee67a543fd5a4",
         "type": "tabs",
-        "dimension": 34.43526170798898,
+        "dimension": 42.23555888972243,
         "children": [
           {
             "id": "0a71141301c04832",
@@ -191,13 +202,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "todos/2025-09-29.md",
+                "file": "todos/2025-10-09.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-09-29"
+              "title": "Outline of 2025-10-09"
             }
           }
         ]
@@ -205,7 +216,7 @@
       {
         "id": "062c0f1e9d448a12",
         "type": "tabs",
-        "dimension": 32.323232323232325,
+        "dimension": 32.3330832708177,
         "children": [
           {
             "id": "f688e89abf9a4038",
@@ -239,56 +250,58 @@
       "canvas:Create new canvas": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "22d8ca6112fa380d",
+  "active": "a23c9184b78f49a1",
   "lastOpenFiles": [
+    "school-26-s1/db/w7/icp7.md",
+    "todos/2025-10-09.md",
+    "todos/2025-10-06.md",
+    "school-26-s1/db/w7",
+    "todos/2025-10-07.md",
+    "todos/2025-10-02.md",
+    "school-26-s1/db/ex/ex1/relational algebra.md",
+    "school-26-s1/db/ex/ex1/calculus.md",
     "school-26-s1/db/ex/ex1/ex1.md",
-    "todos/2025-09-29.md",
-    "school-26-s1/db/ex/ex1/background.md",
-    "school-26-s1/bios/hw/hw1-paper.pdf",
-    "Untitled.md",
-    "misc_images",
-    "misc_images/Pasted image 20250929160420.png",
-    "misc_images/Pasted image 20250929160102.png",
-    "Untitled 1.md",
-    "school-26-s1/db/ex/ex1/keys.md",
     "personal/jobs/list.md",
     "school-26-s1/db/ex/ex1/study.md",
+    "hbc/act/new_file.md",
+    "school-26-s1/bios/hw/h3.md",
+    "todos/template 1.md",
+    "temp.md",
+    "todos/2025-10-03.md",
+    "school-26-s1/bios/hw/Pasted image 20251005095439.png",
+    "school-26-s1/db/ex/ex1/keys.md",
+    "windschitl/notes/First Lit Review.md",
+    "windschitl/notes/meeting3.md",
+    "school-26-s1/db/ex/ex1/background.md",
+    "school-26-s1/bios/hw/hw1-paper.pdf",
+    "misc_images/Pasted image 20250929160420.png",
+    "misc_images/Pasted image 20250929160102.png",
+    "misc_images/Pasted image 20250916114802.png",
+    "misc_images/Pasted image 20250914085724.png",
+    "misc_images/Pasted image 20250912094400.png",
+    "misc_images/Pasted image 20250912094205.png",
+    "misc_images/Pasted image 20250912094109.png",
+    "misc_images/Pasted image 20250912093938.png",
+    "misc_images/Pasted image 20250912093853.png",
+    "misc_images",
+    "hbc/act/ne_transfer.md",
+    "windschitl/notes/first meeting with hourcade.md",
+    "windschitl/notes/first-iteration.md",
+    "windschitl/notes/Meeting 2.md",
+    "todos/2025-10-01.md",
+    "todos/2025-09-29.md",
     "school-26-s1/db/ex/ex1",
     "school-26-s1/db/ex",
     "Untitled 2.md",
-    "todos/2025-09-26.md",
-    "school-26-s1/hh/hw/burnout.md",
-    "school-26-s1/db/hw/hw1.md",
     "school-26-s1/db/hw",
-    "todos/2025-09-25.md",
-    "school-26-s1/hh/lec/lec 10.md",
-    "school-26-s1/hh/hw/interview_notes.md",
-    "todos/2025-09-23.md",
-    "school-26-s1/hh/hw/teaching.md",
-    "todos/2025-09-22.md",
-    "school-26-s1/bios/ex/1/cheatsheet.md",
-    "setup_fixes/2025-09-14.md",
-    "school-26-s1/hh/reading/reading5.md",
     "personal/jobs",
     "personal",
-    "school-26-s1/bios/hw/h2.md",
     "school-26-s1/bios/ex/1",
     "school-26-s1/bios/ex",
-    "todos/2025-09-20.md",
-    "school-26-s1/hh/reading/reading4.md",
-    "todos/2025-09-18.md",
-    "setup_fixes",
-    "misc_images/Pasted image 20250916114802.png",
-    "misc_images/Pasted image 20250908163727.png",
-    "misc_images/Pasted image 20250908163713.png",
-    "misc_images/Pasted image 20250908155218.png",
-    "misc_images/Pasted image 20250908154307.png",
-    "misc_images/Pasted image 20250908153954.png",
-    "misc_images/Pasted image 20250908143605.png",
-    "misc_images/Pasted image 20250908143557.png",
     "school-26-s1/db/Untitled.canvas",
     "Untitled.canvas"
   ]
