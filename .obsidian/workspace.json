@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -104,8 +104,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "db10d1fb91e2b3b0",
@@ -135,7 +134,7 @@
       {
         "id": "034e5fd705daa5ee",
         "type": "tabs",
-        "dimension": 25.431357839459864,
+        "dimension": 26.63165791447862,
         "children": [
           {
             "id": "bb24cc5425f8865d",
@@ -161,63 +160,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "school-26-s1/db/ex/ex1/calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from calculus"
             }
           },
-          {
-            "id": "a3182ccde5243a20",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "81b59c2f075ad708",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "ce5ee67a543fd5a4",
-        "type": "tabs",
-        "dimension": 42.23555888972243,
-        "children": [
-          {
-            "id": "0a71141301c04832",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "todos/2025-10-09.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of 2025-10-09"
-            }
-          }
-        ]
-      },
-      {
-        "id": "062c0f1e9d448a12",
-        "type": "tabs",
-        "dimension": 32.3330832708177,
-        "children": [
           {
             "id": "f688e89abf9a4038",
             "type": "leaf",
@@ -231,6 +181,56 @@
               },
               "icon": "lucide-tags",
               "title": "Tags"
+            }
+          },
+          {
+            "id": "a3182ccde5243a20",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "ce5ee67a543fd5a4",
+        "type": "tabs",
+        "dimension": 42.160540135033756,
+        "children": [
+          {
+            "id": "0a71141301c04832",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "school-26-s1/db/ex/ex1/calculus.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of calculus"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1e9887105fd7baf0",
+        "type": "tabs",
+        "dimension": 31.207801950487625,
+        "children": [
+          {
+            "id": "81b59c2f075ad708",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ]
@@ -254,18 +254,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a23c9184b78f49a1",
+  "active": "edba80e516167f94",
   "lastOpenFiles": [
-    "school-26-s1/db/w7/icp7.md",
     "todos/2025-10-09.md",
+    "school-26-s1/db/ex/ex1/calculus.md",
+    "personal/jobs/list.md",
+    "school-26-s1/db/w7/icp7.md",
     "todos/2025-10-06.md",
     "school-26-s1/db/w7",
     "todos/2025-10-07.md",
     "todos/2025-10-02.md",
     "school-26-s1/db/ex/ex1/relational algebra.md",
-    "school-26-s1/db/ex/ex1/calculus.md",
     "school-26-s1/db/ex/ex1/ex1.md",
-    "personal/jobs/list.md",
     "school-26-s1/db/ex/ex1/study.md",
     "hbc/act/new_file.md",
     "school-26-s1/bios/hw/h3.md",
