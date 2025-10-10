@@ -13,30 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school-26-s1/db/ex/ex1/keys.md",
+                "file": "todos/2025-10-06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "keys"
+              "title": "2025-10-06"
             }
           },
           {
-            "id": "22d8ca6112fa380d",
+            "id": "bdabf1fc7c74fd28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todos/2025-09-29.md",
+                "file": "school-26-s1/db/ex/ex1/calculus.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-29"
+              "title": "calculus"
             }
           },
           {
             "id": "7ffc3a151ed98ad8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hbc/act/ne_transfer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ne_transfer"
+            }
+          },
+          {
+            "id": "8700e1fc090fb113",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,6 +61,62 @@
               },
               "icon": "lucide-file",
               "title": "ex1"
+            }
+          },
+          {
+            "id": "0ced018ff01715f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "school-26-s1/bios/hw/h3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "h3"
+            }
+          },
+          {
+            "id": "d82bd6c218b072ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "todos/2025-10-06.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-10-06"
+            }
+          },
+          {
+            "id": "9739cd02f0ac4c89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "todos/2025-10-08.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-10-08"
+            }
+          },
+          {
+            "id": "e21079a847c0d03f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "windschitl/notes/meeting4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "meeting4"
             }
           }
         ],
@@ -125,7 +195,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b976ac93fcbecb71",
@@ -191,13 +262,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "todos/2025-09-29.md",
+                "file": "school-26-s1/db/ex/ex1/calculus.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-09-29"
+              "title": "Outline of calculus"
             }
           }
         ]
@@ -242,10 +313,30 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "22d8ca6112fa380d",
+  "active": "bdabf1fc7c74fd28",
   "lastOpenFiles": [
+    "school-26-s1/db/ex/ex1/relational algebra.md",
+    "todos/2025-10-08.md",
+    "todos/2025-10-06.md",
+    "school-26-s1/db/ex/ex1/calculus.md",
+    "windschitl/notes/meeting4.md",
+    "windschitl/notes/meeting3.md",
+    "school-26-s1/bios/hw/h3.md",
+    "todos/2025-09-23.md",
+    "todos/2025-09-17.md",
+    "temp.md",
+    "todos/2025-10-01.md",
+    "school-26-s1/bios/hw/Pasted image 20251005095439.png",
+    "todos/2025-10-03.md",
     "school-26-s1/db/ex/ex1/ex1.md",
+    "school-26-s1/db/ex/ex1/keys.md",
+    "school-26-s1/db/ex/ex1/relation algebra/calculus.md",
+    "school-26-s1/db/ex/ex1/relation algebra",
+    "todos/2025-10-02.md",
     "todos/2025-09-29.md",
+    "hbc/act/Pasted image 20251001144712.png",
+    "hbc/act/Pasted image 20251001144659.png",
+    "hbc/act/ne_transfer.md",
     "school-26-s1/db/ex/ex1/background.md",
     "school-26-s1/bios/hw/hw1-paper.pdf",
     "Untitled.md",
@@ -253,7 +344,6 @@
     "misc_images/Pasted image 20250929160420.png",
     "misc_images/Pasted image 20250929160102.png",
     "Untitled 1.md",
-    "school-26-s1/db/ex/ex1/keys.md",
     "personal/jobs/list.md",
     "school-26-s1/db/ex/ex1/study.md",
     "school-26-s1/db/ex/ex1",
@@ -261,34 +351,16 @@
     "Untitled 2.md",
     "todos/2025-09-26.md",
     "school-26-s1/hh/hw/burnout.md",
-    "school-26-s1/db/hw/hw1.md",
     "school-26-s1/db/hw",
-    "todos/2025-09-25.md",
-    "school-26-s1/hh/lec/lec 10.md",
-    "school-26-s1/hh/hw/interview_notes.md",
-    "todos/2025-09-23.md",
-    "school-26-s1/hh/hw/teaching.md",
-    "todos/2025-09-22.md",
-    "school-26-s1/bios/ex/1/cheatsheet.md",
-    "setup_fixes/2025-09-14.md",
-    "school-26-s1/hh/reading/reading5.md",
     "personal/jobs",
     "personal",
-    "school-26-s1/bios/hw/h2.md",
     "school-26-s1/bios/ex/1",
     "school-26-s1/bios/ex",
-    "todos/2025-09-20.md",
-    "school-26-s1/hh/reading/reading4.md",
-    "todos/2025-09-18.md",
-    "setup_fixes",
     "misc_images/Pasted image 20250916114802.png",
     "misc_images/Pasted image 20250908163727.png",
     "misc_images/Pasted image 20250908163713.png",
     "misc_images/Pasted image 20250908155218.png",
     "misc_images/Pasted image 20250908154307.png",
-    "misc_images/Pasted image 20250908153954.png",
-    "misc_images/Pasted image 20250908143605.png",
-    "misc_images/Pasted image 20250908143557.png",
     "school-26-s1/db/Untitled.canvas",
     "Untitled.canvas"
   ]
