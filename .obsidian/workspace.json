@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school-26-s1/db/ex/ex1/calculus.md",
+                "file": "school-26-s1/hh/hw/VTS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "calculus"
+              "title": "VTS"
             }
           }
         ],
@@ -207,13 +207,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/db/ex/ex1/calculus.md",
+                "file": "school-26-s1/hh/hw/VTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of calculus"
+              "title": "Outline of VTS"
             }
           }
         ]
@@ -256,8 +256,10 @@
   },
   "active": "edba80e516167f94",
   "lastOpenFiles": [
-    "todos/2025-10-09.md",
+    "hbc/act/changes post-UX.md",
+    "school-26-s1/hh/hw/VTS.md",
     "school-26-s1/db/ex/ex1/calculus.md",
+    "todos/2025-10-09.md",
     "personal/jobs/list.md",
     "school-26-s1/db/w7/icp7.md",
     "todos/2025-10-06.md",
@@ -293,10 +295,8 @@
     "windschitl/notes/first-iteration.md",
     "windschitl/notes/Meeting 2.md",
     "todos/2025-10-01.md",
-    "todos/2025-09-29.md",
     "school-26-s1/db/ex/ex1",
     "school-26-s1/db/ex",
-    "Untitled 2.md",
     "school-26-s1/db/hw",
     "personal/jobs",
     "personal",
