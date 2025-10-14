@@ -35,8 +35,7 @@
               "title": "h4"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b976ac93fcbecb71",
@@ -192,13 +192,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/bios/hw/h4.md",
+                "file": "school-26-s1/db/ex/ex1/take-home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of h4"
+              "title": "Outline of take-home"
             }
           }
         ]
@@ -222,7 +222,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,10 +240,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "74ae4e33e5f1b406",
+  "active": "a334a13032430fc0",
   "lastOpenFiles": [
-    "school-26-s1/db/ex/ex1/take-home.md",
     "school-26-s1/bios/hw/h4.md",
+    "school-26-s1/db/ex/ex1/take-home.md",
     "exam-1-review.md",
     "windschitl/notes/meeting4.md",
     "todos/2025-10-08.md",
