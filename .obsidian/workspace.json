@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hbc/misc/lss_template.md",
+                "file": "hbc/act/int-errs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lss_template"
+              "title": "int-errs"
             }
           }
         ],
@@ -221,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hbc/misc/lss_template.md",
+                "file": "hbc/act/int-errs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lss_template"
+              "title": "Outline of int-errs"
             }
           }
         ]
@@ -271,6 +271,7 @@
   "active": "18082f457d555198",
   "lastOpenFiles": [
     "hbc/misc/lss_template.md",
+    "hbc/act/int-errs.md",
     "hbc/misc",
     "todos/2025-10-14.md",
     "todos/2025-10-13.md",
@@ -309,7 +310,6 @@
     "misc_images/Pasted image 20250912093853.png",
     "misc_images",
     "hbc/act/ne_transfer.md",
-    "windschitl/notes/first meeting with hourcade.md",
     "school-26-s1/db/ex/ex1",
     "school-26-s1/db/ex",
     "school-26-s1/db/hw",
