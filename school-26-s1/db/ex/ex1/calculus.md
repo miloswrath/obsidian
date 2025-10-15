@@ -1,11 +1,12 @@
-PRactice 
+## Relational Calculus 
+---
+*two types of RC*
+1. tuple
+2. domain
 
-- ```
-  SELECT DISTINCT s.staffno, s.fname, s.lname, COUNT(city) AS count
-  FROM Staff s JOIN PropertyForRent p 
-  ON s.staffno = p.staffno 
-  JOIN Viewing v 
-  ON v.propertyno = p.propertyno
-  GROUP BY s.staffno
-  HAVING count > 1
-  ORDER BY s.staffno
+## Tuple
+*Works on rows*
+- Looping through rows in Tupe S, find truthy predicate P 
+- Yields $\{S | P(S)\}$
+	- Or a set of tuples S that satisfy the predicate P while looping through the S table
+	- 

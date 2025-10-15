@@ -263,3 +263,10 @@ Employees ⋈ Departments
 ---
 
 > 💡 **Tip:** In SQL, always ensure your joins have appropriate keys or conditions to avoid accidental Cartesian products!
+
+
+## Questions to ask Chat
+
+*From the example problems in book*
+- b - because we are selecting after the join, then this would be the equiovalent of an inner join on hotelNo?
+- e - explain more about the semijoin and its notation, is the notation directional? how can I think about or visualize a semijoin?
