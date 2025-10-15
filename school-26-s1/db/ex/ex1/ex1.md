@@ -1,5 +1,6 @@
 ## Planning 
 ---
+[[take-home]]
 ## TODO
 ---
 - [x] finish what's covered 

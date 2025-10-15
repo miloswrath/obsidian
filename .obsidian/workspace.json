@@ -34,6 +34,30 @@
               "icon": "lucide-file",
               "title": "h4"
             }
+          },
+          {
+            "id": "af1d06a07d1a6e07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "school-26-s1/db/ex/ex1/ex1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ex1"
+            }
+          },
+          {
+            "id": "74be7ce4afb5f645",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ]
       }
@@ -47,7 +71,7 @@
       {
         "id": "80ccd4906b5d240f",
         "type": "tabs",
-        "dimension": 66.328125,
+        "dimension": 67.56756756756756,
         "children": [
           {
             "id": "59fa5a7f9af2f8ac",
@@ -94,7 +118,7 @@
       {
         "id": "db10d1fb91e2b3b0",
         "type": "tabs",
-        "dimension": 33.671875,
+        "dimension": 32.432432432432435,
         "children": [
           {
             "id": "4e9a00619e7f4d83",
@@ -110,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b976ac93fcbecb71",
@@ -120,14 +143,25 @@
       {
         "id": "034e5fd705daa5ee",
         "type": "tabs",
-        "dimension": 26.215443279313632,
+        "dimension": 33.63970588235294,
         "children": [
+          {
+            "id": "a3182ccde5243a20",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
           {
             "id": "bb24cc5425f8865d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "school-26-s1/db/ex/ex1/take-home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +171,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for take-home"
             }
           },
           {
@@ -147,7 +181,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -161,30 +195,20 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "school-26-s1/db/ex/ex1/take-home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
-            }
-          },
-          {
-            "id": "a3182ccde5243a20",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "title": "Outgoing links from take-home"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "ce5ee67a543fd5a4",
         "type": "tabs",
-        "dimension": 39.18017159199238,
+        "dimension": 41.81985294117647,
         "children": [
           {
             "id": "0a71141301c04832",
@@ -206,7 +230,7 @@
       {
         "id": "955087796b69bae8",
         "type": "tabs",
-        "dimension": 34.60438512869399,
+        "dimension": 24.540441176470587,
         "children": [
           {
             "id": "f357b4b284552d7a",
@@ -222,8 +246,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -242,14 +265,14 @@
   },
   "active": "a334a13032430fc0",
   "lastOpenFiles": [
-    "school-26-s1/bios/hw/h4.md",
+    "school-26-s1/db/ex/ex1/ex1.md",
     "school-26-s1/db/ex/ex1/take-home.md",
+    "school-26-s1/bios/hw/h4.md",
     "exam-1-review.md",
     "windschitl/notes/meeting4.md",
     "todos/2025-10-08.md",
     "todos/2025-10-06.md",
     "school-26-s1/bios/hw/h3.md",
-    "school-26-s1/db/ex/ex1/ex1.md",
     "hbc/act/ne_transfer.md",
     "school-26-s1/db/ex/ex1/calculus.md",
     "Pasted image 20251010213007.png",

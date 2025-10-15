@@ -35,7 +35,7 @@ ORDER BY COUNT(*) DESC
 LIMIT 1;
 ```
 
-## Question  3
+## Question 3
 ```SQL
 -- 3.1  DDL (with keys + constraints)
 
@@ -85,18 +85,14 @@ ORDER BY
 
 SELECT
   m.m_name,
-  COALESCE(SUM(CASE WHEN v.vote = 'no' THEN 1 ELSE 0 END), 0) AS veto_count
-FROM
-  Union_Members m
-LEFT JOIN
-  Casted_Votes v
+  COUNT(CASE WHEN v.vote = 'no' THEN 1 END) AS veto_count
+FROM Union_Members AS m
+LEFT JOIN Casted_Votes AS v
   ON v.name = m.m_name
-WHERE
-  m.status = 'permanent'
-GROUP BY
-  m.m_name
-ORDER BY
-  m.m_name;
+WHERE m.status = 'permanent'
+GROUP BY m.m_name
+ORDER BY m.m_name;
+
 ```
 
 ## Question 4
