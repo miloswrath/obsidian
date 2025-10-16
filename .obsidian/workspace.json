@@ -8,87 +8,63 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a334a13032430fc0",
+            "id": "a51082d35999e2f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "windschitl/notes/meeting4.md",
+                "file": "personal/jobs/list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "meeting4"
+              "title": "list"
             }
           },
           {
-            "id": "74ae4e33e5f1b406",
+            "id": "a23c9184b78f49a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school-26-s1/bios/hw/h4.md",
+                "file": "todos/2025-10-09.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "h4"
+              "title": "2025-10-09"
             }
           },
           {
-            "id": "af1d06a07d1a6e07",
+            "id": "edba80e516167f94",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school-26-s1/db/ex/ex1/ex1.md",
+                "file": "todos/2025-10-14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ex1"
+              "title": "2025-10-14"
             }
           },
           {
-            "id": "f1b84e4e4d64b3df",
+            "id": "18082f457d555198",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school-26-s1/db/ex/ex1/take-home.md",
+                "file": "hbc/act/int-errs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "take-home"
-            }
-          },
-          {
-            "id": "74be7ce4afb5f645",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "1d0a758ad21c8c18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hbc/act/ne_transfer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ne_transfer"
+              "title": "int-errs"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -100,7 +76,7 @@
       {
         "id": "80ccd4906b5d240f",
         "type": "tabs",
-        "dimension": 67.56756756756756,
+        "dimension": 66.328125,
         "children": [
           {
             "id": "59fa5a7f9af2f8ac",
@@ -147,7 +123,7 @@
       {
         "id": "db10d1fb91e2b3b0",
         "type": "tabs",
-        "dimension": 32.432432432432435,
+        "dimension": 33.671875,
         "children": [
           {
             "id": "4e9a00619e7f4d83",
@@ -163,8 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b976ac93fcbecb71",
@@ -173,7 +148,7 @@
       {
         "id": "034e5fd705daa5ee",
         "type": "tabs",
-        "dimension": 33.63970588235294,
+        "dimension": 26.63165791447862,
         "children": [
           {
             "id": "a3182ccde5243a20",
@@ -186,12 +161,12 @@
             }
           },
           {
-            "id": "bb24cc5425f8865d",
+            "id": "9b8963a6c49c7b59",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "school-26-s1/db/ex/ex1/take-home.md",
+                "file": "hbc/act/int-errs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,36 +176,36 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for take-home"
+              "title": "Backlinks for int-errs"
             }
           },
           {
-            "id": "f688e89abf9a4038",
+            "id": "7db9d69d8c8c8fb6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "hbc/act/int-errs.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from int-errs"
+            }
+          },
+          {
+            "id": "022260820d7b1fac",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false,
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
-            }
-          },
-          {
-            "id": "744d1847a6fe306c",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "hbc/act/ne_transfer.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from ne_transfer"
             }
           }
         ]
@@ -238,7 +213,7 @@
       {
         "id": "ce5ee67a543fd5a4",
         "type": "tabs",
-        "dimension": 41.81985294117647,
+        "dimension": 42.160540135033756,
         "children": [
           {
             "id": "0a71141301c04832",
@@ -246,30 +221,40 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hbc/act/ne_transfer.md",
+                "file": "hbc/act/int-errs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ne_transfer"
+              "title": "Outline of int-errs"
             }
           }
         ]
       },
       {
-        "id": "955087796b69bae8",
+        "id": "1e9887105fd7baf0",
         "type": "tabs",
-        "dimension": 24.540441176470587,
+        "dimension": 31.207801950487625,
         "children": [
           {
-            "id": "f357b4b284552d7a",
+            "id": "81b59c2f075ad708",
             "type": "leaf",
             "state": {
               "type": "git-view",
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
+            }
+          },
+          {
+            "id": "97939d10a30ac271",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "history",
+              "title": "History"
             }
           }
         ]
@@ -293,54 +278,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f357b4b284552d7a",
+  "active": "81b59c2f075ad708",
   "lastOpenFiles": [
-    "todos/2025-10-14.md",
-    "todos/2025-10-13.md",
-    "todos/2025-10-09.md",
-    "todos/2025-10-07.md",
-    "school-26-s1/hh/hw/VTS.md",
-    "school-26-s1/db/w7/icp7.md",
-    "school-26-s1/db/w7",
-    "hbc/misc/lss_template.md",
-    "hbc/misc",
-    "hbc/act/int-errs.md",
-    "school-26-s1/bios/hw/h4.md",
     "school-26-s1/db/ex/ex1/take-home.md",
-    "school-26-s1/db/ex/ex1/ex1.md",
-    "windschitl/notes/meeting4.md",
+    "school-26-s1/bios/hw/h4.md",
     "exam-1-review.md",
-    "todos/2025-10-08.md",
-    "todos/2025-10-06.md",
-    "school-26-s1/bios/hw/h3.md",
-    "hbc/act/ne_transfer.md",
-    "school-26-s1/db/ex/ex1/calculus.md",
     "Pasted image 20251010213007.png",
     "Pasted image 20251010212322.png",
-    "school-26-s1/db/ex/ex1/relational algebra.md",
+    "windschitl/notes/meeting4.md",
+    "todos/2025-10-08.md",
     "windschitl/notes/meeting3.md",
-    "todos/2025-09-23.md",
-    "todos/2025-09-17.md",
+    "hbc/act/int-errs.md",
+    "hbc/misc/lss_template.md",
+    "hbc/misc",
+    "todos/2025-10-14.md",
+    "todos/2025-10-13.md",
+    "school-26-s1/hh/hw/VTS.md",
+    "hbc/act/changes post-UX.md",
+    "school-26-s1/db/ex/ex1/calculus.md",
+    "todos/2025-10-09.md",
+    "personal/jobs/list.md",
+    "school-26-s1/db/w7/icp7.md",
+    "todos/2025-10-06.md",
+    "school-26-s1/db/w7",
+    "todos/2025-10-07.md",
+    "todos/2025-10-02.md",
+    "school-26-s1/db/ex/ex1/relational algebra.md",
+    "school-26-s1/db/ex/ex1/ex1.md",
+    "school-26-s1/db/ex/ex1/study.md",
+    "hbc/act/new_file.md",
+    "school-26-s1/bios/hw/h3.md",
+    "todos/template 1.md",
     "temp.md",
-    "todos/2025-10-01.md",
     "school-26-s1/bios/hw/Pasted image 20251005095439.png",
-    "todos/2025-10-03.md",
-    "school-26-s1/db/ex/ex1/keys.md",
-    "school-26-s1/db/ex/ex1/relation algebra",
-    "hbc/act/Pasted image 20251001144712.png",
-    "hbc/act/Pasted image 20251001144659.png",
     "school-26-s1/bios/hw/hw1-paper.pdf",
-    "misc_images",
     "misc_images/Pasted image 20250929160420.png",
     "misc_images/Pasted image 20250929160102.png",
+    "misc_images/Pasted image 20250916114802.png",
+    "misc_images/Pasted image 20250914085724.png",
+    "misc_images/Pasted image 20250912094400.png",
+    "misc_images/Pasted image 20250912094205.png",
+    "misc_images/Pasted image 20250912094109.png",
+    "misc_images",
     "school-26-s1/db/ex/ex1",
     "school-26-s1/db/ex",
     "school-26-s1/db/hw",
     "personal/jobs",
     "personal",
-    "misc_images/Pasted image 20250916114802.png",
-    "misc_images/Pasted image 20250908163727.png",
-    "misc_images/Pasted image 20250908163713.png",
+    "school-26-s1/bios/ex/1",
     "school-26-s1/db/Untitled.canvas",
     "Untitled.canvas"
   ]
