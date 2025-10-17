@@ -8,35 +8,63 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e78f0162cd18fec0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "school-26-s1/bios/ex/2/Random Variables.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Random Variables"
-            }
-          },
-          {
             "id": "dd4700c0c0cdbf5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school-26-s1/bios/ex/2/Random Variables.md",
+                "file": "school-26-s1/bios/ex/2/Probability Distributions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Random Variables"
+              "title": "Probability Distributions"
+            }
+          },
+          {
+            "id": "392c28965e12fed9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "school-26-s1/bios/ex/2/planning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "planning"
+            }
+          },
+          {
+            "id": "d792117d8f6fa786",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "school-26-s1/bios/ex/2/Sampling Distributions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sampling Distributions"
+            }
+          },
+          {
+            "id": "c794edcbf7c788fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hbc/fproj/lit/review1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "review1"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -111,7 +139,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b976ac93fcbecb71",
@@ -193,13 +222,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/bios/ex/2/Random Variables.md",
+                "file": "hbc/fproj/lit/review1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Random Variables"
+              "title": "Outline of review1"
             }
           }
         ]
@@ -223,7 +252,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,12 +270,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dd4700c0c0cdbf5f",
+  "active": "c794edcbf7c788fe",
   "lastOpenFiles": [
+    "hbc/fproj/lit/review1.md",
+    "hbc/fproj/lit",
+    "hbc/fproj",
     "school-26-s1/bios/ex/2/planning.md",
+    "school-26-s1/bios/ex/2/Sampling Distributions.md",
+    "school-26-s1/bios/ex/2/Probability Distributions.md",
     "school-26-s1/bios/ex/2/cheatsheet.md",
     "school-26-s1/bios/ex/2/Confidence Intervals.md",
-    "school-26-s1/bios/ex/2/Random Variables.md",
     "Random Variables.md",
     "hbc/act/int-errs.md",
     "school-26-s1/bios/ex/2",
@@ -271,8 +305,6 @@
     "Pasted image 20251010213007.png",
     "Pasted image 20251010212322.png",
     "school-26-s1/db/ex/ex1/relational algebra.md",
-    "windschitl/notes/meeting3.md",
-    "todos/2025-09-23.md",
     "school-26-s1/bios/hw/Pasted image 20251005095439.png",
     "school-26-s1/db/ex/ex1/relation algebra",
     "hbc/act/Pasted image 20251001144712.png",
@@ -283,8 +315,6 @@
     "misc_images/Pasted image 20250929160102.png",
     "school-26-s1/db/ex/ex1",
     "school-26-s1/db/ex",
-    "school-26-s1/db/hw",
-    "personal/jobs",
     "misc_images/Pasted image 20250916114802.png",
     "misc_images/Pasted image 20250908163727.png",
     "misc_images/Pasted image 20250908163713.png",

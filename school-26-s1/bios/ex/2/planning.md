@@ -9,10 +9,16 @@
 	- Normal/Student's T
 	- claims from the ci
 	- the terms associated with this stuff
+#### Lecture numbers
+- 6
+- 7
+- 8
 
 ## Coverage Breakdowns
 
-[[Random Variables]]
+[[Probability Distributions]]
+
+[[Sampling Distributions]]
 
 [[Confidence Intervals]]
 
