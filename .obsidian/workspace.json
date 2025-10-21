@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school-26-s1/bios/ex/2/planning.md",
+                "file": "school-26-s1/bios/ex/2/Confidence Intervals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "planning"
+              "title": "Confidence Intervals"
             }
           },
           {
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -221,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/db/proj/d3.md",
+                "file": "school-26-s1/bios/ex/2/Confidence Intervals.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of d3"
+              "title": "Outline of Confidence Intervals"
             }
           }
         ]
@@ -268,15 +268,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c794edcbf7c788fe",
+  "active": "392c28965e12fed9",
   "lastOpenFiles": [
-    "hbc/fproj/lit/review1.md",
+    "school-26-s1/bios/ex/2/planning.md",
+    "school-26-s1/bios/ex/2/Sampling Distributions.md",
     "school-26-s1/db/proj/d3.md",
+    "hbc/fproj/lit/review1.md",
     "school-26-s1/db/proj",
     "Untitled.md",
-    "school-26-s1/bios/ex/2/Sampling Distributions.md",
     "school-26-s1/bios/ex/2/Pasted image 20251017093649.png",
-    "school-26-s1/bios/ex/2/planning.md",
     "hbc/fproj/lit",
     "hbc/fproj",
     "school-26-s1/bios/ex/2/Probability Distributions.md",
