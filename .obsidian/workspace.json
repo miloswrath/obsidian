@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hbc/act/int-errs.md",
+                "file": "school-26-s1/bios/ex/2/prac 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "int-errs"
+              "title": "prac 1"
             }
           }
         ],
@@ -221,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hbc/act/int-errs.md",
+                "file": "school-26-s1/bios/ex/2/prac 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of int-errs"
+              "title": "Outline of prac 1"
             }
           }
         ]
@@ -278,8 +278,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "81b59c2f075ad708",
+  "active": "18082f457d555198",
   "lastOpenFiles": [
+    "hbc/act/int-errs.md",
+    "school-26-s1/bios/ex/2/prac 1.md",
+    "school-26-s1/bios/ex/2",
     "school-26-s1/db/ex/ex1/take-home.md",
     "school-26-s1/bios/hw/h4.md",
     "exam-1-review.md",
@@ -288,7 +291,6 @@
     "windschitl/notes/meeting4.md",
     "todos/2025-10-08.md",
     "windschitl/notes/meeting3.md",
-    "hbc/act/int-errs.md",
     "hbc/misc/lss_template.md",
     "hbc/misc",
     "todos/2025-10-14.md",
@@ -309,7 +311,6 @@
     "hbc/act/new_file.md",
     "school-26-s1/bios/hw/h3.md",
     "todos/template 1.md",
-    "temp.md",
     "school-26-s1/bios/hw/Pasted image 20251005095439.png",
     "school-26-s1/bios/hw/hw1-paper.pdf",
     "misc_images/Pasted image 20250929160420.png",
@@ -325,7 +326,6 @@
     "school-26-s1/db/hw",
     "personal/jobs",
     "personal",
-    "school-26-s1/bios/ex/1",
     "school-26-s1/db/Untitled.canvas",
     "Untitled.canvas"
   ]
