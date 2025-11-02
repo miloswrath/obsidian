@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school-26-s1/serv/assignments/9.md",
+                "file": "school-26-s1/bios/hw/hw5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9"
+              "title": "hw5"
             }
           }
         ],
@@ -221,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/serv/assignments/9.md",
+                "file": "school-26-s1/bios/hw/hw5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 9"
+              "title": "Outline of hw5"
             }
           }
         ]
@@ -280,6 +280,8 @@
   },
   "active": "18082f457d555198",
   "lastOpenFiles": [
+    "school-26-s1/serv/assignments/9.md",
+    "school-26-s1/bios/hw/hw5.md",
     "school-26-s1/serv/assignments/Pasted image 20251030160150.png",
     "school-26-s1/serv/assignments/Pasted image 20251030155757.png",
     "school-26-s1/serv/assignments/Pasted image 20251030155712.png",
@@ -287,7 +289,6 @@
     "school-26-s1/serv/assignments/Pasted image 20251030155555.png",
     "school-26-s1/serv/assignments/Pasted image 20251030155458.png",
     "todos/2025-10-23.md",
-    "school-26-s1/serv/assignments/9.md",
     "school-26-s1/serv/assignments",
     "school-26-s1/serv",
     "school-26-s1/bios/ex/2/prac 1.md",
@@ -321,7 +322,6 @@
     "school-26-s1/bios/hw/Pasted image 20251005095439.png",
     "school-26-s1/bios/hw/hw1-paper.pdf",
     "misc_images/Pasted image 20250929160420.png",
-    "misc_images/Pasted image 20250929160102.png",
     "misc_images",
     "school-26-s1/db/ex/ex1",
     "school-26-s1/db/ex",
