@@ -38,3 +38,41 @@ $$
 
 ## Question 3
 ---
+$$
+\begin{array}{l}
+\textbf{(a) Systolic blood pressure test (two-sided, } \alpha = 0.10\text{)}\\[4pt]
+H_0:\ \mu_s = 136 \quad\text{vs.}\quad H_1:\ \mu_s \ne 136\\[4pt]
+\text{Given } n=81,\ \bar{x}_s=145,\ s_s=23.1.\\[4pt]
+z = \dfrac{\bar{x}_s - \mu_0}{s_s/\sqrt{n}} = \dfrac{145-136}{23.1/\sqrt{81}} = 3.506.\\[4pt]
+p = 2(1-\Phi(|3.506|)) = 0.00045.\\[4pt]
+\text{Decision: } p=0.00045 < 0.10 \Rightarrow \text{Reject } H_0.\\[4pt]
+\text{Conclusion: Mean systolic pressure is significantly different (higher) for affected workers.}
+\end{array}
+$$
+$$
+\begin{array}{l}
+\textbf{(b) Diastolic blood pressure test (two-sided, } \alpha = 0.10\text{)}\\[4pt]
+H_0:\ \mu_d = 84 \quad\text{vs.}\quad H_1:\ \mu_d \ne 84\\[4pt]
+\text{Given } n=81,\ \bar{x}_d=87,\ s_d=14.5.\\[4pt]
+z = \dfrac{\bar{x}_d - \mu_0}{s_d/\sqrt{n}} = \dfrac{87-84}{14.5/\sqrt{81}} = 1.862.\\[4pt]
+p = 2(1-\Phi(|1.862|)) = 0.0626.\\[4pt]
+\text{Decision: } p=0.0626 < 0.10 \Rightarrow \text{Reject } H_0.\\[4pt]
+\text{Conclusion: There is weak evidence that diastolic pressure is higher in the coronary group.}
+\end{array}
+$$
+$$
+\begin{array}{l}
+\textbf{(c) Comparison of groups}\\[4pt]
+\text{Both systolic and diastolic blood pressures are elevated among workers who have experienced}\\[4pt]
+\text{a major coronary event. The systolic difference is highly significant (}p<0.001\text{), while the}\\[4pt]
+\text{diastolic difference is marginally significant (}p\approx0.06\text{). This suggests higher overall}\\[4pt]
+\text{blood pressure levels are associated with the coronary event group.}
+\end{array}
+$$
+
+## Question 4
+---
+No, it is not possible for the FDA to completely eliminate Type II errors. To guarantee that no unsafe or ineffective drug is ever approved, the agency would have to test the drug on every individual in the population under every possible condition — an impossible task both ethically and practically. Even with extensive trials and rigorous review, there will always be variability in human responses and limitations in sample size and study design. Therefore, while the FDA can minimize the risk of Type II errors through careful testing and regulation, it can never reduce that risk to zero.
+
+## Question 5
+---
