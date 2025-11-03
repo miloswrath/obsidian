@@ -8,76 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "392c28965e12fed9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "school-26-s1/bios/ex/2/Confidence Intervals.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Confidence Intervals"
-            }
-          },
-          {
-            "id": "d792117d8f6fa786",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hbc/fproj/data/nhanes_coding.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "nhanes_coding"
-            }
-          },
-          {
-            "id": "dd4700c0c0cdbf5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "school-26-s1/bios/ex/2/Probability Distributions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Probability Distributions"
-            }
-          },
-          {
-            "id": "b5f8909a27c71e5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "school-26-s1/bios/ex/2/cheatsheet.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cheatsheet"
-            }
-          },
-          {
-            "id": "f958023c999ec639",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "school-26-s1/bios/ex/2/cheatsheet2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cheatsheet2"
-            }
-          },
-          {
             "id": "d38c243045fae77c",
             "type": "leaf",
             "state": {
@@ -90,9 +20,37 @@
               "icon": "lucide-file",
               "title": "list"
             }
+          },
+          {
+            "id": "cf4654aac55e1887",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "school-26-s1/db/proj/Deliverable 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Deliverable 3"
+            }
+          },
+          {
+            "id": "20acad69f1028d12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "school-26-s1/db/proj/Deliverable 4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Deliverable 4"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -249,13 +207,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal/jobs/list.md",
+                "file": "school-26-s1/db/proj/Deliverable 4.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of list"
+              "title": "Outline of Deliverable 4"
             }
           }
         ]
@@ -296,9 +254,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d38c243045fae77c",
+  "active": "20acad69f1028d12",
   "lastOpenFiles": [
+    "school-26-s1/db/proj/Deliverable 3.md",
+    "school-26-s1/db/proj/Deliverable 4.md",
+    "personal/jobs/list.md",
+    "school-26-s1/bios/ex/2/Confidence Intervals.md",
     "hbc/fproj/data/nhanes_coding.md",
+    "school-26-s1/bios/ex/2/Probability Distributions.md",
+    "school-26-s1/bios/ex/2/cheatsheet.md",
+    "school-26-s1/bios/ex/2/cheatsheet2.md",
     "Untitled 1.md",
     "hbc/fproj/lit/review1.md",
     "hbc/fproj/data",
@@ -306,11 +271,6 @@
     "windschitl/notes/meeting3.md",
     "windschitl/notes/meeting4.md",
     "school-26-s1/bios/ex/2/Sampling Distributions.md",
-    "school-26-s1/db/proj/d3.md",
-    "school-26-s1/bios/ex/2/cheatsheet.md",
-    "school-26-s1/bios/ex/2/cheatsheet2.md",
-    "school-26-s1/bios/ex/2/Confidence Intervals.md",
-    "school-26-s1/bios/ex/2/Probability Distributions.md",
     "school-26-s1/bios/ex/2/planning.md",
     "school-26-s1/db/proj",
     "Untitled.md",
@@ -328,8 +288,6 @@
     "todos/2025-10-13.md",
     "todos/2025-10-09.md",
     "todos/2025-10-07.md",
-    "school-26-s1/hh/hw/VTS.md",
-    "school-26-s1/db/w7/icp7.md",
     "school-26-s1/db/w7",
     "hbc/misc",
     "Pasted image 20251010213007.png",
