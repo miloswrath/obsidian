@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school-26-s1/bios/hw/GILLIAM-Zak-HW5.md",
+                "file": "school-26-s1/db/proj/Deliverable 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GILLIAM-Zak-HW5"
+              "title": "Deliverable 4"
             }
           }
         ],
@@ -207,13 +207,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/bios/hw/GILLIAM-Zak-HW5.md",
+                "file": "school-26-s1/db/proj/Deliverable 4.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of GILLIAM-Zak-HW5"
+              "title": "Outline of Deliverable 4"
             }
           }
         ]
@@ -256,7 +256,9 @@
   },
   "active": "20acad69f1028d12",
   "lastOpenFiles": [
+    "school-26-s1/db/proj/Deliverable 3.md",
     "school-26-s1/db/proj/Deliverable 4.md",
+    "school-26-s1/bios/hw/GILLIAM-Zak-HW5.md",
     "todos/2025-10-23.md",
     "school-26-s1/serv/assignments/Pasted image 20251030160150.png",
     "school-26-s1/serv/assignments/Pasted image 20251030155757.png",
@@ -267,9 +269,7 @@
     "school-26-s1/serv/assignments/9.md",
     "school-26-s1/serv/assignments",
     "school-26-s1/serv",
-    "school-26-s1/bios/hw/GILLIAM-Zak-HW5.md",
     "school-26-s1/bios/ex/2/prac 1.md",
-    "school-26-s1/db/proj/Deliverable 3.md",
     "personal/jobs/list.md",
     "school-26-s1/bios/ex/2/Confidence Intervals.md",
     "hbc/fproj/data/nhanes_coding.md",
