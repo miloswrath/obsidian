@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "Deliverable 4"
             }
+          },
+          {
+            "id": "75d915dbd7af8e66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "school-26-s1/db/hw/hw3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "hw3"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -207,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/db/proj/Deliverable 4.md",
+                "file": "school-26-s1/db/hw/hw3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Deliverable 4"
+              "title": "Outline of hw3"
             }
           }
         ]
@@ -254,10 +268,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "20acad69f1028d12",
+  "active": "75d915dbd7af8e66",
   "lastOpenFiles": [
-    "school-26-s1/db/proj/Deliverable 3.md",
+    "school-26-s1/db/hw/hw3.md",
     "school-26-s1/db/proj/Deliverable 4.md",
+    "school-26-s1/db/proj/Deliverable 3.md",
     "school-26-s1/bios/hw/GILLIAM-Zak-HW5.md",
     "todos/2025-10-23.md",
     "school-26-s1/serv/assignments/Pasted image 20251030160150.png",
@@ -295,7 +310,6 @@
     "school-26-s1/bios/hw/h4.md",
     "hbc/act/ne_transfer.md",
     "school-26-s1/db/ex/ex1/take-home.md",
-    "school-26-s1/db/ex/ex1/ex1.md",
     "school-26-s1/db/w7",
     "hbc/misc",
     "Pasted image 20251010213007.png",
