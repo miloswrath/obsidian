@@ -133,3 +133,270 @@ All decomposed relations satisfy BCNF. Each join is lossless because the common 
 
 ## Question 2
 ---
+### Trigger 1
+```SQL
+-- Question 1
+
+-- The price of all double rooms must be greater than £100
+
+
+
+DELIMITER //
+
+
+
+-- Before Insert 
+
+DROP TRIGGER IF EXISTS room_price_bi// -- Cuz i screwed up a lot...
+
+CREATE TRIGGER room_price_bi
+
+BEFORE INSERT ON Room
+
+FOR EACH ROW
+
+BEGIN
+
+  IF UPPER(NEW.type) IN ('D','DOUBLE') AND NEW.price <= 100.00 THEN
+
+    SIGNAL SQLSTATE '45000'
+
+      SET MESSAGE_TEXT = 'Double room price must be > 100';
+
+  END IF;
+
+END//
+
+
+
+-- Before Update
+
+DROP TRIGGER IF EXISTS room_price_bu//
+
+CREATE TRIGGER room_price_bu
+
+BEFORE UPDATE ON Room
+
+FOR EACH ROW
+
+BEGIN
+
+  IF UPPER(NEW.type) IN ('D','DOUBLE') AND NEW.price <= 100.00 THEN
+
+    SIGNAL SQLSTATE '45000'
+
+      SET MESSAGE_TEXT = 'Double room price must be > 100';
+
+  END IF;
+
+END//
+
+
+
+DELIMITER ;
+```
+
+### Trigger 2
+
+```SQL
+-- Prevent a guest from having overlapping bookings (any hotel/room)
+
+
+DELIMITER //
+
+
+
+DROP TRIGGER IF EXISTS booking_overlap_bi//
+
+CREATE TRIGGER booking_overlap_bi
+
+BEFORE INSERT ON Booking
+
+FOR EACH ROW
+
+BEGIN
+
+  IF EXISTS (
+
+    SELECT 1
+
+    FROM Booking b
+
+    WHERE b.guestNo = NEW.guestNo
+
+      AND NOT (
+
+        IFNULL(NEW.dateTo, '9999-12-31') < b.dateFrom
+
+        OR IFNULL(b.dateTo, '9999-12-31') < NEW.dateFrom
+
+      )
+
+  ) THEN
+
+    SIGNAL SQLSTATE '45000'
+
+      SET MESSAGE_TEXT = 'Guest cannot have overlapping bookings';
+
+  END IF;
+
+END//
+
+
+
+DROP TRIGGER IF EXISTS booking_overlap_bu//
+
+CREATE TRIGGER booking_overlap_bu
+
+BEFORE UPDATE ON Booking
+
+FOR EACH ROW
+
+BEGIN
+
+  IF EXISTS (
+
+    SELECT 1
+
+    FROM Booking b
+
+    WHERE b.guestNo = NEW.guestNo
+
+      AND NOT (
+
+        IFNULL(NEW.dateTo, '9999-12-31') < b.dateFrom
+
+        OR IFNULL(b.dateTo, '9999-12-31') < NEW.dateFrom
+
+      )
+
+      -- exclude the row being updated (uses old PK)
+
+      AND NOT (
+
+        b.hotelNo = OLD.hotelNo
+
+        AND b.guestNo = OLD.guestNo
+
+        AND b.dateFrom = OLD.dateFrom
+
+      )
+
+  ) THEN
+
+    SIGNAL SQLSTATE '45000'
+
+      SET MESSAGE_TEXT = 'Guest cannot have overlapping bookings';
+
+  END IF;
+
+END//
+
+DELIMITER ;
+```
+
+### Trigger 3
+```SQL
+-- Question 3
+
+-- A booking cannot be for a hotel room that is already booked for any of the specified dates.
+
+
+
+DELIMITER //
+
+
+
+DROP TRIGGER IF EXISTS booking_room_overlap_bi//
+
+CREATE TRIGGER booking_room_overlap_bi
+
+BEFORE INSERT ON Booking
+
+FOR EACH ROW
+
+BEGIN
+
+  IF EXISTS (
+
+    SELECT 1
+
+    FROM Booking b
+
+    WHERE b.hotelNo = NEW.hotelNo
+
+      AND b.roomNo  = NEW.roomNo
+
+      AND NOT (
+
+        IFNULL(NEW.dateTo, '9999-12-31') < b.dateFrom
+
+        OR IFNULL(b.dateTo, '9999-12-31')   < NEW.dateFrom
+
+      )
+
+  ) THEN
+
+    SIGNAL SQLSTATE '45000'
+
+      SET MESSAGE_TEXT = 'Room is already booked for at least one of those dates';
+
+  END IF;
+
+END//
+
+
+
+DROP TRIGGER IF EXISTS booking_room_overlap_bu//
+
+CREATE TRIGGER booking_room_overlap_bu
+
+BEFORE UPDATE ON Booking
+
+FOR EACH ROW
+
+BEGIN
+
+  IF EXISTS (
+
+    SELECT 1
+
+    FROM Booking b
+
+    WHERE b.hotelNo = NEW.hotelNo
+
+      AND b.roomNo  = NEW.roomNo
+
+      AND NOT (
+
+        IFNULL(NEW.dateTo, '9999-12-31') < b.dateFrom
+
+        OR IFNULL(b.dateTo, '9999-12-31')   < NEW.dateFrom
+
+      )
+
+      -- exclude the row being updated (use OLD PK + roomNo)
+
+      AND NOT (
+
+        b.hotelNo = OLD.hotelNo
+
+        AND b.guestNo = OLD.guestNo
+
+        AND b.dateFrom = OLD.dateFrom
+
+        AND b.roomNo = OLD.roomNo
+
+      )
+
+  ) THEN
+
+    SIGNAL SQLSTATE '45000'
+
+      SET MESSAGE_TEXT = 'Room is already booked for at least one of those dates';
+
+  END IF;
+
+END//
+
+```
