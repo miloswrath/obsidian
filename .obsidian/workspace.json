@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d38c243045fae77c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal/jobs/list.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "list"
-            }
-          },
-          {
             "id": "cf4654aac55e1887",
             "type": "leaf",
             "state": {
@@ -92,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -249,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/bios/hw/GILLIAM-Zak-HW6.md",
+                "file": "personal/jobs/list.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of GILLIAM-Zak-HW6"
+              "title": "Outline of list"
             }
           }
         ]
@@ -296,7 +282,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "abda48115b5c9a59",
+  "active": "75d915dbd7af8e66",
   "lastOpenFiles": [
     "school-26-s1/bios/hw/GILLIAM-Zak-HW6.md",
     "school-26-s1/bios/ex/3/plan.md",
