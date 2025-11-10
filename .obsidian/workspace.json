@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school-26-s1/db/hw/hw3.md",
+                "file": "personal/jobs/list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hw3"
+              "title": "list"
             }
           }
         ],
@@ -221,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/db/hw/hw3.md",
+                "file": "personal/jobs/list.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of hw3"
+              "title": "Outline of list"
             }
           }
         ]
