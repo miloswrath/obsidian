@@ -235,13 +235,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal/jobs/list.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of list"
+              "title": "Outline"
             }
           }
         ]
@@ -282,14 +281,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "75d915dbd7af8e66",
+  "active": "4e9a00619e7f4d83",
   "lastOpenFiles": [
+    "personal/jobs/list.md",
     "school-26-s1/bios/hw/GILLIAM-Zak-HW6.md",
     "school-26-s1/bios/ex/3/plan.md",
     "school-26-s1/bios/ex/3/cheatsheet.md",
     "school-26-s1/bios/ex/3/iop.md",
     "school-26-s1/bios/ex/3/com.md",
-    "personal/jobs/list.md",
     "school-26-s1/db/proj/Deliverable 4.md",
     "school-26-s1/db/proj/Deliverable 3.md",
     "school-26-s1/bios/ex/3/hyptest.md",
