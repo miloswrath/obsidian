@@ -135,3 +135,38 @@ As a result, the independent-sample test shows no evidence of a difference, and 
 
 ## Question 3
 ---
+
+
+## Question 4
+---
+The sample size $n$, alpha ($\alpha$), and the proportion itself all contribute to the length of the confidence interval
+For example, an upper-bound for a proportion is modeled as:
+$$
+\Big(0, \ \hat{p} \  + z_\alpha\sqrt{\cfrac{p(1-p)}{n}} \ \Big)
+$$
+So the right side of the '$+$' is what we are focused on here. The crit value $\alpha$ obviously makes a difference. The rooted numerator '$p(1-p)$' means that the variability of the estimate depends on how close the true proportion is to 0.5. When ppp is near 0.5, the term $p(1−p)$ reaches its maximum, producing a wider confidence interval because uncertainty is highest when outcomes are most variable. As ppp approaches 0 or 1, $p(1-p)$ becomes smaller, and the confidence interval narrows, reflecting greater certainty in extreme proportions.
+
+Additionally, since the whole expression is divided by $\sqrt{n}$ a larger sample size produces a tighter MoE and reduces CI size.
+
+## Question 5
+---
+**a**  
+$\hat{p} = \dfrac{464}{489} \approx 0.949$
+
+**b**  
+$95\% \ \text{CI} = \hat{p} \pm z_{\alpha} \sqrt{\dfrac{\hat{p}(1-\hat{p})}{n}} = 0.949 \pm 1.96 \sqrt{\dfrac{0.949(1-0.949)}{489}} \approx [0.929,\ 0.968]$
+
+**c**  
+We are $95\%$ confident that the true effectiveness of mifepristone lies between $92.9\%$ and $96.8\%$.  
+This narrow interval suggests the treatment is highly effective, with relatively low sampling variability due to the large sample size.
+
+**d**
+$90\% \ \text{CI} = \hat{p} \pm z_{\alpha} \sqrt{\dfrac{\hat{p}(1-\hat{p})}{n}} = 0.949 \pm 1.645 \sqrt{\dfrac{0.949(1-0.949)}{489}} \approx [0.932,\ 0.965]$
+
+We are $90\%$ confident that the true effectiveness of mifepristone lies between $93.2\%$ and $96.5\%$.  
+
+**e**
+As expected, this interval is slightly narrower than the $95\%$ confidence interval due to the lower confidence level. Though, not by much due to large sample size and high confidence in extreme proportions.
+
+## Question 6
+---
