@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school-26-s1/db/proj/Deliverable 3.md",
+                "file": "hbc/jc/vis behavior change.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deliverable 3"
+              "title": "vis behavior change"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school-26-s1/bios/ex/3/plan.md",
+                "file": "school-26-s1/bios/ex/3/hyptest.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "plan"
+              "title": "hyptest"
             }
           },
           {
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -162,7 +162,7 @@
       {
         "id": "034e5fd705daa5ee",
         "type": "tabs",
-        "dimension": 33.63970588235294,
+        "dimension": 29.534510433386842,
         "children": [
           {
             "id": "a3182ccde5243a20",
@@ -227,7 +227,7 @@
       {
         "id": "ce5ee67a543fd5a4",
         "type": "tabs",
-        "dimension": 33.36397058823529,
+        "dimension": 37.479935794542534,
         "children": [
           {
             "id": "0a71141301c04832",
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/bios/hw/GILLIAM-Zak-HW6.md",
+                "file": "school-26-s1/bios/ex/3/hyptest.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of GILLIAM-Zak-HW6"
+              "title": "Outline of hyptest"
             }
           }
         ]
@@ -249,7 +249,7 @@
       {
         "id": "955087796b69bae8",
         "type": "tabs",
-        "dimension": 32.99632352941176,
+        "dimension": 32.985553772070624,
         "children": [
           {
             "id": "f357b4b284552d7a",
@@ -282,17 +282,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "abda48115b5c9a59",
+  "active": "b0468e6e76c3e704",
   "lastOpenFiles": [
-    "school-26-s1/bios/ex/3/plan.md",
+    "hbc/jc/vis behavior change.md",
+    "hbc/jc/14-07-2025.md",
+    "hbc/jc/09-04-2025.md",
+    "hbc/HR/QA Pipeline.md",
+    "hbc/HR/Polar API.md",
+    "hbc/HR/HR - initial look & meeting notes olivia.md",
+    "hbc/act/Pasted image 20251001144712.png",
+    "hbc/act/Pasted image 20251001144659.png",
+    "hbc/act/Accelerometer Distributions.md",
+    "hbc/fproj/lit/review1.md",
+    "school-26-s1/db/ex/ex1/relational algebra.md",
+    "school-26-s1/db/ex/ex1/calculus.md",
+    "school-26-s1/db/proj/Deliverable 3.md",
+    "school-26-s1/db/proj/Deliverable 4.md",
+    "school-26-s1/bios/ex/3/hyptest.md",
     "school-26-s1/bios/hw/GILLIAM-Zak-HW6.md",
+    "Untitled 2.md",
+    "school-26-s1/bios/ex/3/plan.md",
     "personal/jobs/list.md",
     "school-26-s1/bios/ex/3/cheatsheet.md",
     "school-26-s1/bios/ex/3/iop.md",
     "school-26-s1/bios/ex/3/com.md",
-    "school-26-s1/db/proj/Deliverable 4.md",
-    "school-26-s1/db/proj/Deliverable 3.md",
-    "school-26-s1/bios/ex/3/hyptest.md",
     "school-26-s1/bios/ex/3",
     "school-26-s1/db/hw/hw3.md",
     "school-26-s1/bios/hw/GILLIAM-Zak-HW5.md",
@@ -308,18 +321,7 @@
     "school-26-s1/serv",
     "school-26-s1/bios/ex/2/prac 1.md",
     "school-26-s1/bios/ex/2/Confidence Intervals.md",
-    "hbc/fproj/data/nhanes_coding.md",
-    "school-26-s1/bios/ex/2/Probability Distributions.md",
-    "school-26-s1/bios/ex/2/cheatsheet.md",
-    "school-26-s1/bios/ex/2/cheatsheet2.md",
-    "Untitled 1.md",
-    "hbc/fproj/lit/review1.md",
     "hbc/fproj/data",
-    "windschitl/notes/meeting5.md",
-    "windschitl/notes/meeting3.md",
-    "windschitl/notes/meeting4.md",
-    "school-26-s1/bios/ex/2/Sampling Distributions.md",
-    "school-26-s1/bios/ex/2/planning.md",
     "school-26-s1/db/proj",
     "school-26-s1/bios/ex/2/Pasted image 20251017093649.png",
     "hbc/fproj/lit",
@@ -328,8 +330,6 @@
     "school-26-s1/db/w7",
     "hbc/misc",
     "Pasted image 20251010213007.png",
-    "Pasted image 20251010212322.png",
-    "school-26-s1/bios/hw/Pasted image 20251005095439.png",
     "school-26-s1/db/Untitled.canvas",
     "Untitled.canvas"
   ]
