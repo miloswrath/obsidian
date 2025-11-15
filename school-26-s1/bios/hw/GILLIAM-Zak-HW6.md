@@ -175,5 +175,60 @@ As expected, this interval is slightly narrower than the $95\%$ confidence inter
 **a** 
 90% CI:
 $$
-\text{90\% CI = } \ 12 \pm 1.27*\cfrac{s}{\sqrt{n}}
+\begin{aligned}
+n &= 60, \quad x = 6 \\
+\hat{p} &= \frac{x}{n} = \frac{6}{60} = 0.10 \\[4pt]
+z_{\alpha/2} &= z_{0.95} \approx 1.645 \quad (\text{for a 90\% CI}) \\[6pt]
+\text{SE}(\hat{p}) 
+  &= \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}
+   = \sqrt{\frac{0.10 \cdot 0.90}{60}}
+   \approx 0.0387 \\[6pt]
+\text{90\% CI for } p 
+  &= \hat{p} \pm z_{\alpha/2} \cdot \text{SE}(\hat{p}) \\
+  &= 0.10 \pm 1.645(0.0387) \\[4pt]
+  &\approx 0.10 \pm 0.0637 \\[4pt]
+  &\approx (0.036, \ 0.164)
+\end{aligned}
 $$
+**b**
+$$
+\begin{aligned}
+H_0 &: p = 0.22 \\
+H_A &: p \ne 0.22
+\end{aligned}
+$$
+
+**c & d** 
+$$
+\begin{aligned}
+\text{Given:} \quad 
+&\hat{p} = 0.10, \quad p_0 = 0.22, \quad n = 60, \quad \alpha = 0.05 \\[4pt]
+\text{Test statistic:} \quad
+z &= \frac{\hat{p} - p_0}{\sqrt{\dfrac{p_0(1 - p_0)}{n}}} \\[4pt]
+  &= \frac{0.10 - 0.22}{\sqrt{\dfrac{0.22 \cdot 0.78}{60}}}
+   \approx -2.24 \\[8pt]
+\text{Two-sided p-value:} \quad
+p &\approx 0.025 \\[8pt]
+\text{Decision (}\alpha = 0.05\text{):} \quad
+&p < 0.05 \;\Rightarrow\; \text{Reject } H_0. \\[4pt]
+\text{Conclusion:} \quad
+&\text{There is evidence that the proportion in the special education program} \\
+&\text{is significantly different from } 0.22 \text{ (and is lower in this sample).}
+\end{aligned}
+$$
+
+$$ 
+\begin{aligned}
+\hat{p} = 0.1 \\
+p_0 = 0.22 \\
+\alpha = 0.05 \\
+
+z = \cfrac{\hat{p} - p_0}{\sqrt{\cfrac{p_0(1-p_0)}{n}}} \\
+= -3.09 \\
+
+\end{aligned}
+$$
+
+$$\begin{aligned}\boxed{\text{The two populations are significantly different with a p-value < 0.001}}\end{aligned}$$
+
+**e**
