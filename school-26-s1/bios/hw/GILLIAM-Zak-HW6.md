@@ -135,3 +135,6 @@ As a result, the independent-sample test shows no evidence of a difference, and 
 
 ## Question 3
 ---
+**Paired samples** are two subsequent measurements under different conditions from the same sample of inidividuals. Each person in the sample experiences both conditions and thus the difference within individual must be modeled. In this scenario, the two measurements are dependent with shared variance.
+
+**Independent samples** are different because they are two different samples and thus

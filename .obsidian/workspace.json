@@ -76,9 +76,21 @@
               "icon": "lucide-file",
               "title": "GILLIAM-Zak-HW6"
             }
+          },
+          {
+            "id": "91fafcffb7f53f55",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -235,12 +247,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "school-26-s1/bios/hw/GILLIAM-Zak-HW6.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of GILLIAM-Zak-HW6"
             }
           }
         ]
@@ -281,11 +294,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4e9a00619e7f4d83",
+  "active": "91fafcffb7f53f55",
   "lastOpenFiles": [
+    "school-26-s1/bios/ex/3/plan.md",
     "personal/jobs/list.md",
     "school-26-s1/bios/hw/GILLIAM-Zak-HW6.md",
-    "school-26-s1/bios/ex/3/plan.md",
     "school-26-s1/bios/ex/3/cheatsheet.md",
     "school-26-s1/bios/ex/3/iop.md",
     "school-26-s1/bios/ex/3/com.md",
