@@ -172,4 +172,8 @@ As expected, this interval is slightly narrower than the $95\%$ confidence inter
 
 ## Question 6
 ---
-- [ ] 
+**a** 
+90% CI:
+$$
+\text{90\% CI = } \ 12 \pm 1.27*\cfrac{s}{\sqrt{n}}
+$$
