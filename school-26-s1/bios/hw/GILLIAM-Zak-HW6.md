@@ -294,9 +294,11 @@ z &= \frac{\hat p_1-\hat p_2}{\text{SE}_{\text{pooled}}} = -0.0395,
 \end{aligned}
 $$
 
-**d** (Conclusion)
-$$
-\text{No evidence that physician advice changes quit rates in this sample (difference }\approx -0.17\%\text{; 95\% CI spans 0; }p=0.969).
+**d** 
+$$\begin{aligned}
+\text{No evidence that physician advice changes quit rates in this sample (difference } \\
+\approx -0.17\%\text{; 95\% CI spans 0; }p=0.969).
+\end{aligned}
 $$
 
 
@@ -320,9 +322,12 @@ p=0.0420
 \end{aligned}
 $$
 
-**c** (Conclusion)
+**c**
 $$
-p=0.042<0.10 \Rightarrow \text{Reject }H_0.\ \ \text{The prepaid plan shows a lower crisis-center visit rate than traditional Medicaid in this sample.}
+\begin{aligned}
+p=0.042<0.10 \Rightarrow \text{Reject }H_0.\ \\ 
+\text{The prepaid plan shows a lower crisis-center visit rate than traditional Medicaid in this sample.}
+\end{aligned}
 $$
 
 
@@ -348,7 +353,7 @@ $$
 \approx (0.360,\ 3.220)
 $$
 
-**c** (Unequal variances; Welch $t$ at $\alpha=0.05$)
+**c** 
 $$
 \begin{aligned}
 \text{SE}_W&=\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}=0.801, \quad
@@ -364,7 +369,10 @@ $$
 \approx (0.008,\ 3.572)
 $$
 
-**e** (Which to report?)
+**e** 
 $$
-\text{Report Welch (unequal-variance) results for robustness; conclusions align (significant) and Welch does not assume equal variances.}
+\begin{aligned}
+\text{Report Welch (unequal-variance) results for robustness;} \\
+\text{conclusions align (significant) and Welch does not assume equal variances.}
+\end{aligned}
 $$

@@ -59,8 +59,15 @@ $|\mu_\alpha - \mu_0|$ = **effect size**
 
 ## Sample Size Estimation
 ---
+> Problem: Suppose we are planning a hypothesis test for a population mean μ using a level of significance α. Let μA denote a value of μ represented under the alternative hypothesis, such that the effect size |μA − μ0| represents a clinically important difference.  
+> What sample size would be required in order for the power of the test to be at least (1 − β)?
 
-
+**What you need**
+1. $\alpha$ and $\beta$
+2. Crit Vals
+	1. for 1 sided test $z_\alpha$
+	2. for 2 sided $z_{\alpha/2}$
+3. crit val $z
 
 
 ## Classic Formulae
