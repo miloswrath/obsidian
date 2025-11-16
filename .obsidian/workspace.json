@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/bios/hw/GILLIAM-Zak-HW6.md",
+                "file": "school-26-s1/bios/ex/3/hyptest.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of GILLIAM-Zak-HW6"
+              "title": "Outline of hyptest"
             }
           }
         ]
@@ -282,15 +282,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "104fd19224fa5eaa",
+  "active": "56dbdc40a815cb1b",
   "lastOpenFiles": [
+    "school-26-s1/bios/ex/3/plan.md",
     "school-26-s1/bios/hw/GILLIAM-Zak-HW6.md",
     "school-26-s1/bios/ex/3/hyptest.md",
     "conflict-files-obsidian-git.md",
     "school-26-s1/hh/proj/3.md",
     "school-26-s1/hh/proj",
     "Untitled 2.md",
-    "school-26-s1/bios/ex/3/plan.md",
     "personal/jobs/list.md",
     "school-26-s1/bios/ex/3/cheatsheet.md",
     "school-26-s1/bios/ex/3/iop.md",

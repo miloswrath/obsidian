@@ -40,6 +40,48 @@
 **rejection region** - region on the outside of crit values where you would reject null hypothesis
 
 
+## Types of Errors and Power
+---
+> Researchers want to know the chance of rejecting $H_0$ - so power is used to do that
+
+*Type II Error*
+$\beta = P(\text{Retain } H_0 \ | \ H_A \text{True})$
+
+*Power*
+$1 - \beta$ (above)
+Probability Reject $H_0$ given $H_A$ is True
+
+> Power calculation is conducted on a certain $\mu_A$ or $\mu_0$ so differing values for this lead to different powers. This requires some simulation to be conducted during practice
+
+**You can increase $\beta$ by either *Increasing Sample Size* or *Increase $\alpha$*** 
+
+$|\mu_\alpha - \mu_0|$ = **effect size** 
+
+## Sample Size Estimation
+---
+
+
+
+
+## Classic Formulae
+---
+
+**Z-Test**
+$$
+Z = \cfrac{\bar{x} - \mu_0}{\sigma/ \ \sqrt{n}}
+$$
+This you compare against the value at $\alpha$ or $\alpha/2$ level. If $|Z| > \alpha$ then you reject the $P(Z)$ is the p-value
+
+**T-Test**
+
+$$
+t = \cfrac{\bar{x} - \mu_0}{s \ \sqrt{n}}
+$$
+Here $t$ is based on $n-1$ dof. make sure to use that
+
+
+
+
 
 
 
