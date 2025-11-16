@@ -67,7 +67,14 @@ $|\mu_\alpha - \mu_0|$ = **effect size**
 2. Crit Vals
 	1. for 1 sided test $z_\alpha$
 	2. for 2 sided $z_{\alpha/2}$
-3. crit val $z
+3. crit val $z_\beta$
+4. effect size $|\mu_A - \mu_0|$
+5. standard deviation $\sigma$
+
+**Formula**
+$$
+n \ge \left[ \frac{(z_{\alpha/2} + z_{\beta}) \sigma}{|\mu_A - \mu_0|} \right]^2
+$$
 
 
 ## Classic Formulae
@@ -87,7 +94,12 @@ $$
 Here $t$ is based on $n-1$ dof. make sure to use that
 
 
+**Z-Test Sample Size Estimation**
 
+$$
+n \ge \left[ \frac{(z_{\alpha/2} + z_{\beta}) \sigma}{|\mu_A - \mu_0|} \right]^2
+$$
+> Check @Sample Size Estimation for more on this one
 
 
 
