@@ -24,3 +24,14 @@ In practice, we would usually want to find if two samples share means since we m
 ---
 In this scenario it is normal to simple **subtract the two means** and then ask "*is the difference between the means 0?*"
 
+**Same steps as others with a few differences below:**
+1. Must calculate the average difference $\bar{d}$ and the S.D. of differences $s_d$ 
+2. Keep track of the initial subtraction to have a correct interpretation
+
+*Paired T-test test statistic*
+
+$$
+\cfrac{\bar{d}\sqrt{n}}{s_d}
+$$
+*i.f.f.* n < 30
+
