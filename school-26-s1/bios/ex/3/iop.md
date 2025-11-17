@@ -102,3 +102,120 @@ $$
 
 ## Comparison of Two Proportions
 ---
+> ***Requires Independent Samples***
+
+
+---
+### One-Sided Confidence Interval for \( (p_1 - p_2) \)
+
+A level \(100(1-\alpha)\%\) one-sided confidence interval based on the Z distribution is:
+
+**Lower bound:**
+
+$$
+\left(
+(\hat{p}_1 - \hat{p}_2)
+-
+z_\alpha
+\sqrt{
+\frac{\hat{p}_1(1-\hat{p}_1)}{n_1}
++
+\frac{\hat{p}_2(1-\hat{p}_2)}{n_2}
+},
+\;
+1
+\right)
+$$
+
+**Upper bound:**
+
+$$
+\left(
+-1,\;
+(\hat{p}_1 - \hat{p}_2)
++
+z_\alpha
+\sqrt{
+\frac{\hat{p}_1(1-\hat{p}_1)}{n_1}
++
+\frac{\hat{p}_2(1-\hat{p}_2)}{n_2}
+}
+\right)
+$$
+
+---
+
+### Two-Sided Confidence Interval for \( (p_1 - p_2) \)
+
+A level \(100(1-\alpha)\%\) two-sided CI is:
+
+$$
+(\hat{p}_1 - \hat{p}_2)
+-
+z_{\alpha/2}
+\sqrt{
+\frac{\hat{p}_1(1-\hat{p}_1)}{n_1}
++
+\frac{\hat{p}_2(1-\hat{p}_2)}{n_2}
+},
+$$
+
+$$
+(\hat{p}_1 - \hat{p}_2)
++
+z_{\alpha/2}
+\sqrt{
+\frac{\hat{p}_1(1-\hat{p}_1)}{n_1}
++
+\frac{\hat{p}_2(1-\hat{p}_2)}{n_2}
+}
+$$
+
+
+### Test Statistic for Two Proportions
+
+The z-test statistic is:
+
+$$
+z
+=
+\frac{\hat{p}_1 - \hat{p}_2}{
+\sqrt{
+\hat{p}(1-\hat{p})\left(\frac{1}{n_1} + \frac{1}{n_2}\right)
+}
+}
+$$
+
+where the pooled proportion is:
+
+$$
+\hat{p}
+=
+\frac{n_1\hat{p}_1 + n_2\hat{p}_2}{n_1 + n_2}
+$$
+
+**Large-sample condition:**
+
+$$
+n_1\hat{p}_1 \ge 5,\quad
+n_1(1-\hat{p}_1) \ge 5,\quad
+n_2\hat{p}_2 \ge 5,\quad
+n_2(1-\hat{p}_2) \ge 5
+$$
+
+### Rejection Regions
+
+| $H_A$          | Rejection Region                              |
+| -------------- | --------------------------------------------- |
+| $p_1 \neq p_2$ | $z < -z_{\alpha/2}$ **or** $z > z_{\alpha/2}$ |
+| $p_1 > p_2$    | $z > z_{\alpha}$                              |
+| $p_1 < p_2$    | $z < -z_{\alpha}$                             |
+
+
+### p-values
+
+| $H_A$          | p-value    |     |     |
+| -------------- | ---------- | --- | --- |
+| $p_1 \neq p_2$ | $2P(Z >    | z   | )$  |
+| $p_1 > p_2$    | $P(Z > z)$ |     |     |
+| $p_1 < p_2$    | $P(Z < z)$ |     |     |
