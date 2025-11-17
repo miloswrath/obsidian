@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school-26-s1/bios/ex/3/com.md",
+                "file": "todos/2025-11-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "com"
+              "title": "2025-11-17"
             }
           }
         ],
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/bios/ex/3/com.md",
+                "file": "todos/2025-11-17.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of com"
+              "title": "Outline of 2025-11-17"
             }
           }
         ]
@@ -284,9 +284,11 @@
   },
   "active": "6bcc81ad1e867a3e",
   "lastOpenFiles": [
+    "Untitled 3.md",
+    "todos/2025-11-17.md",
+    "school-26-s1/bios/ex/3/com.md",
     "school-26-s1/bios/ex/3/plan.md",
     "personal/jobs/list.md",
-    "school-26-s1/bios/ex/3/com.md",
     "school-26-s1/bios/ex/3/hyptest.md",
     "school-26-s1/bios/hw/GILLIAM-Zak-HW6.md",
     "school-26-s1/hh/proj/3.md",
@@ -318,10 +320,8 @@
     "school-26-s1/serv/assignments/Pasted image 20251030155641.png",
     "school-26-s1/serv/assignments/Pasted image 20251030155555.png",
     "school-26-s1/serv/assignments/Pasted image 20251030155458.png",
-    "school-26-s1/serv/assignments/9.md",
     "school-26-s1/serv/assignments",
     "school-26-s1/serv",
-    "school-26-s1/bios/ex/2/prac 1.md",
     "hbc/fproj/data",
     "school-26-s1/db/proj",
     "school-26-s1/bios/ex/2/Pasted image 20251017093649.png",
