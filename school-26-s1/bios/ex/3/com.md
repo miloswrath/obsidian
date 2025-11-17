@@ -129,8 +129,37 @@ t_{\upsilon,\;\alpha/2}
 }
 \end{aligned}
 $$
-### **F-Test for Equality of Two Population Variances**
 
+**Explanation of $\upsilon$ (Welch–Satterthwaite Degrees of Freedom)**
+The quantity $\upsilon$ is an **approximate degrees of freedom** value used in Welch’s $t$-test when the two population variances are **unknown and unequal**.  
+Because each sample contributes its own estimated variance, the standard error has uncertainty coming from **two different sources**, making the true degrees of freedom non-integer.
+
+Welch’s approximation adjusts for this by reducing the degrees of freedom based on how much variability comes from each sample.
+
+$$
+\upsilon
+=
+\frac{
+\left( \frac{s_1^2}{n_1} + \frac{s_2^2}{n_2} \right)^2
+}{
+\frac{s_1^4}{\,n_1^2(n_1 - 1)\,}
++
+\frac{s_2^4}{\,n_2^2(n_2 - 1)\,}
+}
+$$
+
+### **Interpretation**
+- $\upsilon$ determines **which $t$-distribution** to use for inference.  
+- It is usually **non-integer** and often **smaller** than $n_1 + n_2 - 2$, reflecting greater uncertainty when variances differ.  
+- When one sample is much more variable or much smaller, the degrees of freedom shrink substantially—making the test more conservative.  
+- The formula weights each sample’s contribution by both:  
+  - its **variance estimate** ($s_i^2$), and  
+  - its **information amount** ($n_i - 1$).  
+- As sample sizes grow large, $\upsilon$ approaches the ordinary large-sample degrees of freedom, and Welch’s test behaves like the standard $z$-test.
+
+
+
+### **F-Test for Equality of Two Population Variances**
 $$
 \begin{aligned}
 &\textbf{Test Statistic:} \\[0.4em]
