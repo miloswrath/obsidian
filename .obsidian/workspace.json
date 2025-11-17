@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school-26-s1/bios/ex/3/iop.md",
+                "file": "school-26-s1/arts/zine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "iop"
+              "title": "zine"
             }
           },
           {
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/bios/ex/3/iop.md",
+                "file": "school-26-s1/arts/zine.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of iop"
+              "title": "Outline of zine"
             }
           }
         ]
@@ -284,6 +284,13 @@
   },
   "active": "b0468e6e76c3e704",
   "lastOpenFiles": [
+    "school-26-s1/arts/Pasted image 20251117174537.png",
+    "school-26-s1/arts/Pasted image 20251117173931.png",
+    "school-26-s1/arts/Pasted image 20251117173924.png",
+    "school-26-s1/arts/Pasted image 20251117173618.png",
+    "school-26-s1/bios/ex/3/iop.md",
+    "school-26-s1/arts/zine.md",
+    "school-26-s1/arts",
     "school-26-s1/bios/ex/3/plan.md",
     "school-26-s1/db/hw/hw4.md",
     "todos/2025-11-17.md",
@@ -314,14 +321,8 @@
     "school-26-s1/db/proj/Deliverable 4.md",
     "Untitled 2.md",
     "school-26-s1/bios/ex/3/cheatsheet.md",
-    "school-26-s1/bios/ex/3/iop.md",
     "school-26-s1/bios/ex/3",
-    "school-26-s1/db/hw/hw3.md",
-    "school-26-s1/bios/hw/GILLIAM-Zak-HW5.md",
     "school-26-s1/serv/assignments/Pasted image 20251030160150.png",
-    "school-26-s1/serv/assignments/Pasted image 20251030155757.png",
-    "school-26-s1/serv/assignments/Pasted image 20251030155712.png",
-    "school-26-s1/serv/assignments/Pasted image 20251030155641.png",
     "school-26-s1/serv/assignments",
     "school-26-s1/serv",
     "hbc/fproj/data",
@@ -329,7 +330,6 @@
     "hbc/fproj/lit",
     "hbc/fproj",
     "school-26-s1/bios/ex/2",
-    "school-26-s1/db/w7",
     "school-26-s1/db/Untitled.canvas",
     "Untitled.canvas"
   ]
