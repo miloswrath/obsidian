@@ -53,6 +53,11 @@ Probability Reject $H_0$ given $H_A$ is True
 
 > Power calculation is conducted on a certain $\mu_A$ or $\mu_0$ so differing values for this lead to different powers. This requires some simulation to be conducted during practice
 
+**Steps**
+- Identify $H_0$, $H_A$, and $\sigma$ 
+- Determine the Rejection Region (Bounds depend on one-sided two sided keep in mind direction)
+- Assuming $\mu_A$ whats the probability in the rejection region
+
 **You can increase $\beta$ by either *Increasing Sample Size* or *Increase $\alpha$*** 
 
 $|\mu_\alpha - \mu_0|$ = **effect size** 

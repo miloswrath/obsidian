@@ -21,3 +21,7 @@
 ---
 [[school-26-s1/bios/ex/3/cheatsheet|cheatsheet]]
 
+
+### In Class Review
+---
+[[icr]]
