@@ -42,8 +42,24 @@ This zine is designed as a single-sheet foldable format (like a classic 8-page m
 **Description:** Wrap-up with a mock manifesto, urging ironic detachment. Image: A trash can overflowing with world flags and screens, lid labeled "Hope."  
 **Example Text:** "You've survived the schizo swirl – or have you? In this garbage galaxy of 2025, laugh at the lunacy or join the junk pile. Eerily final: The end's not nigh; it's now, disguised as normal. Flip back if you must, but remember: Reality's the ultimate rickroll. Brought to you by the Void Collective – no refunds on your sanity."
 
+## War
+---
 
 ![[Pasted image 20251117173618.png]]
 ![[Pasted image 20251117174537.png]]
+![[Pasted image 20251117192847.png]]
+![[Pasted image 20251117192928.png]]
+
+## Surveillance
+---
+![[Pasted image 20251117193159.png]]
+
+
+
+
+
 ![[Pasted image 20251117173924.png]]
+
+
+
 ![[Pasted image 20251117173931.png]]
