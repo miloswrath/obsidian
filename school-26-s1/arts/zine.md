@@ -39,10 +39,27 @@
 ---
 ![[Pasted image 20251117200047.png]]
 ![[Pasted image 20251117200139.png]]
+![[Pasted image 20251117201745.png]]
 
 
+## Drugs
+---
+![[Pasted image 20251117200907.png]]
+![[Pasted image 20251117200952.png]]
+![[Pasted image 20251117201038.png]]
+![[Pasted image 20251117201109.png]]
 
+## Scroll
+---
+![[Pasted image 20251117201540.png]]
+![[Pasted image 20251117201556.png]]
+![[Pasted image 20251117201607.png]]
+![[Pasted image 20251117201619.png]]
 
+## Back Cover
+---
+![[Pasted image 20251117201832.png]]
+![[Pasted image 20251117201853.png]]
 
 
 
