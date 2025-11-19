@@ -50,49 +50,7 @@
             }
           },
           {
-            "id": "c2ec00874643381a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "school-26-s1/bios/ex/3/iop.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "iop"
-            }
-          },
-          {
-            "id": "9238d21df34931c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "school-26-s1/bios/ex/3/com.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "com"
-            }
-          },
-          {
             "id": "b0468e6e76c3e704",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "school-26-s1/bios/ex/3/hyptest.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "hyptest"
-            }
-          },
-          {
-            "id": "727522239b6c0774",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -104,9 +62,23 @@
               "icon": "lucide-file",
               "title": "cheatsheet"
             }
+          },
+          {
+            "id": "6bcc81ad1e867a3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "school-26-s1/db/hw/hw4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "hw4"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -310,14 +282,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "727522239b6c0774",
+  "active": "b0468e6e76c3e704",
   "lastOpenFiles": [
-    "school-26-s1/bios/ex/3/plan.md",
-    "school-26-s1/bios/ex/3/iop.md",
-    "school-26-s1/bios/ex/3/com.md",
-    "school-26-s1/bios/ex/3/hyptest.md",
-    "school-26-s1/bios/ex/3/icr.md",
     "school-26-s1/arts/zine.md",
+    "school-26-s1/bios/ex/3/icr.md",
     "school-26-s1/arts/Pasted image 20251117201853.png",
     "school-26-s1/arts/Pasted image 20251117201832.png",
     "school-26-s1/arts/Pasted image 20251117201745.png",
@@ -328,11 +296,15 @@
     "school-26-s1/arts/Pasted image 20251117201109.png",
     "school-26-s1/arts/Pasted image 20251117201038.png",
     "school-26-s1/arts/Pasted image 20251117200952.png",
-    "school-26-s1/db/hw/hw4.md",
+    "school-26-s1/bios/ex/3/iop.md",
     "school-26-s1/arts",
+    "school-26-s1/bios/ex/3/plan.md",
+    "school-26-s1/db/hw/hw4.md",
     "todos/2025-11-17.md",
     "Untitled 3.md",
+    "school-26-s1/bios/ex/3/com.md",
     "personal/jobs/list.md",
+    "school-26-s1/bios/ex/3/hyptest.md",
     "school-26-s1/bios/hw/GILLIAM-Zak-HW6.md",
     "school-26-s1/hh/proj/3.md",
     "school-26-s1/hh/proj",
