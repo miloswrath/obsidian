@@ -163,8 +163,9 @@ $$
 
 **Pooled variance**:
 $$
-s_p^2
+s_p
 =
+\sqrt
 \frac{
   (n_1 - 1)s_1^2 + (n_2 - 1)s_2^2
 }{
