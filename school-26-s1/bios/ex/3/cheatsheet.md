@@ -7,7 +7,7 @@
   Reject $H_0$ when $H_0$ is actually true.
 
 - **Type II Error ($\beta$)**  
-  Retain $H_0$ when $H_A$ is actually true.
+ Retain $H_0$ when $H_A$ is actually true.
 
 - **Power**  
   $$
@@ -30,10 +30,6 @@ Test statistic:
 $$
 Z = \frac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}
 $$
-
-- Use standard normal critical values $z_\alpha$ or $z_{\alpha/2}$.  
-- Two-sided: reject $H_0$ if $|Z| > z_{\alpha/2}$.
-
 ### t-Test (unknown $\sigma$)
 
 Test statistic:
@@ -72,7 +68,6 @@ Let $\hat{p} = x/n$ be the sample proportion.
 
 ### Sampling Distribution of $\hat{p}$
 
-- Standard error:
   $$
   \text{SE}(\hat{p}) = \sqrt{\frac{p(1-p)}{n}}
   $$
@@ -84,18 +79,12 @@ $$
 
 ### Hypothesis Test for $p$ (Z-Test)
 
-Test statistic (use $p_0$ in SE):
 $$
 z = \frac{\hat{p} - p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}
 $$
 
 
 ### Sample Size for Margin of Error $m$
-
-Want:
-$$
-z_{\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \le m
-$$
 
 Solution:
 $$
@@ -121,7 +110,6 @@ $$
 
 1. Compute differences for each pair: $d_i = Y_{1i} - Y_{2i}$.  
 2. Compute $\bar{d}$ and $s_d$.  
-3. Test if mean difference is $0$ (or some $\mu_{d0}$).
 
 $$
 t = \frac{\bar{d}\sqrt{n}}{s_d}, \quad t \sim t_{n-1} \text{ under } H_0
@@ -157,10 +145,6 @@ $$
 
 ### Case 2: Equal Unknown Variances (Pooled t-Test)
 
-**Assumptions**
-- Two independent samples  
-- $\sigma_1^2 = \sigma_2^2 = \sigma^2$ (equal variances)
-
 **Pooled variance**:
 $$
 s_p
@@ -172,10 +156,6 @@ s_p
   n_1 + n_2 - 2
 }
 $$
-
-- Weights $(n_i - 1)$ come from each sample’s degrees of freedom.  
-- Total df: $n_1 + n_2 - 2$.
-
 **CI for $\mu_1 - \mu_2$**:
 $$
 (\bar{Y}_1 - \bar{Y}_2)
@@ -239,10 +219,6 @@ $$
 }
 $$
 
-- $\nu$ is typically **non-integer** and often **$< n_1+n_2-2$**.  
-- Use when variances appear **unequal**.
-
-
 ---
 
 ### Two Proportions (Independent Samples)
@@ -273,11 +249,8 @@ z_{\alpha/2}
 }
 $$
 
-(One-sided CI: replace $z_{\alpha/2}$ with $z_{\alpha}$ and cap at $[-1,1]$.)
-
 ### Test of $H_0: p_1 = p_2$
 
-**Test statistic** (pooled standard error):
 $$
 z =
 \frac{
@@ -292,15 +265,7 @@ z =
 }
 $$
 
-**Rejection Regions**
-
-| $H_A$         | Rejection Region                          |
-| ------------- | ----------------------------------------- |
-| $p_1 \ne p_2$ | $z < -z_{\alpha/2}$ or $z > z_{\alpha/2}$ |
-| $p_1 > p_2$   | $z > z_{\alpha}$                          |
-| $p_1 < p_2$   | $z < -z_{\alpha}$                         |
-
-**p-values**
+**P-Values**
 
 | $H_A$         | p-value     |
 | ------------- | ----------- |
