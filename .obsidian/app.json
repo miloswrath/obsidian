@@ -5,8 +5,8 @@
     "includeName": false,
     "pageSize": "Letter",
     "landscape": false,
-    "margin": "2",
-    "downscalePercent": 43
+    "margin": "0",
+    "downscalePercent": 47
   },
   "spellcheck": false,
   "attachmentFolderPath": "./",
