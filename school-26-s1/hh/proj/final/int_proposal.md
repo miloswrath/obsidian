@@ -1,7 +1,5 @@
 Reminiscence therapy is usually defined as **structured discussion of past experiences, often in groups, using prompts like photos, music, objects, or timelines to stimulate autobiographical memory and conversation**. It’s grounded in **Butler’s life review** and **Erikson’s life-stage theory**, and is widely used in dementia care to support person-centred care and personhood. ([PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC6494367/?utm_source=chatgpt.com "Reminiscence therapy for dementia - PMC - PubMed Central"))
 
-Below are **humanities-type gaps** (not neural/mechanistic ones), then an example intervention.
-
 ---
 
 ## Humanities-oriented gaps in reminiscence therapy
@@ -154,3 +152,21 @@ _How can reminiscence therapy be adapted to enhance both narrative agency and cu
 
 ---
 
+Towards an increased understanding of reminiscence therapy for people with dementia: A narrative analysis” (PMC8132012)
+This study used narrative and thematic analysis of published reminiscence therapy protocols to examine how sessions are structured and delivered. The authors found that RT is often staff-led, heavily scripted, and built around standardized prompts rather than resident-directed storytelling. As a result, older adults’ agency over topic choice, depth, and emotional boundaries is limited—raising concerns about whose story is being shaped and preserved.
+
+
+“The use of life story work in an age-inclusive dementia service” (Essex PhD Thesis)
+This qualitative dissertation used interviews, observations, and document analysis to explore how life story work is implemented across a dementia service. It found that staff often rely on templated forms and institutional routines, which turn life-story work into a task-driven activity rather than a resident-guided narrative process. The study emphasizes that residents rarely control what is included or how their stories are used, highlighting major gaps in narrative ownership and consent.
+
+ 
+ “It made me see him in a different light: The use of life story …” (White Rose eTheses)
+Through interviews with staff, residents, and family members, this project examined how life-story materials shape staff perceptions and relationships. While staff frequently reported deeper empathy after learning a resident’s story, the study revealed little evidence that residents themselves were directing how their stories were constructed or shared. This exposes a disconnect between improved staff understanding and the unresolved question of whether residents feel represented or empowered in the process.
+
+
+ “Effectiveness of reminiscence therapy on multiple health outcomes…” (BMC Geriatrics)
+This systematic review synthesized RT trials across many countries and found most were conducted with white, Western, institutionalized older adults. The review noted limited cultural tailoring in both materials and methods, meaning reminiscence prompts often did not reflect participants’ linguistic or cultural identities. This gap shows that RT evidence is not sufficiently grounded in diverse cultural contexts, limiting equitable application.
+
+
+ “A randomized controlled trial study of a life review art intervention…” (Frontiers in Psychology, culturally adapted RT)
+This RCT tested a life-review–based art program with older adults living with HIV in Taiwan, integrating culturally meaningful symbols, rituals, and narrative themes. The intervention improved psychological well-being and life meaning, suggesting that culturally grounded reminiscence enhances emotional resonance and relevance. Importantly, the study highlights how cultural adaptation changes the quality of storytelling—pointing to the need for broader, more intentional cultural tailoring across RT research.
