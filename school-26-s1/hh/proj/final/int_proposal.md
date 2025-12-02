@@ -147,8 +147,10 @@ _(Culturally grounded, agency-focused reminiscence)_
 
 ---
 
-If you want, next step I can:
 
-- Turn this into a **formal research question + aims + hypotheses**, or
-    
-- Build a structured **study proposal section** (Background → Gap → Aims → Methods → Outcomes) you can drop into a paper or assignment.
+## Research Question
+---
+_How can reminiscence therapy be adapted to enhance both narrative agency and cultural-linguistic authenticity for diverse older adults in long-term care, ensuring they retain ownership over their autobiographical stories and can express memories that reflect their cultural identities and lived experiences?_
+
+---
+

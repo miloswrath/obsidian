@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school-26-s1/hh/proj/final/toc.md",
+                "file": "school-26-s1/hh/proj/final/lit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "toc"
+              "title": "lit"
+            }
+          },
+          {
+            "id": "b2827ff965283447",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "school-26-s1/hh/proj/final/int_proposal.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "int_proposal"
             }
           }
         ]
@@ -178,13 +192,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/hh/proj/final/toc.md",
+                "file": "school-26-s1/hh/proj/final/lit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of toc"
+              "title": "Outline of lit"
             }
           }
         ]
@@ -227,12 +241,12 @@
   },
   "active": "7c6eeaebab3c8e2a",
   "lastOpenFiles": [
+    "school-26-s1/hh/proj/final/toc.md",
+    "school-26-s1/hh/proj/final/Proposal.md",
+    "school-26-s1/hh/proj/final/int_proposal.md",
     "school-26-s1/db/hw/hw4.md",
     "school-26-s1/bios/ex/3/cheatsheet.md",
-    "school-26-s1/hh/proj/final/toc.md",
     "school-26-s1/hh/proj/final/lit.md",
-    "school-26-s1/hh/proj/final/int_proposal.md",
-    "school-26-s1/hh/proj/final/Proposal.md",
     "school-26-s1/hh/proj/final",
     "hbc/fproj/data/transfer.md",
     "school-26-s1/arts/zine.md",
