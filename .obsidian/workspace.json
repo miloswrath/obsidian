@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "055466d22f379156",
+            "id": "7c6eeaebab3c8e2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,37 +20,8 @@
               "icon": "lucide-file",
               "title": "toc"
             }
-          },
-          {
-            "id": "8e9e3a4ecb82222c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "school-26-s1/hh/proj/final/lit.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "lit"
-            }
-          },
-          {
-            "id": "3e1f36c4e409ba59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "school-26-s1/hh/proj/final/int_proposal.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "int_proposal"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,13 +178,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/hh/proj/final/int_proposal.md",
+                "file": "school-26-s1/hh/proj/final/toc.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of int_proposal"
+              "title": "Outline of toc"
             }
           }
         ]
@@ -254,20 +225,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3e1f36c4e409ba59",
+  "active": "7c6eeaebab3c8e2a",
   "lastOpenFiles": [
-    "school-26-s1/hh/proj/final/toc.md",
     "school-26-s1/db/hw/hw4.md",
     "school-26-s1/bios/ex/3/cheatsheet.md",
+    "school-26-s1/hh/proj/final/toc.md",
     "school-26-s1/hh/proj/final/lit.md",
     "school-26-s1/hh/proj/final/int_proposal.md",
     "school-26-s1/hh/proj/final/Proposal.md",
-    "school-26-s1/hh/proj/3.md",
-    "hbc/fproj/data/transfer.md",
     "school-26-s1/hh/proj/final",
-    "school-26-s1/hh/proj/final.md",
-    "personal/jobs/list.md",
-    "school-26-s1/bios/ex/2/cheatsheet.md",
+    "hbc/fproj/data/transfer.md",
     "school-26-s1/arts/zine.md",
     "school-26-s1/bios/ex/3/icr.md",
     "school-26-s1/arts/Pasted image 20251117201853.png",
@@ -286,8 +253,10 @@
     "todos/2025-11-17.md",
     "Untitled 3.md",
     "school-26-s1/bios/ex/3/com.md",
+    "personal/jobs/list.md",
     "school-26-s1/bios/ex/3/hyptest.md",
     "school-26-s1/bios/hw/GILLIAM-Zak-HW6.md",
+    "school-26-s1/hh/proj/3.md",
     "school-26-s1/hh/proj",
     "hbc/jc/vis behavior change.md",
     "hbc/jc/14-07-2025.md",
@@ -295,6 +264,8 @@
     "hbc/HR/QA Pipeline.md",
     "hbc/HR/Polar API.md",
     "hbc/HR/HR - initial look & meeting notes olivia.md",
+    "hbc/act/Accelerometer Distributions.md",
+    "hbc/fproj/lit/review1.md",
     "school-26-s1/bios/ex/3",
     "school-26-s1/serv/assignments",
     "school-26-s1/serv",
