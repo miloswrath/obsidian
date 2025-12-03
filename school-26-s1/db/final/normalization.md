@@ -36,6 +36,10 @@ but if:
 Staff(sID, sName, ..., bNo) & Branch(bNo, bAddress)
 Updating address in Branch solves that issue
 
+## Properties of Decomposition
+---
+*Lossless-Join*
+- Able to find any instance of the whole relation by joining two smaller relations
 
-pnpm run build
-dist
+*Dependency Preservation*
+- Enforcing the same constraint that was on the original relation by enforcing it on the two smaller relations
