@@ -154,3 +154,11 @@ then we add
 ![[Pasted image 20251203144741.png]]
 ^^ Thus we need to know more about how the data works in this instance to understand all FDs
 
+### Identifying a Primary Key
+---
+> Once you have FDs, you need to choose a primary key
+> This will include any non-standard integrity constraints 
+
+From the FDs you identify the candidate keys, then select the most reasonable primary key.
+
+
