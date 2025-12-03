@@ -130,6 +130,27 @@ Because SID determines Major, and Major determines DeptOffice:
 
 ➡️ **SID → DeptOffice** is a **transitive dependency**
 
-### Table Example
+
+> Essentially the problem from the beginning example
+## PART 2
 ---
+> Redefining Normalization
+> Technique for optimizing a set of relations based on their FDs between attrs and their primary keys
+> This is often done in a series of steps - called **Normal Forms**
+
+
+### Identifying FDs
+---
+*Identifying FDs requires a semantic explanation of a relation and its attrs, typically done in conversation with stakeholders*
+^^ For example:
+For the following table, if we knew nothing about the functionality of these attrs and how they work together
+![[Pasted image 20251203144550.png]]
+We would have 
+![[Pasted image 20251203144609.png]]
+Because staffNo is obviously the primary key, and branchNo and bAddress FD each other
+However 
+**If `position` and `branch` determine `salary`** 
+then we add 
+![[Pasted image 20251203144741.png]]
+^^ Thus we need to know more about how the data works in this instance to understand all FDs
 
