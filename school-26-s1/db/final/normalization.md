@@ -161,4 +161,44 @@ then we add
 
 From the FDs you identify the candidate keys, then select the most reasonable primary key.
 
+To identify the primary key from candidate keys, find the minimal set of candidate keys that are determinants of all other attrs in that relation
+
+## Process of Normalization
+---
+> The set of steps that lead to an optimized, robust, and secure database schema
+
+*As you go through the steps of normalization, the relations become progressively more **restricted** which means they are **stronger**. They are also less vulnerable to update anomalies.*
+
+### Normal Forms Visuals
+---
+*Hierarchy of Normal Forms*
+![[Pasted image 20251203154219.png]]
+
+*Process of Normalization*
+![[Pasted image 20251203154323.png]]
+
+### Normal Forms
+---
+> The following will describe and show the process of normalizing a database
+
+#### Unnormalized Form (UNF)
+---
+This is the *rawest* state that a database can be in. 
+- Contains 1 or more repesating groups.
+- Essentially just transforming some raw mixed (input from forms, etc.) data into table format with columns and row.
+*Example*
+![[Pasted image 20251203154521.png]]
+
+#### 1st Normal Form (1NF)
+---
+![[Pasted image 20251203154637.png]]
+From the processes image, our first step is to remove repeating groups. But first, we must identify a key to uniquely identify all rows.
+
+In the UNF example we had reapeating groups for each clientNo, cName :LiArrowRight: propertyNo, pAddress, ..., etc.
+
+We can just make clientNo the key
+![[Pasted image 20251203154849.png]]
+Now we are in 1NF! Still very ugly and messy.
+
+
 
