@@ -53,11 +53,11 @@ For example:
 	If: B is functionally dependent on R (denoted $A \rightarrow B$)
 		it is said that each value of A in R is associated with exactly one value B in R
 ### Relation: **Students**
-| SID | Name  | Major |
-|-----|--------|--------|
-| 101 | Alex   | CS     |
-| 102 | Bri    | Biology|
-| 103 | Casey  | CS     |
+| SID | Name  | Major   |
+| --- | ----- | ------- |
+| 101 | Alex  | CS      |
+| 102 | Bri   | Biology |
+| 103 | Casey | CS      |
 
 #### Example FD
 **SID → Name, Major**  
@@ -185,7 +185,7 @@ To identify the primary key from candidate keys, find the minimal set of candida
 ---
 This is the *rawest* state that a database can be in. 
 - Contains 1 or more repesating groups.
-- Essentially just transforming some raw mixed (input from forms, etc.) data into table format with columns and row.
+- Essentially just transforming some raw mixed (input from forms, etc.) data into table format with columns and row. 
 *Example*
 ![[Pasted image 20251203154521.png]]
 
@@ -200,5 +200,27 @@ We can just make clientNo the key
 ![[Pasted image 20251203154849.png]]
 Now we are in 1NF! Still very ugly and messy.
 
+#### 2nd Normal Form (2NF)
+---
+> Based on the concept of [[#Full Functional Dependency]]
 
+*A relation is in 2NF if*:
+- It is in 1NF
+- Every non-primary-key attribute is fully functionaly dependent on the primary key
+![[Pasted image 20251203161533.png]]
+
+*Steps*
+- Identify the FDs
+- Identify the primary key in the 1NF relation
+- If partial dependencies exist, remove them by placing them in a new relation with a copy of their determinant.
+
+*Back to the example*
+![[Pasted image 20251203161745.png]]
+The primary key is `clientNo` and `propertyNo`, because both are needed to identify all
+Here there are two partial dependencies because of the PK being two
+1. **FD2** - we don't need `propertyNo` to identify `cName`
+2. **FD3** - we don't need `clientNo` to identify any of the dependent attrs
+> So we make a new relation for properties and clients
+
+![[Pasted image 20251203162244.png]]
 
