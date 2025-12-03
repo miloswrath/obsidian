@@ -43,3 +43,93 @@ Updating address in Branch solves that issue
 
 *Dependency Preservation*
 - Enforcing the same constraint that was on the original relation by enforcing it on the two smaller relations
+
+## Functional Dependencies
+---
+> Specifies the direction of 1-1 relationships
+
+For example:
+	A and B have relation R
+	If: B is functionally dependent on R (denoted $A \rightarrow B$)
+		it is said that each value of A in R is associated with exactly one value B in R
+### Relation: **Students**
+| SID | Name  | Major |
+|-----|--------|--------|
+| 101 | Alex   | CS     |
+| 102 | Bri    | Biology|
+| 103 | Casey  | CS     |
+
+#### Example FD
+**SID → Name, Major**  
+Each `SID` uniquely determines exactly one `Name` and one `Major`.
+
+#### Valid FD Check
+| SID | Name |
+| --- | ---- |
+| 101 | Alex |
+| 101 | Alex |
+← violates `SID → Name` (same SID gives two Names)
+#### FD Violation
+| SID | Name  |
+| --- | ----- |
+| 101 | Alex  |
+| 101 | Jamie |
+← violates `SID → Name` (same SID gives two Names)
+
+### Diagrams
+![[Pasted image 20251203113946.png]]
+
+### Full Functional Dependency
+---
+> The set of determinants should be as small as possible
+
+For example if:
+	R(A,B,C) and A,C $\rightarrow$ B
+	If C is not needed to functionally determine B then this is **NOT** FFD (called **partial dependency**)
+	However if A,C is needed, then it is
+#### Example Partial Dependency
+---
+![[Pasted image 20251203114442.png]]
+Because `branchNo` can be determined by staffNo, then staffNo, sName is a partial dependency
+## Transitive Dependencies
+---
+> In normalization, you usually try to remove partial dependencies first, but *transitive dependencies* are typically what causes *update anomalies*
+
+**Def**
+If A :LiArrowRight: B and B :LiArrowRight: C
+then A :LiArrowRight: C, where A is not functionally dependent on B or C
+^^ This is a little retarded so below is a better explanation
+
+#### Better Explanation
+A **transitive dependency** occurs when:
+
+1. **A determines B** (A → B)
+    
+2. **B determines C** (B → C)
+    
+3. Therefore, **A indirectly determines C** through B (A → C)
+    
+
+This happens even though **C is not directly dependent on A**, and **A is not dependent on B or C**.
+
+##### **Intuition**
+
+A affects B, and B affects C — so A _passes its influence_ through B to determine C.
+
+##### **Simple Example**
+
+Relation: **Student(SID, Major, DeptOffice)**  
+FDs:
+
+- **SID → Major**
+    
+- **Major → DeptOffice**
+    
+
+Because SID determines Major, and Major determines DeptOffice:
+
+➡️ **SID → DeptOffice** is a **transitive dependency**
+
+### Table Example
+---
+
