@@ -224,3 +224,19 @@ Here there are two partial dependencies because of the PK being two
 
 ![[Pasted image 20251203162244.png]]
 
+#### 3rd Normal Form (3NF)
+---
+> Now we remove transitive dependencies
+
+![[Pasted image 20251204095311.png]]
+*Requirements of 3NF*
+- Be in 2NF
+- All [[#Transitive Dependencies]] must be removed
+
+*Steps to move to 3NF*
+- Identify the FDs on 2NF
+- Identify the PK on 2NF 
+- If there are transitive dependencies on the 2NF PK, then create a new relation with copy of determinant
+
+
+
