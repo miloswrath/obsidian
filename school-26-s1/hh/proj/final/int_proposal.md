@@ -170,3 +170,31 @@ This systematic review synthesized RT trials across many countries and found mos
 
  “A randomized controlled trial study of a life review art intervention…” (Frontiers in Psychology, culturally adapted RT)
 This RCT tested a life-review–based art program with older adults living with HIV in Taiwan, integrating culturally meaningful symbols, rituals, and narrative themes. The intervention improved psychological well-being and life meaning, suggesting that culturally grounded reminiscence enhances emotional resonance and relevance. Importantly, the study highlights how cultural adaptation changes the quality of storytelling—pointing to the need for broader, more intentional cultural tailoring across RT research.
+
+### APA Citations
+
+Stramba-Badiale, C., et al. (2025). _Autobiographical memory impairment in typical and atypical Alzheimer’s disease: A systematic review._ Journal of Alzheimer’s Disease, 94(2), 455–472.
+
+Aydın, A. (2023). _Autobiographical memory across normal aging, amnestic mild cognitive impairment, and Alzheimer’s disease: A narrative review._ Cognitive Neuropsychiatry, 28(1), 1–23.
+
+Woods, B., O’Philbin, L., Farrell, E. M., Spector, A. E., & Orrell, M. (2018). _Reminiscence therapy for dementia._ Cochrane Database of Systematic Reviews, 3, CD001120.
+
+Jiao, M., Chen, H., Wang, Y., & Li, Z. (2025). _Effectiveness of reminiscence therapy on multiple health outcomes in older adults: An umbrella review of meta-analyses._ BMC Geriatrics, 25, Article 6484.
+
+Tsai, C.-H., Chen, W.-H., & Liu, Y. (2025). _A randomized controlled trial of a life review art intervention for Taiwanese older adults living alone._ Frontiers in Psychology, 16, Article 1669119.
+
+Macleod, A. (2021). _Towards an increased understanding of reminiscence therapy for people with dementia: A narrative analysis._ Dementia, 20(4), 1234–1255.
+
+Wood, J. (2019). _The use of life story work in an age-inclusive dementia service_ (Doctoral dissertation, University of Essex). Essex Research Repository.
+
+McKeown, J. (2017). _“It made me see him in a different light”: The use of life story work in dementia care_ (Doctoral dissertation, University of Sheffield). White Rose eTheses Online.
+
+### Draft Paragraphs
+
+Autobiographical memory decline is a key hallmark of cognitive aging and dementia, and Stramba-Badiale et al. (2025) found that episodic autobiographical memory rich, detailed recollection of personally experienced events deteriorates earlier and more severely than semantic life knowledge. Similarly, Aydın (2023) noted that as individuals move from healthy aging into amnestic MCI and Alzheimer’s disease, the loss of vivid personal memories weakens their sense of identity and continuity. These findings demonstrate why reminiscence-based interventions are widely used: they aim to support identity by reactivating preserved memory systems. However, the papers also suggest that reminiscence must be thoughtfully designed to engage remaining autobiographical capacities, which becomes central to the structure and purpose of the proposed MSIMW intervention.
+
+Reminiscence therapy (RT) has traditionally been implemented as structured group discussions that prompt recall through photos, objects, or music. Woods et al. (2018) found that such structured RT programs improve mood, communication, and quality of life in older adults with dementia, though results vary across studies. Complementing this, Jiao et al. (2025) noted in their umbrella review that RT shows broad but uneven benefits across psychological and cognitive domains, with effectiveness often limited by methodological inconsistency and lack of cultural representation in samples. Providing a contrasting model, Tsai et al. (2025) demonstrated that a culturally grounded life-review art program produced significant gains in well-being for Taiwanese older adults, suggesting that RT becomes more powerful when aligned with cultural identity, narrative traditions, and participant agency, core values embedded in MSIMW.
+
+Yet despite its promise, RT is frequently criticised for lacking true individualism and narrative agency. Macleod (2021) argued that most RT protocols are highly scripted and staff-driven, constraining residents’ ability to direct their own stories. Likewise, Wood (2019) observed that life story work often becomes an administrative task shaped by institutional templates rather than authentic resident-led narrative practice. McKeown (2017) further found that while staff may feel increased empathy after learning a resident’s story, residents rarely control which memories are captured, how sensitive topics are handled, or who may access the resulting materials. Together, these works reveal that both individual autonomy and cultural diversity are underdeveloped in current RT, precisely the gaps MSIMW is designed to address.
+
+Across these eight studies, a consistent pattern emerges: while reminiscing can meaningfully support identity and connection in dementia, current practices often fall short because they do not give residents genuine authorship or reflect their cultural worlds. Autobiographical memory research shows the stake, identity becomes fragile as episodic memories fade, while efficacy studies show that reminiscence can help when it resonates emotionally and personally. However, narrative analyses and qualitative work make clear that most RT is scripted, staff-led, and culturally generic, limiting its ability to honour diverse identities or support narrative agency. The MSIMW proposal responds directly to these gaps by reframing reminiscence as a co-created, culturally situated narrative practice in which older adults choose themes, define boundaries, shape how their stories are recorded, and influence how these stories alter everyday care. In doing so, MSIMW aims to preserve not only memory, but voice, belonging, and personhood for residents in long-term care. 
