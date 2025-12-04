@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "int_proposal"
             }
+          },
+          {
+            "id": "e632ce1f2b0b968d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -240,7 +252,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b2827ff965283447",
+  "active": "e632ce1f2b0b968d",
   "lastOpenFiles": [
     "school-26-s1/hh/proj/final/lit.md",
     "school-26-s1/hh/proj/final/int_proposal.md",
