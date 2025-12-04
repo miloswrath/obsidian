@@ -65,7 +65,7 @@ _(Culturally grounded, agency-focused reminiscence)_
 
 ### Title
 
-**“My Story, In My Words” (MSIMW): Co-created narrative circles for culturally diverse residents with dementia**
+**“My Story, In My Woards” (MSIMW): Co-created narrative circles for culturally diverse residents with dementi**
 
 ### Population / setting
 
