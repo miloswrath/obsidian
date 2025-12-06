@@ -16,3 +16,8 @@ Thursday - BIOS/DB
 ---
 Study DB/BIOS Mostly
 
+*DB Study Home*
+[[db study|db study]]
+
+*BIOS Study Home*
+[[bios study|bios study]]
