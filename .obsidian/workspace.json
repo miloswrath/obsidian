@@ -62,21 +62,9 @@
               "icon": "lucide-file",
               "title": "transaction"
             }
-          },
-          {
-            "id": "2d812da9d6286957",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-12-07 12.05.56.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-12-07 12.05.56.excalidraw"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -233,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2025-12-07 12.05.56.excalidraw.md",
+                "file": "school-26-s1/db/final/transaction.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Drawing 2025-12-07 12.05.56.excalidraw"
+              "title": "Outline of transaction"
             }
           }
         ]
@@ -281,16 +269,29 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2d812da9d6286957",
+  "active": "5969df5ed2f4ab5f",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-12-07 12.31.35.excalidraw.md",
     "school-26-s1/db/final/transaction.md",
+    "school-26-s1/db/final/transaction 2025-12-07 12.28.15.excalidraw.md",
+    "school-26-s1/db/final/Pasted Image 20251207122832_973.png",
+    "school-26-s1/db/final/transaction 2025-12-07 12.28.08.excalidraw.md",
+    "school-26-s1/db/final/transaction 2025-12-07 12.19.16.excalidraw.md",
+    "school-26-s1/db/final/Pasted Image 20251207122353_831.png",
+    "Untitled.md",
+    "Untitled 1.md",
+    "school-26-s1/db/final/transaction 2025-12-07 12.17.12.excalidraw.md",
+    "school-26-s1/finals/plan.md",
+    "school-26-s1/db/final/transaction 2025-12-07 12.17.51.excalidraw.md",
+    "Excalidraw/Drawing 2025-12-07 12.16.35.excalidraw.md",
+    "Excalidraw/Drawing 2025-12-07 12.16.58.excalidraw.md",
+    "school-26-s1/db/final/db study.md",
+    "Excalidraw/Drawing 2025-12-07 12.11.45.excalidraw.md",
     "Excalidraw/Drawing 2025-12-07 12.05.56.excalidraw.md",
     "Excalidraw",
-    "school-26-s1/db/final/db study.md",
     "school-26-s1/bios/ex/1/cheatsheet.md",
     "school-26-s1/bios/ex/2/cheatsheet2.md",
     "school-26-s1/bios/ex/final/bios study.md",
-    "school-26-s1/finals/plan.md",
     "school-26-s1/hh/proj/final/lit.md",
     "school-26-s1/hh/proj/final/toc.md",
     "school-26-s1/bios/ex/final",
@@ -303,8 +304,6 @@
     "school-26-s1/db/final/Pasted image 20251203154637.png",
     "school-26-s1/db/final/Pasted image 20251203154521.png",
     "school-26-s1/db/final/Pasted image 20251203154323.png",
-    "school-26-s1/db/final/Pasted image 20251203154219.png",
-    "school-26-s1/db/final/Pasted image 20251203144741.png",
     "school-26-s1/db/final",
     "school-26-s1/hh/proj/final/int_proposal.md",
     "school-26-s1/finals",
@@ -312,19 +311,8 @@
     "school-26-s1/bios/ex/3/cheatsheet.md",
     "school-26-s1/hh/proj/final/Proposal.md",
     "school-26-s1/hh/proj/3.md",
-    "hbc/fproj/data/transfer.md",
     "school-26-s1/hh/proj/final",
-    "school-26-s1/hh/proj/final.md",
-    "personal/jobs/list.md",
-    "school-26-s1/bios/ex/2/cheatsheet.md",
-    "school-26-s1/arts/zine.md",
-    "school-26-s1/bios/ex/3/icr.md",
-    "school-26-s1/bios/ex/3/iop.md",
     "school-26-s1/arts",
-    "school-26-s1/bios/ex/3/plan.md",
-    "todos/2025-11-17.md",
-    "Untitled 3.md",
-    "school-26-s1/bios/ex/3/com.md",
     "school-26-s1/hh/proj",
     "school-26-s1/bios/ex/3",
     "school-26-s1/serv/assignments",

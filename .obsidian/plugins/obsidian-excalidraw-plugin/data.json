@@ -27,7 +27,7 @@
   "annotateSuffix": "",
   "annotatePrefix": "annotated_",
   "annotatePreserveSize": false,
-  "previewImageType": "SVGIMG",
+  "previewImageType": "SVG",
   "renderingConcurrency": 3,
   "allowImageCache": true,
   "allowImageCacheInScene": true,
@@ -41,18 +41,18 @@
   "desktopUIMode": "tray",
   "tabletUIMode": "compact",
   "iframeMatchExcalidrawTheme": true,
-  "matchTheme": false,
-  "matchThemeAlways": false,
-  "matchThemeTrigger": false,
+  "matchTheme": true,
+  "matchThemeAlways": true,
+  "matchThemeTrigger": true,
   "defaultMode": "normal",
-  "defaultPenMode": "never",
+  "defaultPenMode": "always",
   "penModeDoubleTapEraser": true,
   "penModeSingleFingerPanning": true,
   "penModeCrosshairVisible": true,
-  "panWithRightMouseButton": false,
+  "panWithRightMouseButton": true,
   "renderImageInMarkdownReadingMode": false,
-  "renderImageInHoverPreviewForMDNotes": false,
-  "renderImageInMarkdownToPDF": false,
+  "renderImageInHoverPreviewForMDNotes": true,
+  "renderImageInMarkdownToPDF": true,
   "allowPinchZoom": false,
   "allowWheelZoom": false,
   "zoomToFitOnOpen": true,
@@ -98,7 +98,7 @@
   "experimentalLivePreview": true,
   "fadeOutExcalidrawMarkup": false,
   "loadPropertySuggestions": false,
-  "experimentalEnableFourthFont": false,
+  "experimentalEnableFourthFont": true,
   "experimantalFourthFont": "Virgil",
   "addDummyTextElement": false,
   "zoteroCompatibility": false,
@@ -801,7 +801,7 @@
       "key": "G"
     }
   ],
-  "showSplashscreen": true,
+  "showSplashscreen": false,
   "pdfSettings": {
     "pageSize": "A4",
     "pageOrientation": "portrait",
@@ -811,5 +811,5 @@
     "alignment": "center",
     "margin": "normal"
   },
-  "disableContextMenu": false
+  "disableContextMenu": true
 }
