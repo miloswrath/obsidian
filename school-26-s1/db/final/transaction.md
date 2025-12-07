@@ -67,3 +67,9 @@ Hence **Lost Update Problem***
 > When one transaction accesses intermediate results before the first transaction is committed
 
 ![[transaction 2025-12-07 13.01.27.excalidraw]]
+
+### Inconsistent Analysis Problem
+---
+> Transaction reads **several** values but second transaction updates some of them during execution first.
+
+![[transaction 2025-12-07 13.12.06.excalidraw]]
