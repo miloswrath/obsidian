@@ -62,7 +62,7 @@
       {
         "id": "80ccd4906b5d240f",
         "type": "tabs",
-        "dimension": 67.56756756756756,
+        "dimension": 70.06237006237006,
         "children": [
           {
             "id": "59fa5a7f9af2f8ac",
@@ -109,7 +109,7 @@
       {
         "id": "db10d1fb91e2b3b0",
         "type": "tabs",
-        "dimension": 32.432432432432435,
+        "dimension": 29.93762993762994,
         "children": [
           {
             "id": "4e9a00619e7f4d83",
@@ -125,7 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 334
   },
   "right": {
     "id": "b976ac93fcbecb71",
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "school-26-s1/db/ex/ex1/take-home.md",
+                "file": "denormalization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for take-home"
+              "title": "Backlinks for denormalization"
             }
           },
           {
@@ -186,12 +186,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "school-26-s1/bios/ex/2/Random Variables.md",
+                "file": "denormalization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Random Variables"
+              "title": "Outgoing links from denormalization"
             }
           }
         ]
@@ -241,9 +241,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Open quick switcher": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
@@ -257,14 +257,16 @@
   },
   "active": "abc487a436cc0cea",
   "lastOpenFiles": [
+    "school-26-s1/arts/zine.md",
+    "denormalization.md",
+    "Excalidraw/denormalization 2025-12-08 10.19.02.excalidraw.md",
+    "Excalidraw/Pasted Image 20251208102004_231.png",
     "Excalidraw/denormalization 2025-12-08 10.12.47.excalidraw.md",
     "Excalidraw/Pasted Image 20251208101348_506.png",
-    "denormalization.md",
     "Excalidraw/denormalization 2025-12-08 10.09.14.excalidraw.md",
     "Excalidraw/Pasted Image 20251208101010_783.png",
     "school-26-s1/db/final/db study.md",
     "school-26-s1/db/final/transaction.md",
-    "school-26-s1/arts/zine.md",
     "Pasted image 20251208090106.png",
     "school-26-s1/db/final/normalization.md",
     "school-26-s1/hh/proj/final/toc.md",
@@ -284,7 +286,6 @@
     "school-26-s1/db/final/Pasted Image 20251207130235_187.png",
     "school-26-s1/db/final/Pasted Image 20251207125510_848.png",
     "school-26-s1/db/final/Pasted Image 20251207122832_973.png",
-    "school-26-s1/db/final/Pasted Image 20251207122353_831.png",
     "school-26-s1/bios/ex/final/bios study.md",
     "school-26-s1/bios/ex/final",
     "Excalidraw/Drawing 2025-12-07 12.31.35.excalidraw.md",
@@ -295,7 +296,6 @@
     "school-26-s1/finals",
     "school-26-s1/db/final/study.md",
     "school-26-s1/db/final",
-    "school-26-s1/db/hw/hw4.md",
     "school-26-s1/hh/proj/final",
     "school-26-s1/arts",
     "school-26-s1/hh/proj",

@@ -39,3 +39,11 @@
 #### Vertical Splitting
 ---
 - This is not typically used for **denormalization** but for normalization. Thus, we will not go further into this. 
+
+### Pre-Joining
+---
+> Generally only used for 1:M relationships
+
+*Identify frequent joins and add them to the physical data model.*
+- Additional space is required as the master information is repeated in the new header table.
+- ![[denormalization 2025-12-08 10.19.02.excalidraw]]
