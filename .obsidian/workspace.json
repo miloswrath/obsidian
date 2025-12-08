@@ -8,49 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3e1f36c4e409ba59",
+            "id": "63d5e433ba9d9057",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school-26-s1/finals/plan.md",
+                "file": "denormalization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "plan"
+              "title": "denormalization"
             }
           },
           {
-            "id": "8007d34e5e4c152a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "school-26-s1/bios/ex/final/bios study.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "bios study"
-            }
-          },
-          {
-            "id": "ee9ee7c444bc0e7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "school-26-s1/db/final/db study.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "db study"
-            }
-          },
-          {
-            "id": "5969df5ed2f4ab5f",
+            "id": "55a0e76d78c10470",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -63,8 +35,7 @@
               "title": "transaction"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -221,13 +192,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/db/final/transaction.md",
+                "file": "denormalization.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of transaction"
+              "title": "Outline of denormalization"
             }
           }
         ]
@@ -255,6 +226,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "daily-notes:Open today's daily note": false,
@@ -265,52 +237,52 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5969df5ed2f4ab5f",
+  "active": "63d5e433ba9d9057",
   "lastOpenFiles": [
-    "school-26-s1/db/final/transaction 2025-12-07 13.12.06.excalidraw.md",
-    "school-26-s1/db/final/Pasted Image 20251207131214_025.png",
+    "school-26-s1/db/final/db study.md",
+    "denormalization.md",
     "school-26-s1/db/final/transaction.md",
+    "school-26-s1/db/final/normalization.md",
+    "school-26-s1/hh/proj/final/toc.md",
+    "school-26-s1/hh/proj/final/lit.md",
+    "school-26-s1/hh/proj/final/int_proposal.md",
+    "school-26-s1/db/final/transaction 2025-12-07 13.12.06.excalidraw.md",
     "school-26-s1/db/final/transaction 2025-12-07 13.01.27.excalidraw.md",
-    "school-26-s1/db/final/Pasted Image 20251207130235_187.png",
     "school-26-s1/db/final/transaction 2025-12-07 12.54.41.excalidraw.md",
-    "school-26-s1/db/final/Pasted Image 20251207125510_848.png",
-    "exam-1-review.md",
-    "misc_images/Pasted image 20251010213007.png",
-    "school-26-s1/db/final/Pasted image 20251207124822.png",
     "school-26-s1/db/final/transaction 2025-12-07 12.28.15.excalidraw.md",
-    "school-26-s1/db/final/Pasted image 20251207123944.png",
-    "Excalidraw/Drawing 2025-12-07 12.31.35.excalidraw.md",
-    "school-26-s1/db/final/Pasted Image 20251207122832_973.png",
     "school-26-s1/db/final/transaction 2025-12-07 12.28.08.excalidraw.md",
     "school-26-s1/db/final/transaction 2025-12-07 12.19.16.excalidraw.md",
-    "school-26-s1/db/final/Pasted Image 20251207122353_831.png",
-    "Untitled.md",
-    "Untitled 1.md",
-    "school-26-s1/db/final/transaction 2025-12-07 12.17.12.excalidraw.md",
-    "school-26-s1/finals/plan.md",
     "school-26-s1/db/final/transaction 2025-12-07 12.17.51.excalidraw.md",
-    "Excalidraw/Drawing 2025-12-07 12.16.35.excalidraw.md",
-    "Excalidraw/Drawing 2025-12-07 12.16.58.excalidraw.md",
-    "school-26-s1/db/final/db study.md",
-    "Excalidraw/Drawing 2025-12-07 12.11.45.excalidraw.md",
-    "Excalidraw/Drawing 2025-12-07 12.05.56.excalidraw.md",
-    "Excalidraw",
-    "school-26-s1/bios/ex/1/cheatsheet.md",
-    "school-26-s1/bios/ex/2/cheatsheet2.md",
+    "school-26-s1/db/final/transaction 2025-12-07 12.17.12.excalidraw.md",
+    "school-26-s1/db/final/Pasted image 20251207124822.png",
+    "school-26-s1/db/final/Pasted image 20251207123944.png",
+    "school-26-s1/db/final/Pasted Image 20251207131214_025.png",
+    "school-26-s1/db/final/Pasted Image 20251207130235_187.png",
+    "school-26-s1/db/final/Pasted Image 20251207125510_848.png",
+    "school-26-s1/db/final/Pasted Image 20251207122832_973.png",
+    "school-26-s1/db/final/Pasted Image 20251207122353_831.png",
     "school-26-s1/bios/ex/final/bios study.md",
-    "school-26-s1/hh/proj/final/lit.md",
-    "school-26-s1/hh/proj/final/toc.md",
     "school-26-s1/bios/ex/final",
-    "school-26-s1/db/final/normalization.md",
+    "misc_images/Pasted image 20251010213007.png",
+    "misc_images/Pasted image 20251010212322.png",
+    "Excalidraw/Drawing 2025-12-07 12.31.35.excalidraw.md",
+    "Excalidraw",
+    "school-26-s1/hh/proj/final/Proposal.md",
     "school-26-s1/db/final/Pasted image 20251204095311.png",
-    "school-26-s1/db/final/Pasted image 20251203162244.png",
-    "school-26-s1/db/final",
+    "conflict-files-obsidian-git.md",
+    "school-26-s1/finals/plan.md",
     "school-26-s1/finals",
+    "school-26-s1/db/final/study.md",
+    "school-26-s1/db/final",
+    "school-26-s1/db/hw/hw4.md",
+    "school-26-s1/bios/ex/3/cheatsheet.md",
     "school-26-s1/hh/proj/final",
+    "hbc/fproj/data/transfer.md",
+    "school-26-s1/arts/zine.md",
+    "school-26-s1/bios/ex/3/icr.md",
     "school-26-s1/arts",
     "school-26-s1/hh/proj",
     "school-26-s1/bios/ex/3",
