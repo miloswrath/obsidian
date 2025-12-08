@@ -8,49 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3e1f36c4e409ba59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "school-26-s1/finals/plan.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "plan"
-            }
-          },
-          {
-            "id": "8007d34e5e4c152a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "school-26-s1/bios/ex/final/bios study.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "bios study"
-            }
-          },
-          {
-            "id": "ee9ee7c444bc0e7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "school-26-s1/db/final/db study.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "db study"
-            }
-          },
-          {
-            "id": "5969df5ed2f4ab5f",
+            "id": "63d5e433ba9d9057",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,9 +20,36 @@
               "icon": "lucide-file",
               "title": "zine"
             }
+          },
+          {
+            "id": "55a0e76d78c10470",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "school-26-s1/db/final/transaction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "transaction"
+            }
+          },
+          {
+            "id": "abc487a436cc0cea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "denormalization.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "denormalization"
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +61,7 @@
       {
         "id": "80ccd4906b5d240f",
         "type": "tabs",
-        "dimension": 67.56756756756756,
+        "dimension": 70.06237006237006,
         "children": [
           {
             "id": "59fa5a7f9af2f8ac",
@@ -123,7 +108,7 @@
       {
         "id": "db10d1fb91e2b3b0",
         "type": "tabs",
-        "dimension": 32.432432432432435,
+        "dimension": 29.93762993762994,
         "children": [
           {
             "id": "4e9a00619e7f4d83",
@@ -139,7 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 334
   },
   "right": {
     "id": "b976ac93fcbecb71",
@@ -166,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "school-26-s1/db/ex/ex1/take-home.md",
+                "file": "school-26-s1/arts/zine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for take-home"
+              "title": "Backlinks for zine"
             }
           },
           {
@@ -200,12 +185,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "school-26-s1/bios/ex/2/Random Variables.md",
+                "file": "school-26-s1/arts/zine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Random Variables"
+              "title": "Outgoing links from zine"
             }
           }
         ]
@@ -255,8 +240,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "bases:Create new base": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
@@ -265,52 +251,51 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5969df5ed2f4ab5f",
+  "active": "63d5e433ba9d9057",
   "lastOpenFiles": [
     "school-26-s1/arts/Pasted image 20251208143708.png",
     "school-26-s1/arts/Pasted image 20251208143657.png",
-    "school-26-s1/db/final/transaction.md",
     "denormalization.md",
-    "Pasted image 20251208090106.png",
+    "school-26-s1/arts/zine.md",
+    "school-26-s1/db/final/transaction.md",
     "Excalidraw/denormalization 2025-12-08 10.19.02.excalidraw.md",
-    "Excalidraw/denormalization 2025-12-08 10.12.47.excalidraw.md",
-    "Excalidraw/denormalization 2025-12-08 10.09.14.excalidraw.md",
     "Excalidraw/Pasted Image 20251208102004_231.png",
+    "Excalidraw/denormalization 2025-12-08 10.12.47.excalidraw.md",
     "Excalidraw/Pasted Image 20251208101348_506.png",
+    "Excalidraw/denormalization 2025-12-08 10.09.14.excalidraw.md",
     "Excalidraw/Pasted Image 20251208101010_783.png",
+    "school-26-s1/db/final/db study.md",
+    "Pasted image 20251208090106.png",
+    "school-26-s1/db/final/normalization.md",
+    "school-26-s1/hh/proj/final/toc.md",
+    "school-26-s1/hh/proj/final/lit.md",
+    "school-26-s1/hh/proj/final/int_proposal.md",
     "school-26-s1/db/final/transaction 2025-12-07 13.12.06.excalidraw.md",
-    "school-26-s1/db/final/Pasted Image 20251207131214_025.png",
     "school-26-s1/db/final/transaction 2025-12-07 13.01.27.excalidraw.md",
-    "school-26-s1/db/final/Pasted Image 20251207130235_187.png",
     "school-26-s1/db/final/transaction 2025-12-07 12.54.41.excalidraw.md",
-    "school-26-s1/db/final/Pasted Image 20251207125510_848.png",
-    "exam-1-review.md",
-    "misc_images/Pasted image 20251010213007.png",
-    "school-26-s1/db/final/Pasted image 20251207124822.png",
     "school-26-s1/db/final/transaction 2025-12-07 12.28.15.excalidraw.md",
-    "Excalidraw/Drawing 2025-12-07 12.31.35.excalidraw.md",
     "school-26-s1/db/final/transaction 2025-12-07 12.28.08.excalidraw.md",
     "school-26-s1/db/final/transaction 2025-12-07 12.19.16.excalidraw.md",
-    "Untitled.md",
-    "Untitled 1.md",
-    "school-26-s1/db/final/transaction 2025-12-07 12.17.12.excalidraw.md",
-    "school-26-s1/finals/plan.md",
     "school-26-s1/db/final/transaction 2025-12-07 12.17.51.excalidraw.md",
-    "Excalidraw/Drawing 2025-12-07 12.16.35.excalidraw.md",
-    "Excalidraw/Drawing 2025-12-07 12.16.58.excalidraw.md",
-    "school-26-s1/db/final/db study.md",
-    "Excalidraw/Drawing 2025-12-07 12.11.45.excalidraw.md",
-    "Excalidraw/Drawing 2025-12-07 12.05.56.excalidraw.md",
-    "Excalidraw",
-    "school-26-s1/bios/ex/1/cheatsheet.md",
-    "school-26-s1/bios/ex/2/cheatsheet2.md",
+    "school-26-s1/db/final/transaction 2025-12-07 12.17.12.excalidraw.md",
+    "school-26-s1/db/final/Pasted image 20251207124822.png",
+    "school-26-s1/db/final/Pasted image 20251207123944.png",
+    "school-26-s1/db/final/Pasted Image 20251207131214_025.png",
+    "school-26-s1/db/final/Pasted Image 20251207130235_187.png",
+    "school-26-s1/db/final/Pasted Image 20251207125510_848.png",
+    "school-26-s1/bios/ex/final/bios study.md",
     "school-26-s1/bios/ex/final",
-    "school-26-s1/db/final",
+    "Excalidraw/Drawing 2025-12-07 12.31.35.excalidraw.md",
+    "Excalidraw",
+    "school-26-s1/hh/proj/final/Proposal.md",
+    "conflict-files-obsidian-git.md",
+    "school-26-s1/finals/plan.md",
     "school-26-s1/finals",
+    "school-26-s1/db/final/study.md",
+    "school-26-s1/db/final",
     "school-26-s1/hh/proj/final",
     "school-26-s1/arts",
     "school-26-s1/hh/proj",
