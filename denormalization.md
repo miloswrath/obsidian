@@ -20,3 +20,22 @@
 4. Adding redundant columns (reference data)
 5. Derived attributes (perform aggregates as a trigger function)
 
+### Collapsing Tables
+---
+![[denormalization 2025-12-08 10.09.14.excalidraw]]
+
+### Splitting Tables
+---
+> Split tables one of two ways which accomplish different goals
+#### Horizontal Split
+---
+**GOAL**: 
+- Spreading rows out to exploit parallelism
+- Reduce computational complexity of queries with `WHERE` clause
+- Also might help with reducing downtime effects. 
+	- e.g. one table for US one for UK, if US goes down UK is still up
+*Diagram*
+![[denormalization 2025-12-08 10.12.47.excalidraw]]
+#### Vertical Splitting
+---
+- This is not typically used for **denormalization** but for normalization. Thus, we will not go further into this. 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "denormalization.md",
+                "file": "school-26-s1/arts/zine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "denormalization"
+              "title": "zine"
             }
           },
           {
@@ -34,8 +34,23 @@
               "icon": "lucide-file",
               "title": "transaction"
             }
+          },
+          {
+            "id": "abc487a436cc0cea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "denormalization.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "denormalization"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -240,12 +255,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63d5e433ba9d9057",
+  "active": "abc487a436cc0cea",
   "lastOpenFiles": [
-    "Pasted image 20251208090106.png",
-    "school-26-s1/db/final/db study.md",
+    "Excalidraw/denormalization 2025-12-08 10.12.47.excalidraw.md",
+    "Excalidraw/Pasted Image 20251208101348_506.png",
     "denormalization.md",
+    "Excalidraw/denormalization 2025-12-08 10.09.14.excalidraw.md",
+    "Excalidraw/Pasted Image 20251208101010_783.png",
+    "school-26-s1/db/final/db study.md",
     "school-26-s1/db/final/transaction.md",
+    "school-26-s1/arts/zine.md",
+    "Pasted image 20251208090106.png",
     "school-26-s1/db/final/normalization.md",
     "school-26-s1/hh/proj/final/toc.md",
     "school-26-s1/hh/proj/final/lit.md",
@@ -267,22 +287,16 @@
     "school-26-s1/db/final/Pasted Image 20251207122353_831.png",
     "school-26-s1/bios/ex/final/bios study.md",
     "school-26-s1/bios/ex/final",
-    "misc_images/Pasted image 20251010213007.png",
-    "misc_images/Pasted image 20251010212322.png",
     "Excalidraw/Drawing 2025-12-07 12.31.35.excalidraw.md",
     "Excalidraw",
     "school-26-s1/hh/proj/final/Proposal.md",
-    "school-26-s1/db/final/Pasted image 20251204095311.png",
     "conflict-files-obsidian-git.md",
     "school-26-s1/finals/plan.md",
     "school-26-s1/finals",
     "school-26-s1/db/final/study.md",
     "school-26-s1/db/final",
     "school-26-s1/db/hw/hw4.md",
-    "school-26-s1/bios/ex/3/cheatsheet.md",
     "school-26-s1/hh/proj/final",
-    "hbc/fproj/data/transfer.md",
-    "school-26-s1/arts/zine.md",
     "school-26-s1/arts",
     "school-26-s1/hh/proj",
     "school-26-s1/bios/ex/3",
