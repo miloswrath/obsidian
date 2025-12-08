@@ -59,7 +59,7 @@
 ## Back Cover
 ---
 ![[Pasted image 20251117201832.png]]
-![[Pasted image 20251117201853.png]]
+
 
 
 
