@@ -5,7 +5,7 @@
 How to become a nihilist in 6 easy steps
 ![[Pasted image 20251208143657.png]]
 Title: Despair. _Artist/Maker: Bertha Wegmann_
-s maybe>???A/,xlkj,adhkjsa
+
 ## War
 ---
 Step 1: Begin as a number.
