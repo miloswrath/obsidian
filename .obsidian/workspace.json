@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "63d5e433ba9d9057",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "school-26-s1/arts/zine.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "zine"
-            }
-          },
-          {
             "id": "55a0e76d78c10470",
             "type": "leaf",
             "state": {
@@ -33,20 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "transaction"
-            }
-          },
-          {
-            "id": "abc487a436cc0cea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "denormalization.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "denormalization"
             }
           }
         ]
@@ -206,13 +178,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/arts/zine.md",
+                "file": "school-26-s1/db/final/transaction.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of zine"
+              "title": "Outline of transaction"
             }
           }
         ]
@@ -254,12 +226,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63d5e433ba9d9057",
+  "active": "f357b4b284552d7a",
   "lastOpenFiles": [
+    "school-26-s1/arts/zine.md",
+    "denormalization.md",
     "school-26-s1/arts/Pasted image 20251208143708.png",
     "school-26-s1/arts/Pasted image 20251208143657.png",
-    "denormalization.md",
-    "school-26-s1/arts/zine.md",
     "school-26-s1/db/final/transaction.md",
     "Excalidraw/denormalization 2025-12-08 10.19.02.excalidraw.md",
     "Excalidraw/Pasted Image 20251208102004_231.png",
@@ -285,7 +257,6 @@
     "school-26-s1/db/final/Pasted image 20251207123944.png",
     "school-26-s1/db/final/Pasted Image 20251207131214_025.png",
     "school-26-s1/db/final/Pasted Image 20251207130235_187.png",
-    "school-26-s1/db/final/Pasted Image 20251207125510_848.png",
     "school-26-s1/bios/ex/final/bios study.md",
     "school-26-s1/bios/ex/final",
     "Excalidraw/Drawing 2025-12-07 12.31.35.excalidraw.md",
