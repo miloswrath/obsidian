@@ -55,16 +55,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "school-26-s1/bios/hw/GILLIAM-Zak-HW7.md",
+                "file": "hbc/fproj/code/post-init-gaf.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GILLIAM-Zak-HW7"
+              "title": "post-init-gaf"
+            }
+          },
+          {
+            "id": "e084319282a54e7c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "hbc/fproj/code/post-init-gaf 2025-12-10 17.34.36.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "post-init-gaf 2025-12-10 17.34.36.excalidraw"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -221,13 +233,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/bios/hw/GILLIAM-Zak-HW7.md",
+                "file": "hbc/fproj/code/post-init-gaf 2025-12-10 17.34.36.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of GILLIAM-Zak-HW7"
+              "title": "Outline of post-init-gaf 2025-12-10 17.34.36.excalidraw"
             }
           }
         ]
@@ -269,8 +281,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d62207b72a433709",
+  "active": "e084319282a54e7c",
   "lastOpenFiles": [
+    "hbc/fproj/code/Pasted Image 20251210174243_150.png",
+    "hbc/fproj/code/post-init-gaf.md",
+    "hbc/fproj/code/post-init-gaf 2025-12-10 17.34.36.excalidraw.md",
+    "school-26-s1/bios/hw/GILLIAM-Zak-HW7.md",
+    "hbc/fproj/code",
     "school-26-s1/bios/hw/Pasted image 20251210145627.png",
     "school-26-s1/bios/hw/Pasted image 20251210145608.png",
     "school-26-s1/bios/hw/Pasted image 20251210145559.png",
@@ -279,7 +296,6 @@
     "school-26-s1/bios/hw/Pasted image 20251210144921.png",
     "school-26-s1/bios/hw/Pasted image 20251210142207.png",
     "school-26-s1/bios/hw/h4.md",
-    "school-26-s1/bios/hw/GILLIAM-Zak-HW7.md",
     "denormalization.md",
     "Excalidraw/denormalization 2025-12-10 13.11.22.excalidraw.md",
     "school-26-s1/db/final/transaction.md",
@@ -290,7 +306,6 @@
     "Excalidraw/denormalization 2025-12-08 10.19.02.excalidraw.md",
     "Excalidraw/Pasted Image 20251208102004_231.png",
     "Excalidraw/denormalization 2025-12-08 10.12.47.excalidraw.md",
-    "Excalidraw/Pasted Image 20251208101348_506.png",
     "Excalidraw/denormalization 2025-12-08 10.09.14.excalidraw.md",
     "school-26-s1/db/final/db study.md",
     "school-26-s1/db/final/normalization.md",
@@ -305,9 +320,7 @@
     "school-26-s1/db/final/transaction 2025-12-07 12.19.16.excalidraw.md",
     "school-26-s1/db/final/transaction 2025-12-07 12.17.51.excalidraw.md",
     "school-26-s1/db/final/transaction 2025-12-07 12.17.12.excalidraw.md",
-    "school-26-s1/bios/ex/final/bios study.md",
     "school-26-s1/bios/ex/final",
-    "Excalidraw/Drawing 2025-12-07 12.31.35.excalidraw.md",
     "Excalidraw",
     "school-26-s1/finals",
     "school-26-s1/db/final",
@@ -316,7 +329,6 @@
     "school-26-s1/hh/proj",
     "school-26-s1/bios/ex/3",
     "school-26-s1/serv/assignments",
-    "school-26-s1/serv",
     "school-26-s1/db/Untitled.canvas",
     "Untitled.canvas"
   ]
