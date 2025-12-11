@@ -33,8 +33,7 @@
               "title": "bios study"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/bios/ex/final/bios study.md",
+                "file": "hbc/fproj/code/post-init-gaf 2025-12-10 17.34.36.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of bios study"
+              "title": "Outline of post-init-gaf 2025-12-10 17.34.36.excalidraw"
             }
           }
         ]
@@ -240,11 +239,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c0faa52be6c42cbd",
+  "active": "ec8ba64b0e898389",
   "lastOpenFiles": [
+    "school-26-s1/bios/ex/final/bios study.md",
     "hbc/fproj/code/post-init-gaf 2025-12-10 17.34.36.excalidraw.md",
     "hbc/fproj/code/post-init-gaf.md",
-    "school-26-s1/bios/ex/final/bios study.md",
     "conflict-files-obsidian-git.md",
     "school-26-s1/db/final/transaction.md",
     "school-26-s1/bios/hw/Pasted image 20251210145627.png",

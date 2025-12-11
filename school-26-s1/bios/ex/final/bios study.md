@@ -53,4 +53,27 @@ New material:
 - **No Regression Coefficient Calculation**
 - Should know what assumptions are
 - Should know Equivalence of:
-		$\beta = 0 \text{EQUIVALENT TO} H_0:\ro = 0
+		$\beta = 0 \\ \text{  EQUIVALENT TO  }\\  H_0:p = 0$ 
+	- and conduct test for a given $r$
+
+### Rates/Standardization
+---
+**NO DIRECT OR INDIRECT STD CALCULATIONS**
+- Know the theory and applications of them
+- Know crude rates
+- Know specific rates
+
+### Others
+---
+**NO CALCULATION OF POWER OF A TEST**
+- Still know what power is
+- Be able to use it in a sample size calculation
+- Know how $\beta$ relates to errors, sample size, etc.
+
+5 Problems, 1 set of multiple choice
+150 points
+M.C./T.F. mostly focused on new material
+	14% of the exam
+40% is new material
+Remainder is other units (~20% per other unit)
+
