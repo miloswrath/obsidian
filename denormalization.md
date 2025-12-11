@@ -1,5 +1,4 @@
-![[denormalization 2025-12-10 13.11.22.excalidraw]]## What/Why
----
+
 *Heavily normalized tables have slow performance in large scale settings because the required number of joins and cross-table operations required goes up as we remove dependencies. There could also be a table with too many rows, so splitting tables again might help query performance.*
 
 ![[Pasted image 20251208090106.png]]
