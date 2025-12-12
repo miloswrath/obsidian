@@ -90,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -248,13 +248,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/db/final/final_review 2025-12-12 12.48.31.excalidraw.md",
+                "file": "school-26-s1/db/final/final_review.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of final_review 2025-12-12 12.48.31.excalidraw"
+              "title": "Outline of final_review"
             }
           }
         ]
@@ -296,10 +296,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a19f8db3a32e18be",
+  "active": "96ebdd24ceea7916",
   "lastOpenFiles": [
-    "school-26-s1/db/final/normalization.md",
     "school-26-s1/db/final/final_review 2025-12-12 12.48.31.excalidraw.md",
+    "school-26-s1/db/final/normalization.md",
     "school-26-s1/db/final/final_review.md",
     "school-26-s1/db/final/db study.md",
     "database design.md",
