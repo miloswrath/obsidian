@@ -34,7 +34,7 @@ Changes are made in local cache before comitting, so other concurrently running 
 **C**onsistency - transactions transform DB from one consistent state to another
 **I**solation - Partial effects of one transaction aren't visible to other concurrent workers
 **D**urability - Effects of a comitted transaction are permanent and must not be lost due
-	to later failure
+			to later failure
 
 *Transaction Subsystem Diagram*
 ![[Pasted image 20251207124822.png]]
