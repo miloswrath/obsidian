@@ -90,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -248,13 +248,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hbc/fproj/code/post-init-gaf.md",
+                "file": "hbc/fproj/code/post-init-gaf 2025-12-12 10.28.25.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of post-init-gaf"
+              "title": "Outline of post-init-gaf 2025-12-12 10.28.25.excalidraw"
             }
           }
         ]
@@ -296,10 +296,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1decd2da3ef303a9",
+  "active": "022052ca2986e8f1",
   "lastOpenFiles": [
-    "hbc/fproj/code/post-init-gaf 2025-12-12 10.28.25.excalidraw.md",
     "hbc/fproj/code/post-init-gaf.md",
+    "hbc/fproj/code/post-init-gaf 2025-12-12 10.28.25.excalidraw.md",
     "hbc/fproj/code/post-init-gaf 2025-12-10 17.34.36.excalidraw.md",
     "procedures.md",
     "school-26-s1/db/final/final_review.md",
