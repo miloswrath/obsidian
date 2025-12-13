@@ -69,8 +69,12 @@ You are given the relation **Surgeries** to track surgeries at a hospital. A **P
 **Reponses**
 *A*
 SurgeonID -> speciality
-OR_ID, SurgeryDate -> ProcedureCode, StartTime, PatientCount, StdMinutes, Speciality
 ProcedureCode -> StdMinutes
+OR_ID, SurgeryDate, StartTime -> ProcedureCode, SurgeonID, PatientCount, StdMinutes, Speciality
 
 *B*
-There are both partial (SurgeonId, OR_ID, SurgeryDate -> StdMinutes, Speciality) and transitive ()
+There are both partial (OR_ID, SurgeryDate -> StdMinutes) and transitive (OR_ID,SurgeryData,StartTime -> SurgeonID -> specialty)
+
+*C*
+Procedures(ProcedureCode, StdMinutes)
+Surgeons(SurgeonID, Specialty)
