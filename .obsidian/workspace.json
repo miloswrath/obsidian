@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -220,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/db/final/transaction.md",
+                "file": "school-26-s1/db/final/final_review.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of transaction"
+              "title": "Outline of final_review"
             }
           }
         ]
@@ -268,12 +268,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7595699a0d937f06",
+  "active": "05ea791b482f5737",
   "lastOpenFiles": [
-    "school-26-s1/db/final/db study.md",
-    "school-26-s1/db/final/final_review.md",
-    "school-26-s1/hh/proj/final/int_proposal.md",
     "school-26-s1/db/final/transaction.md",
+    "school-26-s1/db/final/final_review.md",
+    "school-26-s1/db/final/db study.md",
+    "school-26-s1/hh/proj/final/int_proposal.md",
     "database design.md",
     "procedures.md",
     "school-26-s1/hh/proj/final/toc.md",
