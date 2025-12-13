@@ -97,3 +97,15 @@ WHERE credits < 30;
 *How many distinct tuples? (same assumptions)*
 $T(R) * \cfrac{(val - min)}{(max - min)} = 10000 * \cfrac{30 - 1}{126 - 1 } \approx 2320 \\ \text{   tuples}$
 ![[query processing 2025-12-13 11.14.19.excalidraw]]
+
+### AND Estimation
+---
+**There are three different cases for the `AND` condition**
+1. The tuples are *disjoint* - There are matches between two conditions
+2. The conditions are *independent* there will be **multiple** estimates
+3. The conditions *fully overlap* take the **minimum** of estimates
+>It's usually best to assume independence unless you know otherwise
+
+**If Independent**
+Mutiple selectivity factors
+$\approx 10000 * (\cfrac{30-1}{126-1} * \$
