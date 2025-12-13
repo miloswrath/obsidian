@@ -1,3 +1,5 @@
+## Story Problems
+>Identifying FDs, normal forms, and then further normalizing
 ### Example Problem 1: Airline Flights
 
 You are given the relation **FlightRuns** to track airline flights. A **RouteID** defines a fixed route (origin/destination) and a standard scheduled duration. Over time, different aircraft may be used for the same route, but only **one aircraft** operates a specific route on a specific **FlightDate**.
@@ -78,3 +80,23 @@ There are both partial (OR_ID, SurgeryDate -> StdMinutes) and transitive (OR_ID,
 *C*
 Procedures(ProcedureCode, StdMinutes)
 Surgeons(SurgeonID, Specialty)
+
+
+## FD Problems
+---
+![[normalization_pps 2025-12-13 17.12.02.excalidraw]]
+
+**R(A, B, C, D, E, F, G)**  
+**Q = { A → BC, B → C, CD → E, E → G }**
+
+**R(A, B, C, D, E, F, G)**  
+**Q = { AB → CD, A → C, C → D, D → E }**
+
+![[normalization_pps 2025-12-13 17.15.32.excalidraw]]
+
+Consider the relational schema [ A B C D E F G ] with Functional Dependencies  
+AB -> CD,  
+D -> EF,  
+CF -> G,  
+FG -> A  
+Give all minimal keys for this relational schem![[normalization_pps 2025-12-13 17.34.13.excalidraw]]a
