@@ -37,7 +37,7 @@ In the RA step, the RDBMS does what's called **Plan Enumeration**
 	- Order largely determines the efficiency of the query 
 - **Simplifies queries and makes them faster**
 
-## Query RA Plans
+## Query RA Plans & Equivalences
 ---
 
 ### Project
@@ -46,4 +46,15 @@ Only project what you need!
 ![[Pasted image 20251212165531.png]]
 
 ### Project & Union
+---
+![[Pasted image 20251212170051.png]]
+* Make sure the **schema matches**
+* *may not work with set difference or intersection*
+
+### Select & Project
+---
+![[Pasted image 20251212170234.png]]
+- Only if **C** references attrs in **A**
+
+### Select & AND
 ---
