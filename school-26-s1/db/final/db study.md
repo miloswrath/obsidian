@@ -21,3 +21,10 @@
 
 ### In class Final Review
 [[final_review]]
+
+## Practice Problems
+---
+- [[normalization_pps]]
+- transaction
+- procedures
+- query processing
