@@ -51,14 +51,14 @@
             "id": "05ea791b482f5737",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "school-26-s1/db/final/final_review.md",
-                "mode": "source",
-                "source": false
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "final_review"
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git"
             }
           },
           {
@@ -234,13 +234,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "school-26-s1/db/final/final_review.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of final_review"
+              "title": "Outline"
             }
           }
         ]
@@ -282,7 +281,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "05ea791b482f5737",
+  "active": "f357b4b284552d7a",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "school-26-s1/db/final/final_review.md",
