@@ -52,10 +52,10 @@
 ![[security 2025-12-13 13.11.47.excalidraw]]
 #### DAC ACMs
 ---
-- Security Through Views
-- Stored Procedures
-- Grant & Revoke
-- Query Modification
+- [[#Security Through Views]]
+- [[#Stored Procedures]]
+- [[#Grant & Revoke]]
+- [[#Query Modification]]
 ##### Security Through Views
 ---
 >Assign rights to access predefined views
@@ -68,3 +68,45 @@ FROM STUDENT
 WHERE grade > B
 ```
 Then give users access to read this 
+
+**This is difficult to maintain with updates**
+##### Stored Procedures
+---
+- Assign rights to execute stored procedures to users, then they can modify but only a predefined way
+```SQL
+GRANT RUN ON <program> TO <user>
+```
+**Programs may access resources that the user shouldn't have access to**
+
+##### Grant & Revoke
+---
+```SQL
+GRANT <privilege> ON <relation>
+TO <user>
+[WITH GRANT OPTION]
+```
+![[security 2025-12-13 13.22.44.excalidraw]]
+**Or give all users access using `PUBLIC` keyword**
+```SQL
+GRANT SELECT ON Branch
+TO PUBLIC;
+```
+![[Pasted image 20251213132453.png]]
+**Cascading vs. Non-cascading Revoke**
+![[Pasted image 20251213132559.png]]
+![[Pasted image 20251213132611.png]]
+##### Query Modification
+---
+>Modify queries post run to make sure they can only access what they are allowed to
+
+**EX**
+![[Pasted image 20251213132718.png]]
+### Mandatory Access Control
+---
+- Access rights are defined by comparing security classification of requested object with the clearance of the subject
+- If rules are satisfied access is permitted, otherwise rejected
+- **Granularity** of access rights
+
+
+
+
