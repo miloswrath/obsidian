@@ -1,3 +1,6 @@
+Question on 2PL - growing/shrinking locks
+ - table type question with comments for locks
+ - 
 ## Written questions
 ![[final_review 2025-12-12 12.48.31.excalidraw]]
 
