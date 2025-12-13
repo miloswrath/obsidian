@@ -106,6 +106,63 @@ $T(R) * \cfrac{(val - min)}{(max - min)} = 10000 * \cfrac{30 - 1}{126 - 1 } \app
 3. The conditions *fully overlap* take the **minimum** of estimates
 >It's usually best to assume independence unless you know otherwise
 
+EX
+```SQL
+SELECT * FROM STUDENT
+WHERE credits < 30
+AND lastname = "Happy";
+```
 **If Independent**
 Mutiple selectivity factors
-$\approx 10000 * (\cfrac{30-1}{126-1} * \$
+$\approx 10000 * (\cfrac{30-1}{126-1} * \cfrac{1}{9500}) \approx 0.244$
+**If overlap**
+Take the minimum
+$\approx 10000 * min[\cfrac{30-1}{126-1}, \ \cfrac{1}{9500}] \approx 1.053$
+
+### OR Estimation
+---
+**There are only two cases here**
+1. Conditions are *disjoint* - So **add** the estimates
+2. Conditions fully overlap, take the **maximum** of estimates
+>Assume disjoint here
+
+EX
+```SQL
+SELECT * FROM Student
+WHERE credits < 30
+OR lastname = "Happy";
+```
+**RA plan**
+![[query processing 2025-12-13 11.51.15.excalidraw]]
+![[Pasted image 20251213115452.png]]
+
+### Joins
+---
+![[Pasted image 20251213115638.png]]
+***Cartesian***
+```SQL
+SELECT *
+FROM Student, Enroll;
+```
+*No `WHERE` condition so just multiply!*
+$T(Student) * T(Enroll) = 10000*9500 \ \text{  tuples}$
+
+***Natural Join***
+```SQL
+SELECT *
+FROM Student
+NATURAL JOIN Enroll;
+```
+![[query processing 2025-12-13 11.59.42.excalidraw]]
+*Steps*
+1. Start with cartesian Product
+	$T(Student) * T(Enroll)$
+2. If there are `studid` that match in each relation
+3. How many times does `sid0` occur? (some theoretical value)
+	$\text{Selectivity Factor  } = \cfrac{1}{V(Student, studId)} * \cfrac{1}{V(Enroll, studId)}$
+4. How many distinct values of `sid0` appear in the join?
+	$\le min\{V(Student, studId), V(Enroll, studId\}$
+*Now we have the total # of tuples, the selectvity factors and distinct value set for a theoretical ID (probabilities, essentially) so just multiply!!!*
+$$
+\cfrac{T(Student) * T(Enroll)}{V(Student, \ studId)*V(Enroll, \ studId)} * min \{V(Student, \ studId), V(Enroll, \ studId)\}
+$$
