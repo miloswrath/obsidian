@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "05ea791b482f5737",
+            "id": "5b6f90ef7e3875fe",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
@@ -62,21 +62,21 @@
             }
           },
           {
-            "id": "5b6f90ef7e3875fe",
+            "id": "0ba3c5df5bb06990",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
+                "file": "school-26-s1/db/final/final_review.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git"
+              "icon": "lucide-file",
+              "title": "final_review"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -234,12 +234,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "school-26-s1/db/final/final_review.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of final_review"
             }
           }
         ]
@@ -281,7 +282,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f357b4b284552d7a",
+  "active": "0ba3c5df5bb06990",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "school-26-s1/db/final/final_review.md",
