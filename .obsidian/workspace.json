@@ -60,6 +60,20 @@
               "icon": "lucide-file",
               "title": "final_review"
             }
+          },
+          {
+            "id": "5b6f90ef7e3875fe",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git"
+            }
           }
         ],
         "currentTab": 3
@@ -270,8 +284,17 @@
   },
   "active": "05ea791b482f5737",
   "lastOpenFiles": [
-    "school-26-s1/db/final/transaction.md",
+    "conflict-files-obsidian-git.md",
     "school-26-s1/db/final/final_review.md",
+    "school-26-s1/db/final/final_review 2025-12-12 12.48.31.excalidraw.md",
+    "query processing.md",
+    "hbc/fproj/code/post-init-gaf 2025-12-12 10.28.25.excalidraw.md",
+    "Pasted image 20251212165531.png",
+    "Pasted image 20251212164926.png",
+    "Pasted image 20251212164821.png",
+    "Pasted image 20251212162642.png",
+    "Excalidraw/query processing 2025-12-12 16.30.07.excalidraw.md",
+    "school-26-s1/db/final/transaction.md",
     "school-26-s1/db/final/db study.md",
     "school-26-s1/hh/proj/final/int_proposal.md",
     "database design.md",
@@ -281,32 +304,23 @@
     "Pasted image 20251211125415.png",
     "school-26-s1/bios/ex/final/bios study.md",
     "hbc/fproj/code/post-init-gaf.md",
-    "conflict-files-obsidian-git.md",
     "school-26-s1/bios/hw/Pasted image 20251210145627.png",
     "school-26-s1/bios/hw/Pasted image 20251210145608.png",
     "school-26-s1/bios/hw/Pasted image 20251210145559.png",
     "school-26-s1/bios/hw/Pasted image 20251210145554.png",
     "school-26-s1/bios/hw/Pasted image 20251210145548.png",
-    "school-26-s1/bios/hw/Pasted image 20251210144921.png",
-    "school-26-s1/bios/hw/Pasted image 20251210142207.png",
     "school-26-s1/bios/hw/GILLIAM-Zak-HW7.md",
     "school-26-s1/arts/zine 2025-12-10 11.20.17.excalidraw.md",
-    "hbc/fproj/code/Pasted Image 20251210174243_150.png",
     "hbc/fproj/code",
     "Untitled.md",
     "Excalidraw/denormalization 2025-12-10 13.11.22.excalidraw.md",
     "school-26-s1/arts/zine.md",
     "denormalization.md",
-    "school-26-s1/arts/Pasted image 20251208143708.png",
     "Excalidraw/denormalization 2025-12-08 10.19.02.excalidraw.md",
     "Excalidraw/denormalization 2025-12-08 10.12.47.excalidraw.md",
     "Excalidraw/denormalization 2025-12-08 10.09.14.excalidraw.md",
     "school-26-s1/db/final/normalization.md",
     "school-26-s1/hh/proj/final/lit.md",
-    "school-26-s1/db/final/transaction 2025-12-07 13.12.06.excalidraw.md",
-    "school-26-s1/db/final/transaction 2025-12-07 13.01.27.excalidraw.md",
-    "school-26-s1/db/final/transaction 2025-12-07 12.54.41.excalidraw.md",
-    "school-26-s1/db/final/transaction 2025-12-07 12.28.15.excalidraw.md",
     "school-26-s1/bios/ex/final",
     "Excalidraw",
     "school-26-s1/finals",
