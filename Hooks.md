@@ -28,9 +28,16 @@ function Example({ reactiveValue1 }) => {
 	const [ reactiveValue2, setReactiveValue2 ] = useState{Null};
 	
 	useEffect(() => { 
+		
 		const initVal1 = initVal(reactiveValue1);
-		const init
-	)}
+		const initVal2 = initVal(reactiveValue2);
+		
+		doSomething(initVal1, initVal2);
+		
+		return () =>
+			undoSomething(initVal1, initVal2);
+			
+	}, [reactiveValue1, reactiveValue2]);
 }
 ```
 
