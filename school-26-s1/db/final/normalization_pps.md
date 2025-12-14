@@ -99,4 +99,6 @@ AB -> CD,
 D -> EF,  
 CF -> G,  
 FG -> A  
-Give all minimal keys for this relational schem![[normalization_pps 2025-12-13 17.34.13.excalidraw]]a
+Give all minimal keys for this relational schema
+![[normalization_pps 2025-12-13 17.34.13.excalidraw]]
+
