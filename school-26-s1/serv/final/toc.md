@@ -6,3 +6,4 @@
 ---
 [[Hooks]]
 [[PartiQL]]
+[[NodeFuncs]]
