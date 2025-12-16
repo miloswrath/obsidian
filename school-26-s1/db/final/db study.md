@@ -26,5 +26,5 @@
 ---
 - [[normalization_pps]]
 - transaction
-- procedures
+- [[procedures]]
 - [[query processing pp]]

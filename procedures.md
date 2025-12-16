@@ -3,14 +3,15 @@
 *Procedure General Form*
 ```SQL
 CREATE PROCEDURE {procedure name}
-	(param1, param2, ..., paramn)
+	IN (param1, param2, ..., paramn)
 begin
 	{Execution Code}
 end;
 ```
 
 
-
+## Practice Problems
+---
 
 
 

@@ -1,0 +1,1 @@
+![[midterm2 2025-12-14 13.16.54.excalidraw]]
