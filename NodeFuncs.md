@@ -1,4 +1,4 @@
-## Contents
+![[NodeFuncs 2025-12-15 17.38.42.excalidraw]]## Contents
 ---
 [[#What is a Node Func?]]
 [[#Fundamental Components of a Node Func]]
