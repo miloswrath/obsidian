@@ -19,6 +19,9 @@
 [[query processing]]
 [[security]]
 
+### Cheatsheet
+[[db_cheatsheet]]
+
 ### In class Final Review
 [[final_review]]
 

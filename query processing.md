@@ -83,7 +83,7 @@ WHERE lastname = 'Happy';
 ```
 *How many tuples do we expect to be outputted?*
 (*Assume distinct value are uniformly distributed*)
-$T(R)*\cfrac{1}{V(attr)} = 10000 * 1/9500  \approx 1.05 \\ \text{   tuples}$
+$T(R)*\cfrac{1}{V(attr)} = 10000 * 1/9500  \approx 1.05 \\ \text{   *tuples*}$
 ![[query processing 2025-12-13 11.09.33.excalidraw]]
 
 
