@@ -28,6 +28,5 @@
 ## Practice Problems
 ---
 - [[normalization_pps]]
-- transaction
 - [[procedures]]
 - [[query processing pp]]

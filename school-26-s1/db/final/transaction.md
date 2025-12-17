@@ -74,4 +74,23 @@ Hence **Lost Update Problem***
 
 ![[transaction 2025-12-07 13.12.06.excalidraw]]
 
+## Conflict Serializability
+---
+#### Create a Precedence Graph
+---
+***To create a precedence graph***:
+1. For each transaction add a node.
+2. Write an array from $T_i \rightarrow T_j$ if:
+	- $T_J$ reads a value after it's written by $T_i$
+	- $T_j$ writes a value after its been written by $T_i$
+	- $T_j$ reads a value after it's been written by $T_i$ 
+3. If there is a cycle for any two nodes, it is not a conflict serializable transaction
+***Example***
+![[transaction 2025-12-16 19.58.58.excalidraw
 
+
+
+## Practice Problems
+---
+![[Pasted image 20251216200332.png]]![[transaction 2025-12-16 20.03.37.excalidraw]]
+*Not Conflict Serializable*
