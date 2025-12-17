@@ -1,17 +1,17 @@
 >What to cover
 >- Normalization/FDs x
 >- Query processing x 
->- Procedure syntax
+>- Procedure syntax x
 >- constraint/trigger syntax
->- transactions?
+>- transactions? x
 
-***FD Notes***
+### *FDs*
 ---
 **Partial Dependency** ~ (*A*, B) :LiArrowRight: C  *Where A is a PK thus B isn't needed*
 **Transitive Dependency** ~ A :LiArrowRight: B AND B :LiArrowRight: C thus indirectly A :LiArrowRight: C
 **1NF** is individual items in cells, **2NF** is remove partials, **3NF** is remove transitive, **BCNF** requires any determinant to be a candidate key
 
-***Query Processing***
+### *Query Processing*
 ---
 `WHERE a = x` ~ $T(R)*\cfrac{1}{V(attr)}$
 `WHERE A > x` ~ $T(R) * \cfrac{(val - min)}{(max - min)}$
@@ -20,7 +20,7 @@
 `OR` ~ just add the estimates
 `Cartesian Join` $T(1)*T(2)$
 
-***Procedures***
+### *Procedures*
 ---
 General Syntax:
 ```SQL
@@ -36,7 +36,7 @@ SELECT <attr or agg> INTO
 END //
 ```
 
-***Transaction***
+### *Transactions*
 ---
 ***To create a precedence graph***:
 1. For each transaction add a node.
@@ -45,4 +45,21 @@ END //
 	- $T_j$ writes a value after its been written by $T_i$
 	- $T_j$ reads a value after it's been written by $T_i$ 
 3. If there is a cycle for any two nodes, it is not a conflict serializable transaction
+
+**Lost Update** ~ One transaction overwrites another transaction before it's committed
+**Uncommitted Dependency** ~ Transaction accesses another transactions writes before its committed ( and its usually rolled back afterwards )
+**Inconsistent Analysis** ~ One $T$ reads  many values but some are overwritten by another before committing
+
+### *Triggers*
+---
+```SQL
+DELIMITER |
+CREATE TRIGGER <name>
+AFTER <insert? update?> ON <table_name>
+FOR EACH ROW
+BEGIN 
+	code;
+END |
+DELIMITER ;
+```
 
