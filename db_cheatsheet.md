@@ -15,3 +15,6 @@
 ---
 `WHERE a = x` ~ $T(R)*\cfrac{1}{V(attr)}$
 `WHERE A > x` ~ $T(R) * \cfrac{(val - min)}{(max - min)}$
+`AND` (Independent) $\approx 10000 * (\cfrac{30-1}{126-1} * \cfrac{1}{9500}) \approx 0.244$
+`AND` (Overlap)  $\approx 10000 * min[\cfrac{30-1}{126-1}, \ \cfrac{1}{9500}] \approx 1.053$
+`OR` ~ just add the estimates
