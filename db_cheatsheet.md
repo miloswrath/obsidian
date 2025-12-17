@@ -1,10 +1,3 @@
->What to cover
->- Normalization/FDs x
->- Query processing x 
->- Procedure syntax x
->- constraint/trigger syntax
->- transactions? x
-
 ### *FDs*
 ---
 **Partial Dependency** ~ (*A*, B) :LiArrowRight: C  *Where A is a PK thus B isn't needed*

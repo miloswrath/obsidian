@@ -1,3 +1,4 @@
+[[school-26-s1/bios/ex/final/cheatsheet|cheatsheet]]
 # Plan for biostats final exam studying
 ---
 *Exam Details*
