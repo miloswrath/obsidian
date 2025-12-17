@@ -102,3 +102,35 @@ FG -> A
 Give all minimal keys for this relational schema
 ![[normalization_pps 2025-12-13 17.34.13.excalidraw]]
 
+### Others?
+---
+Normalize the following schema, with given FDs, to BCNF. Provide 20 points
+each step of normalization.
+**Given Relations**
+```
+Books (accessionno, isbn, title, author, publisher)
+Users (userid, name, deptid, deptname)
+```
+**Functional Dependencies**
+```
+accessionno → isbn
+isbn → title
+isbn → publisher
+isbn → author
+userid → name
+userid → deptid
+deptid → deptname
+```
+![[normalization_pps 2025-12-17 16.44.57.excalidraw]]
+
+
+
+
+
+
+
+
+
+
+
+

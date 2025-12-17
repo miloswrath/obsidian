@@ -19,13 +19,15 @@ General Syntax:
 ```SQL
 DELIMITER //
 CREATE PROCEDURE <name>
-IN <param>
-OUT <param>
+	IN <param>
+	OUT <param>
 BEGIN 
-/* IN params need to be unique from attributes
-out params are */
-SELECT <attr or agg> INTO
-<end of the actual code>;
+	/*
+	IN params need to be unique from attributes
+	out params are 
+	*/
+	SELECT <attr or agg> INTO
+	<end of the actual code>;
 END //
 ```
 
