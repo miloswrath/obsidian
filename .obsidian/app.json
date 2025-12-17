@@ -6,7 +6,7 @@
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 47
+    "downscalePercent": 88
   },
   "spellcheck": false,
   "attachmentFolderPath": "./",
