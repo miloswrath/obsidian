@@ -6,7 +6,7 @@
 
 ### *Query Processing*
 ---
-`WHERE a = x` ~ $T(R)*\cfrac{1}{V(attr)}$
+`WHERE a = x` ~ $T(R)*\cfrac{1}{V(attr)}$nds to set keymappings for the buttons on my tablet:
 `WHERE A > x` ~ $T(R) * \cfrac{(val - min)}{(max - min)}$
 `AND` (Independent) $\approx 10000 * (\cfrac{30-1}{126-1} * \cfrac{1}{9500}) \approx 0.244$ ~~ *Muliply the estimates*
 `AND` (Overlap)  $\approx 10000 * min[\cfrac{30-1}{126-1}, \ \cfrac{1}{9500}] \approx 1.053$ ~~ Take the minumum of the estimates
