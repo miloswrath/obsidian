@@ -123,14 +123,50 @@ deptid → deptname
 ```
 ![[normalization_pps 2025-12-17 16.44.57.excalidraw]]
 
+2. The following relations form a database schema “HyattHotels”: 30 points
+```
+Hotel (hotelNo, hotelName, city)
+Room (roomNo, hotelNo, type, price)
+Booking (hotelNo, guestNo, dateFrom, dateTo, roomNo)
+Guest (guestNo, guestName, guestAddress)
+```
+**Create database triggers for the following situations**:
+2.1 The price of all double rooms must be greater than £100.
+2.2 A guest cannot make two bookings with overlapping dates.
+2.3 A booking cannot be for a hotel room that is already booked for any of the
+specified dates.
+```SQL
+DELIMITER ~~
 
+CREATE TRIGGER all_doubles_alhunnid
+BEFORE UPDATE TO Room 
+FOR EACH ROW
+BEGIN
+	IF NEW.type == "Double" AND price <= 100 THEN
+	SIGNAL SQLSTATE '45000' SET MESSAGE "DOUBLES MUST BE GREATER THAN 100";
+	END IF;
+END ~~
+DELIMITER ;
+```
 
+```SQL
+DELIMITER ++++ 
 
-
-
-
-
-
-
-
-
+CREATE TRIGGER no_double_books
+BEFORE INSERT TO Booking
+FOR EACH ROW
+BEGIN 
+	IF EXISTS (
+		SELECT 1 
+		FROM Booking b
+		WHERE b.guestNo = NEW.guestNo
+		AND NOT (
+			NEW.dateFrom <= b.dateTo
+		    OR NEW.dateTo >= b.dateFrom
+		)
+	)
+	THEN 
+	SIGNAL SQLSTATE '4500' MESSAGE "NO OVERLAPPING BOOKINGS";
+	END IF;
+END ++++
+```
