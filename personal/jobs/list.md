@@ -15,7 +15,13 @@
 	- https://jobs.lever.co/whoop/c329012d-5cf3-4d7a-9816-ba624ef0a311
 - Sage
 	- https://job-boards.greenhouse.io/sage49/jobs/5453231004
-
+- Zilliant
+	- https://zilliant.com/
+	- Transform pricing into a _business power_ rather than a cost center or operational headache
+	- *potential email [[email-to-zilliant]]
+- Omnivista
+	- https://omnivista.com/
+	- [[email-to-omnivista]]
 
 *Neuralink Accomplishments*
 Worked as a computer scientist in a neuroscience lab managing 9+ large-scale datasets with tens of thousands of samples across neuroimaging, genetics, behavioral tasks, accelerometer signals, among others. Built pipelines that transformed raw data into clean, ready-to-analyze formats used by 30+ researchers across multiple sites. Identified a communication gap with participants and developed an automated results-reporting system, leading to an estimated 83% increase in study recruitment driven by word-of-mouth.
