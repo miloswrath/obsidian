@@ -28,3 +28,9 @@ Worked as a computer scientist in a neuroscience lab managing 9+ large-scale dat
 
 Built a Bayesian reduced-rank regression model to quantify patient health and predict post-operative PT timelines. Developed a real-time web-app MVP that detected incoming post-arthroplasty patients, modeled recovery trajectories, and promoted exercise adherence. Pilot results: 30% increase in at-home adherence, 65% higher patient satisfaction, 50% boost in PT workflow efficiency, and simulated claims showed 70% fewer Medicare reimbursement deductions and 35% higher payout per provider.
 
+Hi Keith, thank you for the insight into your company's focus. My core strength is translating loosely defined or ambiguous data and processing requirements into high-performance, production-ready systems, with an emphasis on rapid iteration and delivery. However, I bring full-stack experience across the data pipeline, which gives me the flexibility to work on projects of all forms.
+
+I’m particularly interested in industries with low regulatory friction that allow for speed and experimentation, though I have a strong personal interest in healthcare and health-adjacent domains as well. Based on your experience, are there specific roles, industries, or organizations that you think would benefit from someone with this skill set?
+
+Best regards,  
+Zak
