@@ -1,4 +1,4 @@
-#boost #hr
+![[QA Pipeline 2026-01-23 10.29.18.excalidraw]]#boost #hr
 
 > *the following notes go over requirements, planning, implementation, and next steps*
 
@@ -61,7 +61,8 @@
 
 
 
-
+## TODO 
+- move to kde forecast modeling
 
 
 
