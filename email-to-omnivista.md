@@ -33,7 +33,7 @@ Customer & Participant Applications
 - Personalized insights combining wearables, surveys, and history using secure retrieval-based models.
 - Web and mobile delivery via React and serverless LLM backends, embedded directly into our applications.
 
-Across both domains I have experience in most tools and methodoligies. In academia, though, I am heavily constricted by regulation, safety, and costs which has shaped my work to be cost efficient and private which adds several layers of complexity and stunts sprint speed dramatically. This is something I really hope to mitigate in the future as I prefer to move quickly. Lastly, my highest-valued work is in the machine learning/statistical learning space, which I am happy to elaborate on if you'd like.
+Across both domains I have experience in most tools and methodologies. In academia, though, I am heavily constricted by regulation, safety, and costs which has shaped my work to be cost efficient and private and adds several layers of complexity and stunts sprint speed dramatically. This is something I really hope to mitigate in the future as I prefer to move quickly. Lastly, my highest-valued work is in the machine learning/statistical learning space, which I am happy to elaborate on if you'd like.
 
 Looking forward to continuing the conversation,  
 Zak
