@@ -28,9 +28,7 @@ Enterprise Automation
 - AI agents that run multi-step pipelines from data ingestion through reporting and notifications.
 
 Customer & Participant Applications
-- AI-generated, real-time result summaries from raw study data.
-- Conversational data collection for consent, self-reports, and follow-ups.
-- Personalized insights combining wearables, surveys, and history using secure retrieval-based models.
+- Conversational agents for data reporting, form intake, etc.
 - Web and mobile delivery via React and serverless LLM backends, embedded directly into our applications.
 
 Across both domains I have experience in most tools and methodologies. In academia, though, I am heavily constricted by regulation, safety, and costs which has shaped my work to be cost efficient and private and adds several layers of complexity and stunts sprint speed dramatically. This is something I really hope to mitigate in the future as I prefer to move quickly. Lastly, my highest-valued work is in the machine learning/statistical learning space, which I am happy to elaborate on if you'd like.
