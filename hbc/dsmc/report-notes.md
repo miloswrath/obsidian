@@ -1,0 +1,16 @@
+
+## Notes on Things I Can Help With
+---
+- Demographics can be automated
+- Recruitment channels can be automated 
+
+## Notes on Things I'm Scared of
+---
+*I don't really remember what I did for medications - but there has to be a better way*
+- Perhaps if we trust AI I can work with that since it understands semantics.
+	- This would require like $100 to be put down for token
+
+## Data Quality
+---
+- Do we want to keep last DSMC report or just all time?
+- Percentages are very doable just not for HR data
