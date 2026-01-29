@@ -22,3 +22,18 @@
 	1. Should they also be split by site for intervention
 2. What changes need to be made for exclusion
 3. 
+
+
+## to work on
+---
+
+
+
+demographic, age, education, family history metrics
+organized consented vs. randomized
+
+
+data quality
+- no since last dsmc
+- megan sends count of NE json
+- need to get # of people expected at each time point expressed
