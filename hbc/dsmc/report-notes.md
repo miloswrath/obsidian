@@ -29,7 +29,7 @@
 
 
 
-demographic, age, education, family history metrics
+demographics, age, education, family history metrics
 organized consented vs. randomized
 
 
