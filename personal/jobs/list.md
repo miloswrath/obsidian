@@ -22,7 +22,12 @@
 - Omnivista
 	- https://omnivista.com/
 	- [[email-to-omnivista]]
-
+- Cloudflare - bottom two are the best
+	- https://www.cloudflare.com/careers/jobs/
+	- https://job-boards.greenhouse.io/cloudflare/jobs/6257148?gh_jid=6257148
+	- https://job-boards.greenhouse.io/cloudflare/jobs/7449149?gh_jid=7449149
+	- https://job-boards.greenhouse.io/cloudflare/jobs/7189387?gh_jid=7189387
+	- Ne
 *Neuralink Accomplishments*
 Worked as a computer scientist in a neuroscience lab managing 9+ large-scale datasets with tens of thousands of samples across neuroimaging, genetics, behavioral tasks, accelerometer signals, among others. Built pipelines that transformed raw data into clean, ready-to-analyze formats used by 30+ researchers across multiple sites. Identified a communication gap with participants and developed an automated results-reporting system, leading to an estimated 83% increase in study recruitment driven by word-of-mouth.
 
