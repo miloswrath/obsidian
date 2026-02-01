@@ -1,119 +1,134 @@
+# Customer Journey Map — Evaluating Whether OAC Is “Worth It”
 
-```yml
-journey_map:
-  title: "Customer Journey Map — Evaluating Whether OAC Is 'Worth It'"
-  persona_name: "CJM — Design-conscious Brand Evaluator"
-  brand: ""
-  journey_type: "AS-IS"
-  start_criteria: "User lands on OAC site for the first time from a social ad or referral."
-  stop_criteria:
-    - "User feels confident in brand + product value (low-regret decision)."
-    - "User leaves due to uncertainty, lack of trust, or low visual/brand fit."
+**Persona:** CJM — *Design-conscious Brand Evaluator*  
+**Brand:** Obsidian Artifact Co.  
+**Journey type:** AS-IS  
 
-  phases_left_to_right:
-    - phase: "BEFORE"
-      context:
-        - "Often mobile"
-        - "Between tasks"
-        - "Low patience; multitasking"
-        - "May be comparing multiple brands/tabs"
-        - "Mild skepticism (ad-driven traffic)"
-      steps:
-        - step: "Arrives via social media ad or referral"
-          thoughts:
-            - "What is this and why is it special?"
-          actions:
-            - "Opens site (often quickly, on mobile)"
-          pain_points:
-            - "Low initial trust from ad-driven entry"
-          emotions:
-            - "Skeptical"
-            - "Rushed"
-        - step: "Rapidly decides whether to stay or leave"
-          thoughts:
-            - "Does this feel legit and aligned with my taste?"
-          actions:
-            - "Skims for immediate vibe/aesthetic signals"
-          pain_points:
-            - "Visual mismatch leads to bounce"
-            - "Brand ambiguity makes it hard to assess quickly"
-          emotions:
-            - "Impatient"
-            - "Uncertain"
+**Start criterion:** First-time visitor lands on the OAC website from a social ad or referral  
+**Stop criteria:**  
+- User feels confident in brand + product value (low-regret decision), **or**  
+- User exits due to uncertainty, lack of trust, or weak aesthetic fit  
 
-    - phase: "DURING"
-      context:
-        - "Short session ('two-minute browse')"
-        - "Cognitive load is limited; won’t read dense text unless earned"
-        - "Cannot touch/feel product; relies on photos + narrative"
-      steps:
-        - step: "Forms a first impression of brand identity"
-          thoughts:
-            - "Do I understand what this brand is?"
-          actions:
-            - "Scans for brand cues: story, identity, credibility signals"
-          pain_points:
-            - "Brand ambiguity: doesn’t quickly answer what’s different"
-          emotions:
-            - "Curious"
-            - "Uncertain"
-        - step: "Evaluates credibility needed to justify premium price"
-          thoughts:
-            - "Is the price justified? Is the quality real?"
-          actions:
-            - "Looks for proof of quality (materials/craft/process/social proof)"
-          pain_points:
-            - "Credibility gap: premium price requires proof without feeling salesy"
-          emotions:
-            - "Skeptical"
-            - "Cautiously interested"
-        - step: "Explores products/collections to validate taste fit"
-          thoughts:
-            - "Is there a coherent aesthetic and meaning across the collection?"
-          actions:
-            - "Browses multiple items; compares within a collection/theme"
-          pain_points:
-            - "Overchoice without guidance: unclear collections/themes make exploration feel like work"
-          emotions:
-            - "Engaged (if coherent)"
-            - "Overwhelmed (if not)"
-        - step: "Checks for regret risk before committing"
-          thoughts:
-            - "Will I regret this? Will it meet expectations (or be a bad gift)?"
-          actions:
-            - "Compares options; may switch tabs or reconsider"
-          pain_points:
-            - "Fear of regret: wrong decision feels costly"
-          emotions:
-            - "Anxious"
-            - "Hesitant"
+---
 
-    - phase: "AFTER"
-      context:
-        - "Competing priorities: price sensitivity, gift deadlines, other options"
-      steps:
-        - step: "Outcome — confident decision or exit"
-          thoughts:
-            - "I get it, I trust it, and I feel good about the price"  # confident path
-            - "I still don’t understand what’s special / don’t trust it" # exit path
-          actions:
-            - "Leaves feeling confident (low-regret decision)"
-            - "Leaves (bounce/back to search/other brands)"
-            - "May return later to the same product"
-            - "May share a link"
-          pain_points:
-            - "If uncertainty remains, decision is delayed or abandoned"
-          emotions:
-            - "Relieved/confident (if resolved)"
-            - "Frustrated/uncertain (if not)"
+## BEFORE
 
-  cross_cutting_constraints:
-    - "Time: short sessions; decide fast or leave"
-    - "Cognitive load: won’t read walls of text unless earned"
-    - "Access limits: cannot touch/feel product; photos + narrative must carry weight"
-    - "Competing priorities: comparing alternatives, price sensitivity, gift deadlines"
+**Context**
+- Often mobile
+- Between tasks
+- Low patience; multitasking
+- May be comparing multiple brands/tabs
+- Mild skepticism (ad-driven traffic)
 
-  recurring_pattern_note:
-    - "Recurring for self-buyers (collectors/repeat shoppers); occasional for gift buyers"
+### Step: Arrives via social media ad or referral
+- **Thoughts**
+  - “What is this and why is it special?”
+- **Actions**
+  - Opens the site quickly (often on mobile)
+- **Pain points**
+  - Low initial trust from ad-driven entry
+- **Emotions**
+  - Skeptical
+  - Rushed
 
-```
+### Step: Rapid stay-or-leave decision
+- **Thoughts**
+  - “Does this feel legit and aligned with my taste?”
+- **Actions**
+  - Skims for immediate vibe and aesthetic signals
+- **Pain points**
+  - Visual mismatch leads to bounce
+  - Brand ambiguity makes quick evaluation difficult
+- **Emotions**
+  - Impatient
+  - Uncertain
+
+---
+
+## DURING
+
+**Context**
+- Short session (“two-minute browse”)
+- Limited cognitive bandwidth
+- Cannot touch or feel the product
+- Relies on photos and narrative for evaluation
+
+### Step: Forms a first impression of the brand
+- **Thoughts**
+  - “Do I understand what this brand is?”
+- **Actions**
+  - Scans for brand cues: story, identity, credibility
+- **Pain points**
+  - Brand ambiguity: unclear differentiation
+- **Emotions**
+  - Curious
+  - Uncertain
+
+### Step: Evaluates credibility to justify premium price
+- **Thoughts**
+  - “Is the price justified? Is the quality real?”
+- **Actions**
+  - Looks for proof of quality (materials, craft, process, social proof)
+- **Pain points**
+  - Credibility gap at premium price point
+- **Emotions**
+  - Skeptical
+  - Cautiously interested
+
+### Step: Explores products and collections
+- **Thoughts**
+  - “Is there a coherent aesthetic or meaning here?”
+- **Actions**
+  - Browses multiple items within a collection
+  - Compares items for taste fit
+- **Pain points**
+  - Overchoice without guidance makes exploration feel like work
+- **Emotions**
+  - Engaged (if coherent)
+  - Overwhelmed (if not)
+
+### Step: Checks regret risk before committing
+- **Thoughts**
+  - “Will I regret this? Will it meet expectations or make a bad gift?”
+- **Actions**
+  - Compares options
+  - May switch tabs or pause decision
+- **Pain points**
+  - Fear of regret
+- **Emotions**
+  - Anxious
+  - Hesitant
+
+---
+
+## AFTER
+
+**Context**
+- Competing priorities (price sensitivity, gift deadlines, alternatives)
+
+### Step: Outcome — confidence or exit
+- **Thoughts**
+  - “I get it, I trust it, and I feel good about the price”  
+  - *or* “I still don’t understand what’s special here”
+- **Actions**
+  - Leaves feeling confident (low-regret decision)
+  - Exits site (bounce or return to search)
+  - May return later to the same product
+  - May share a link
+- **Pain points**
+  - Residual uncertainty delays or blocks decision
+- **Emotions**
+  - Relieved and confident (if resolved)
+  - Frustrated or uncertain (if not)
+
+---
+
+## Cross-cutting Constraints
+- **Time:** Short sessions; decide fast or leave
+- **Cognitive load:** Won’t read dense text unless it feels earned
+- **Access limits:** No tactile feedback; visuals and narrative must carry weight
+- **Competing priorities:** Comparing alternatives, price sensitivity, gift timelines
+
+**Recurring pattern:**  
+- Recurring for self-buyers (collectors, repeat shoppers)  
+- Occasional for gift buyers
