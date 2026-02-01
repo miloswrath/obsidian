@@ -52,3 +52,5 @@ Real-life recognizable as: “the person who cares about aesthetic + story and w
     - Assuming they’ll explore deep pages by default
     - Assuming they trust “premium” claims without evidence
     - Assuming they’ll tolerate slow loads/heavy interactions for “cool design”
+
+[[visualization]]
