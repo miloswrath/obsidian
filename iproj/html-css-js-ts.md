@@ -11,6 +11,11 @@
 
 ### CSS
 ---
+- practice some tailwind
+- 
 
 ### Git
+---
+
+### JS - TS
 ---
