@@ -19,3 +19,13 @@
 
 ### JS - TS
 ---
+
+
+## Backend
+---
+**HTTP** - 
+- GET - retrieve records
+- POST - push *NEW* record
+- PUSH - Update existing record
+- DELETE - delete record
+
