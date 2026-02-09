@@ -1,96 +1,86 @@
-## Primary Objective (User-Centered, Outcome-Focused)
+## Primary Objective (clarified, not replaced)
 
-**Enable first-time visitors to quickly form confident understanding and trust in Obsidian Artifact Co.’s brand and products.**
+**Enable first-time visitors to quickly form confident understanding and trust in Obsidian Artifact Co.’s brand and products, without limiting deeper exploration for users who choose to engage further.**
 
-This objective directly maps to:
-
-- Kiri’s goal: _“I understand what this brand is, why it’s special, and I feel good paying this price.”_
-    
-- The problem: the current site fails to communicate brand meaning, credibility, and differentiation.
-    
+_Rationale:_ This preserves the short-session focus while explicitly guarding against over-optimization for speed at the expense of depth.
 
 ---
 
-## Key Results (3–4 total)
+## Key Results (with minor refinements)
 
 ### KR1 — Brand Comprehension (Leading Indicator)
 
-**≥70% of first-time test participants can correctly articulate OAC’s brand meaning and product differentiation after a short visit.**
+**≥70% of first-time test participants can accurately describe OAC’s brand meaning and product differentiation after a short visit, using their own words.**
 
-- Measurement method: post-session user test prompt (e.g., “What makes this brand different?” / “Why would someone buy this?”)
+
+- “Correctly articulated” means the participant’s description aligns with _predefined brand pillars_ (e.g., craft, aesthetic intent, credibility), not exact phrasing.
     
-- Why this matters: If users can’t explain the brand, they haven’t understood it — regardless of time spent or clicks.
+- Evaluation is conducted by the product team using a simple rubric agreed upon _before_ testing.
+    
+
+_What this addresses:_
+
+- Establishes **who decides correctness** and **how correctness is judged**, without changing the metric itself.
     
 
 ---
 
 ### KR2 — Decision Confidence (Leading Indicator)
 
-**≥60% of first-time users report feeling confident or very confident in evaluating whether OAC is “worth it.”**
+**≥60% of first-time users report feeling confident or very confident in evaluating whether OAC is “worth it” for their intended use (self-purchase or gift).**
 
-- Measurement method: Likert-scale self-report immediately after visit
+
+- Confidence is assessed relative to the user’s stated intent (buying for themselves vs. buying as a gift).
     
-- Why this matters: Confidence is explicitly the user’s success definition; this captures emotional and cognitive resolution, not behavior alone.
+
+_What this addresses:_
+
+- Explicitly incorporates **self-buyers vs. gift-buyers** without splitting the persona or adding a new KPI.
     
 
 ---
 
 ### KR3 — Meaningful Engagement Behavior (Lagging Indicator)
 
-**Increase the proportion of sessions exhibiting high-intent exploration patterns aligned with BMES.**
+**Increase the proportion of sessions exhibiting high-intent exploration patterns aligned with BMES, across both shallow and deep engagement paths.**
 
-Specifically:
 
-- Browsing multiple items within a single collection
+- Success includes both:
     
-- Continuing exploration after seeing price
-    
-- Remaining on-site without returning immediately to search
-    
-- Measurement method: session-level behavioral analysis using the defined BMES signals
-    
-- Why this matters: These behaviors suggest the brand narrative is compelling enough to sustain attention and reduce doubt.
+    - Efficient, confident short sessions _and_
+        
+    - Voluntary deeper exploration (e.g., extended collection browsing, narrative pages), when users choose to continue.
+        
+
+_What this addresses:_
+
+- Prevents misinterpreting “more depth” as universally better and protects against penalizing fast-but-successful users.
     
 
 ---
 
 ### KR4 — Reduced Ambiguity-Driven Exit (Lagging Indicator)
 
-**Reduce first-minute exits attributable to brand ambiguity or visual mismatch in usability testing.**
+**Reduce first-minute exits attributable specifically to brand ambiguity or visual mismatch, excluding exits driven by clear preference mismatch or price sensitivity.**
 
-- Measurement method: moderated tests + exit interviews (“Why did you leave?”)
+
+- Exit reasons are categorized during testing to distinguish:
     
-- Why this matters: Early exits are often caused by failure to answer “What is this and why is it special?” — directly tied to the problem statement.
-    
+    - “Not for me” clarity
+        
+    - vs. confusion, distrust, or unmet expectations
+        
+
+_What this addresses:_
+
+- Ensures exits caused by _successful clarity_ are not treated as failures.
 
 ---
 
-## Leading vs. Lagging Summary
+#### Clarification - Mismatch Between Leading and Lagging
 
-- **Leading indicators:** KR1 (brand comprehension), KR2 (decision confidence)  
-    → tell you early whether the experience is working cognitively/emotionally.
-    
-- **Lagging indicators:** KR3 (BMES behaviors), KR4 (early exits)  
-    → confirm whether understanding translates into sustained engagement.
-    
+If the leading indicators (brand comprehension and decision confidence) improve while lagging indicators (meaningful engagement and early exits) do not, this suggests that users _understand_ the brand but are not sufficiently compelled to explore further. The largest barrier in this case is likely **insufficient emotional pull or experiential resonance** the site answers “what this is” but does not create enough curiosity, desire, or momentum to continue.
 
----
+Conversely, if lagging indicators improve without corresponding gains in leading indicators, users may be browsing out of visual interest or novelty without forming clear understanding or trust. Here, the largest barrier is **conceptual clarity**: the experience attracts attention but fails to resolve the core questions of meaning, differentiation, or value justification.
 
-## Short Critique
-
-### Key Assumptions These Metrics Rely On
-
-- That users can accurately self-report confidence and understanding shortly after exposure.
-    
-- That BMES-style behaviors genuinely reflect _brand meaning_, not just curiosity.
-    
-- That first-time user testing environments approximate real ad-driven, low-patience contexts.
-    
-
-### Where These Metrics Might Miss User Value
-
-- They may under-capture _long-term brand recall_ or emotional attachment formed after leaving the site.
-    
-- Gift buyers’ success criteria (e.g., reassurance for others rather than self) may differ slightly from self-buyers.
-    
-- A user could understand and trust the brand but still defer purchase due to external constraints (budget, timing), which these metrics intentionally do not penalize.
+When both sets of indicators fail to move together, it points to a **disconnect between clarity and motivation** either the site explains without inspiring, or inspires without grounding. In both cases, the underlying issue is not feature absence, but misalignment between how the brand is communicated and how users cognitively and emotionally evaluate whether the brand is “worth it.”
