@@ -50,3 +50,6 @@ I’m particularly interested in industries with low regulatory friction that al
 
 Best regards,  
 Zak
+
+***mo phone number:***
+`2027461023`
