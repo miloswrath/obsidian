@@ -1,3 +1,10 @@
+## WHO
+---
+- Eli
+- Robert
+- Zak
+
+
 ## Deliverables for Tues 02-10
 ---
 - git@github.com:miloswrath/spooftify.git
