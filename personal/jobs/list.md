@@ -27,7 +27,8 @@
 	- https://job-boards.greenhouse.io/cloudflare/jobs/6257148?gh_jid=6257148
 	- https://job-boards.greenhouse.io/cloudflare/jobs/7449149?gh_jid=7449149
 	- https://job-boards.greenhouse.io/cloudflare/jobs/7189387?gh_jid=7189387
-	- cloudflare_keywords = [
+
+keywords = [
     "JavaScript / TypeScript",
     "React",
     "Frontend Frameworks / UI Development",
