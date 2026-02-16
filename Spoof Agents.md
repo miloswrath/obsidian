@@ -24,7 +24,13 @@
 
 ***Things to Keep in Mind***
 - while this project is an mvp and thus shouldn't focus on optimization, this project should optimize the usage of AI both in its initial user querying stage and its injection of API knowledge extensively using state-of-the-art techniques to lower API // compute costs.
-- 
+- there should be safeguards against model abuse - these should be basic but present and should be part of the testing suite
+- this app should be **MOBILE-FIRST** with desktop users coming second
+
+***User Stories***
+- I want to learn what my music taste says about me so I went to the app to answer that question
+- I am bored and I want something silly and stimulating to pass the next few minutes
+
 
 
 
