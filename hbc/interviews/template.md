@@ -1,4 +1,3 @@
-
 **Computational Research Assistant / Developer**  
 (6–10 hours/week | Hybrid | Technical research systems role )
 
