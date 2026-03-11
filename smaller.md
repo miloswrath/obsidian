@@ -14,7 +14,17 @@ https://job-boards.greenhouse.io/bitgo/jobs/8299814002 frontend 2?
 ***Attentive***
 https://job-boards.greenhouse.io/attentive/jobs/4121843009
 
+***Braceman***
+https://www.indeed.com/cmp/Braceman-P&O-Inc./jobs?jk=90fdef77192c21b2&start=0&clearPrefilter=1 # AI focused small in chicago
 
+***Perosphere***
+https://www.indeed.com/viewjob?jk=b6272a32fbb59beb&from=web&jrtk=5-cmh1-0-1jjeqk3fdg8h9804-b6272a32fbb59beb&xpse=SoCB67I3mu-Z0VyQYB0LbzkdCdPP&xfps=8910c386-e54f-42d7-b1bb-7d0bd2a9e727&xkcb=SoBA67M3mu9fEtVOhZ0IbzkdCdPP # trad SWE in ny
+
+***Uptime Crew***
+[link](https://www.indeed.com/viewjob?jk=ec3e36770878d7a1&tk=1jjeqm2dkrjec801&from=web&advn=7562538887689755&adid=458059402&ad=-6NYlbfkN0Ds5ERUD1DoWC1aO2qV43pla-I33DCg_QFnafu9QJwXtMiRD4WjN7mollnqSh3iMG7dsH3TcF1gGFlN-Ss52pGL6zpDVZVHezKMPiGO9ps4poQ3o1FGKlTO-OVVH14d9n7Nj-7Z5sAIRoFJ90b7d4Vluo3nZ8wwS43YuAeSWhl4Ln12i8XZyue5kLO7pepGD9fhPr-Gp5OtEQbFVyC3Z0Y-gJ4X4ssrMKAtdPg5HKbFnvogpim1d2GrJ7yls_ImNa5w-dhnG1MUidxOn3Rlpf_rvSHnW8IWkV7TvF7F8QVXt8g07Ad5rxp-53lIszF_HuYpZpeJJSeaSuav-l5LNvlS7MIlkIywujHdPhoUEDS6CESbLpcqlHI7SogVT3yyz7BImJ6H5HZtBAraOZJgfmEFyHOtBVAj1cxIj1uWKxbvS4nAzAurmPQBzBYzDmMO3UgES4-jn0A2ygWahfdtUqrN1H6UbdeZNonNdNMO8s75U6KVip2K3E4voEp1Dcl2POquomTVrgiAuO8l7nTtR897Y_BrcFtCHhOhtnAqa1oo8zPRSyr0bixADuZCSFZR6upctqWwerZiKOb1DM-tfM3JTy6wUeCywhQU94O1iOajx5eJb_haSRX8e0O0i7enpPUEZU46KQ_JwzANsuDD_hL3andkuP8dw4S0Q-ctYIkqpRWKH278CdSjkC6qHYqogDM%3D&sjdu=9nrDNPdV1DghkDNnC2WJlW1nrk21-asFvjSk9jx-s_Onvx_XZFGh6fG195HUkFEZCkVYDj14gThuLpSPIrHqydiM6VXyr1PySLIO-72UpO11fYIFLHaBNBa7Mbpp-e8x--WwdGIcxvJwM0AQi6rrt8S107FnB7h7ombhbF14Aru2K7cr8WQtUa5TrYsCBWj2n5G3fYbvxOtdqhZON6nlFPpw8XoZfHeiaKZEdl43lgzOlTuuZU5-ytfasl7eVX49wwaJTE0ixF6jwqmDt3zne34g7r-siz_pmZQOsC7iYzTyCoenM5nyvvghCAa9VEW_hTz6rC1VxHpx9H-T5eFfyj0j0Gb0-a61H-pciDj5ZIQ7XWjYdbulCar4-QIna02OmMu7tZ7c7I9Q0FV-QALBG2oXzjCNcacBUJal6GpT9rZ2Vo2IcJ3MVWegW0hIye5gcusjt6LvACi49tN14kD4v4JXk20zuzu25u9zlBPh8AmU_FaRfbrFwi0TvQuQtNR0BQW79drNShGXAEvraIHU6Y7pe1xrQpnCcP8JvUzP17MLHCsg9GON6goxUB9CnoVG-UGE7-Zy-uldVVV57wjvBfpEymSXxQBB-HA0VALwziHTujlT-HYsi6Wf_potrVcj5GzcmTrsXPDuOig_sm_i1i4JlN-ppZOYpeIUZx3tcPg-sUbmb6asZuUqPCX7__J1KtOuzcBFlyjN-tPN9ySx7l5oY5ZKnetjQbu6546fZ9WpoznKM4H_217ggKnIlYpC&acatk=1jjer8s10g2tl804&pub=4a1b367933fd867b19b072952f68dceb&camk=UoKtGZLa3XKopBSsvH76qQ%3D%3D&jrtk=5-cmh1-0-1jjeqm2dkrjec801-ec3e36770878d7a1&xkcb=SoAH6_M3mu9XiHZzXJ0IbzkdCdPP&xpse=SoDY6_I3mu-sWlSQYB0NbzkdCdPP&xfps=95278981-d81d-4b90-b5f2-da6bf0772196) Training then fintech
+
+***IN MAY**
+https://www.indeed.com/viewjob?jk=b23b0a5c630191e4&from=web&jrtk=5-cmh1-0-1jjeqdi3fmg8m800-b23b0a5c630191e4&xpse=SoDG67I3mu-PIqSEY50LbzkdCdPP&xfps=7105b91b-6f7a-4cb5-8482-ac84f5039e88&xkcb=SoC967M3mu9IMZ55zh0LbzkdCdPP # SWE?
 ## Prompting
 
 ### Prompt 1
