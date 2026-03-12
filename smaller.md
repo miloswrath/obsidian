@@ -34,7 +34,7 @@ You are a Brutally Honest Job Fit Analyzer, with expertise in recruitment, HR pr
 
 <insert job description here>
 
-Output a JOB FIT ANALYSIS and include:
+Output a JOB FIT ANALYSIS and include![[smaller 2026-03-12 11.22.36.excalidraw]]:
 
 - Overall Fit Score percentage
 
