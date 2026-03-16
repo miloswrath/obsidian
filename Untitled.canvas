@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"dfd30510b6814096","x":-380,"y":-300,"width":250,"height":60,"type":"text","text":"Backend & oAuth"},
+		{"id":"e5ee61d89d419757","x":20,"y":-300,"width":250,"height":60,"type":"text","text":"State Logic Framework & docs"},
+		{"id":"96e3143e3050c4dc","x":400,"y":-440,"width":250,"height":60,"type":"text","text":"White list"},
+		{"id":"f784daea9993beb3","x":400,"y":-300,"width":250,"height":60,"type":"text","text":"Animations"},
+		{"id":"c77778b9858eee69","x":740,"y":-440,"width":250,"height":60,"type":"text","text":"Browser updates to state logic"},
+		{"id":"76a9a3f8432f5cf2","x":1100,"y":-300,"width":250,"height":60,"type":"text","text":"State logic updates to animations"},
+		{"id":"4197e687666a14d0","x":1477,"y":-300,"width":250,"height":60,"type":"text","text":"Final Testing and Publishing"}
+	],
+	"edges":[
+		{"id":"a9fa9ce4ad1e57dc","fromNode":"dfd30510b6814096","fromSide":"right","toNode":"e5ee61d89d419757","toSide":"left"},
+		{"id":"d81924c39139df2d","fromNode":"e5ee61d89d419757","fromSide":"right","toNode":"96e3143e3050c4dc","toSide":"left"},
+		{"id":"d5706afa9729bea4","fromNode":"e5ee61d89d419757","fromSide":"right","toNode":"f784daea9993beb3","toSide":"left"},
+		{"id":"70bc665a74f2cc02","fromNode":"96e3143e3050c4dc","fromSide":"right","toNode":"c77778b9858eee69","toSide":"left"},
+		{"id":"0e1ec7e0fcb205c1","fromNode":"c77778b9858eee69","fromSide":"right","toNode":"76a9a3f8432f5cf2","toSide":"left"},
+		{"id":"5c01c614a731b18b","fromNode":"f784daea9993beb3","fromSide":"right","toNode":"76a9a3f8432f5cf2","toSide":"left"},
+		{"id":"34637b0417886554","fromNode":"76a9a3f8432f5cf2","fromSide":"right","toNode":"4197e687666a14d0","toSide":"left"}
+	]
+}
