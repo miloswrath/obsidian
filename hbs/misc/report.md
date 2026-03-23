@@ -5,17 +5,17 @@
 
 ## Plan
 ---
-1. Make sure all data is arranged
+- [ ] Make sure all data is arranged
+- [ ] Find all data problems and report via Discord
 
 #### Actigraph
 ---
-1. Determine visualization for data
-2. Draft workflow figure
+- [ ] Determine visualization for data
+- [x] Draft workflow figure
 
 #### HR
 ---
-1. Determine where we are w this
-2. Determine visualization
-3. Draft workflow figure
+- [ ] Determine where we are w this
+- [ ] Determine visualization
+- [ ] Draft workflow figure
 
-[[]]

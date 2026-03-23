@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"0d66d82dbe68b727","x":-900,"y":-200,"width":1060,"height":1360,"type":"file","file":"hbs/misc/report.md"},
+		{"id":"2553eaec14fe4aa9","x":300,"y":-460,"width":800,"height":680,"type":"file","file":"hbc/misc/report/data-search.md"}
+	],
+	"edges":[
+		{"id":"24af9cd5592aae23","fromNode":"0d66d82dbe68b727","fromSide":"right","toNode":"2553eaec14fe4aa9","toSide":"left"}
+	]
+}
