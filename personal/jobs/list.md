@@ -1,7 +1,7 @@
 
 ## Reach
 - *neuralink* - https://neuralink.com/careers/
-	- BCI, NextGen, UI all work
+	- BCI, NextGen, UI all work![[list 2026-03-23 10.18.41.excalidraw]]
 - epic - https://epic.com/careers/
 	- Backend stuff?
 - Neuroscouts
