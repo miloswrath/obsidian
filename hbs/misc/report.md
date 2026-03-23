@@ -1,6 +1,6 @@
 ***goals***
 ![[Pasted image 20260323100118.png]]
-
+![[Pasted image 20260323122345.png]]
 
 
 ## Plan
