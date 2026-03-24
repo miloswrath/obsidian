@@ -15,7 +15,7 @@
 
 #### HR
 ---
-- [ ] Determine where we are w this
+- [x] Determine where we are w this
 - [ ] Determine visualization
 - [ ] Draft workflow figure
 
