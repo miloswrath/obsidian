@@ -17,5 +17,5 @@
 ---
 - [x] Determine where we are w this
 - [ ] Determine visualization
-- [ ] Draft workflow figure
+- [x] Draft workflow figure
 
