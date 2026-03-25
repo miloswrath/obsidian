@@ -3,11 +3,15 @@
 		{"id":"0d66d82dbe68b727","type":"file","file":"hbs/misc/report.md","x":-900,"y":-200,"width":1060,"height":1680},
 		{"id":"2553eaec14fe4aa9","type":"file","file":"hbc/misc/report/data-search.md","x":320,"y":-460,"width":860,"height":940},
 		{"id":"7065f0816c52375a","type":"text","text":"# Message to Michelle about HR\n---\n\nHi there, after looking through the HR data // pipeline, we are not currently storing all of our data on the `lss`. It looks like right when Hayley left (around July 2025), we stopped transferring files to the `lss` and now this directory is very out of date. All of our data is stored in Polar at this time and Olivia says that it will take someone manually pulling, naming, and placing every single session to accomplish this move.\nMy understanding is that this will have to happen eventually, and it might be best to get an undergrad on this ASAP to have data for this report and for QA purposes, we can then operationalize transferring files as they come in to the correct location (much like the accelerometer files) so that we can relieve this burden.\nOtherwise, once the data is in the folder my pipeline should ingest this and spit out some useful information that I can turn into a nice plot - I just need the data to be there.","x":1360,"y":-720,"width":880,"height":383},
-		{"id":"d8140584f2e877dd","type":"file","file":"hbc/misc/report/acc-plot.md","x":-2200,"y":-550,"width":960,"height":1120}
+		{"id":"d8140584f2e877dd","type":"file","file":"hbc/misc/report/acc-plot.md","x":-2200,"y":-550,"width":960,"height":1120},
+		{"id":"e6a5a102d6c4d593","type":"text","text":"# Status of HR Data\n---\n***Currently up to 8030***","x":1617,"y":120,"width":366,"height":159},
+		{"id":"8858378bf314c00d","type":"file","file":"Pasted image 20260325104824.png","x":-2508,"y":-1800,"width":1497,"height":1080}
 	],
 	"edges":[
 		{"id":"24af9cd5592aae23","fromNode":"0d66d82dbe68b727","fromSide":"right","toNode":"2553eaec14fe4aa9","toSide":"left"},
 		{"id":"f5a618d36ace05a2","fromNode":"2553eaec14fe4aa9","fromSide":"right","toNode":"7065f0816c52375a","toSide":"bottom"},
-		{"id":"a446beb626d0f2c6","fromNode":"0d66d82dbe68b727","fromSide":"left","toNode":"d8140584f2e877dd","toSide":"right"}
+		{"id":"a446beb626d0f2c6","fromNode":"0d66d82dbe68b727","fromSide":"left","toNode":"d8140584f2e877dd","toSide":"right"},
+		{"id":"c7be5aa66e7e9553","fromNode":"2553eaec14fe4aa9","fromSide":"right","toNode":"e6a5a102d6c4d593","toSide":"left"},
+		{"id":"88aad664dbcba7c4","fromNode":"d8140584f2e877dd","fromSide":"top","toNode":"8858378bf314c00d","toSide":"bottom"}
 	]
 }

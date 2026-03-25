@@ -11,7 +11,7 @@
 
 #### Actigraph
 ---
-- [ ] Determine visualization for data
+- [x] Determine visualization for data
 - [x] Draft workflow figure
 
 #### HR
