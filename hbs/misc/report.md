@@ -6,7 +6,8 @@
 ## Plan
 ---
 - [ ] Make sure all data is arranged
-- [ ] Find all data problems and report via Discord
+- [x] Find all data problems and report via Discord
+- [ ] Occasionally check on status of RAs
 
 #### Actigraph
 ---
