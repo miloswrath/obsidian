@@ -1,71 +1,229 @@
-# Goals
----
-- Cover basic adherence to exercise 
-- Group level analyses
-- 2 plots max
 
-## Prompt
+# D3 Plot Specification: HR Zone Analysis Dashboard
+
+## Background & Data Context
+
+These plots visualise heart rate (HR) zone adherence from a cardiac exercise study.
+Participants wore HR monitors during sessions over 6 weeks. Each session's HR trace
+(60 Hz readings) was summarised into the following zone-time metrics per row in the
+source CSV (`zone_out.csv`):
+
+| Field               | Type    | Description                                                                                         |
+| ------------------- | ------- | --------------------------------------------------------------------------------------------------- |
+| `group`             | string  | `"Supervised"` or `"Unsupervised"` — whether sessions were clinician-led                            |
+| `subject`           | string  | Participant ID, e.g. `sub8000`                                                                      |
+| `week`              | integer | Study week number (1–6)                                                                             |
+| `session`           | integer | Session number (not used in these plots)                                                            |
+| `time_in_allowed_s` | float   | Seconds with HR inside the target zone                                                              |
+| `time_above_s`      | float   | Seconds with HR above the target zone                                                               |
+| `time_below_s`      | float   | Seconds with HR below the target zone                                                               |
+| `bounded_met`       | boolean | `true` if the subject maintained a sufficiently long continuous bout within zone; `false` otherwise |
+
+The total session length is approximately 2401 seconds (40 minutes).
+All time values are in seconds.
+
 ---
-Help generate ideas for 2 plots for group-level analyses on the following abstract metrics derived from raw HR data (60Hz readings). Below is a short snippet of the csv that contains the files as well as a variable dictionary. MAZD and Trimp are not available at this time.
-ONLY GENERATE IDEAS - NO PLOTS
-```csv
-group,subject,week,session,time_in_allowed_s,time_above_s,time_below_s,longest_bounded_bout_s,bounded_met,mazd,trimp
-Supervised,sub8000,1,1,173.0,2228.0,0.0,2401.0,True,,
-Supervised,sub8000,1,2,1844.0,557.0,0.0,2401.0,True,,
-Supervised,sub8000,1,3,545.0,1848.0,8.0,2393.0,True,,
-Supervised,sub8000,1,5,939.0,1376.0,86.0,2315.0,True,,
-Supervised,sub8000,2,10,958.0,1404.0,39.0,1338.0,True,,
-Supervised,sub8000,2,6,1572.0,801.0,28.0,2373.0,True,,
-Supervised,sub8000,2,7,1847.0,474.0,80.0,2321.0,True,,
-Supervised,sub8000,2,9,1294.0,1085.0,22.0,2014.0,True,,
-Supervised,sub8000,3,12,1791.0,443.0,167.0,2234.0,True,,
-Supervised,sub8000,3,13,1640.0,654.0,107.0,2286.0,True,,
-Supervised,sub8000,3,14,1609.0,687.0,105.0,704.0,False,,
-Supervised,sub8000,3,15,1619.0,679.0,103.0,2298.0,True,,
-Supervised,sub8000,4,16,2131.0,184.0,85.0,2200.0,True,,
-Supervised,sub8000,4,17,2051.0,22.0,328.0,1230.0,False,,
-Supervised,sub8000,4,18,2297.0,0.0,104.0,2164.0,True,,
-Supervised,sub8000,4,19,2395.0,0.0,6.0,2395.0,True,,
-Supervised,sub8000,4,20,2340.0,54.0,7.0,2394.0,True,,
-Supervised,sub8000,5,21,1893.0,0.0,508.0,260.0,False,,
-Supervised,sub8000,5,22,1710.0,617.0,74.0,2327.0,True,,
-Supervised,sub8000,5,23,2095.0,115.0,191.0,1919.0,True,,
-Supervised,sub8000,5,24,2091.0,175.0,135.0,2094.0,True,,
-Supervised,sub8000,5,25,2083.0,221.0,97.0,817.0,False,,
-Supervised,sub8000,6,26,1454.0,700.0,247.0,2032.0,True,,
-Supervised,sub8000,6,27,2037.0,137.0,227.0,2174.0,True,,
-Supervised,sub8000,6,28,1961.0,2.0,438.0,1868.0,True,,
-Supervised,sub8000,6,29,1999.0,137.0,265.0,2110.0,True,,
-Supervised,sub8000,6,30,1961.0,25.0,415.0,1944.0,True,,
-Supervised,sub8002,1,1,385.0,2002.0,14.0,2387.0,True,,
-Supervised,sub8002,2,10,207.0,2166.0,28.0,2369.0,True,,
-Supervised,sub8002,2,6,348.0,2053.0,0.0,2401.0,True,,
-Supervised,sub8002,2,7,675.0,2441.0,6737.0,2623.0,True,,
-Supervised,sub8002,2,9,314.0,2044.0,43.0,2350.0,True,,
-Supervised,sub8002,3,11,484.0,1037.0,880.0,1094.0,False,,
-Supervised,sub8002,3,12,241.0,1967.0,193.0,2062.0,True,,
-Supervised,sub8002,3,13,109.0,2161.0,131.0,2260.0,True,,
-Supervised,sub8002,3,14,95.0,2173.0,133.0,2259.0,True,,
-Supervised,sub8002,3,15,619.0,1775.0,7.0,2394.0,True,,
-Supervised,sub8002,4,16,167.0,1845.0,389.0,1889.0,True,,
-Supervised,sub8002,4,17,327.0,1865.0,209.0,1947.0,True,,
-Supervised,sub8002,4,18,318.0,1964.0,119.0,2282.0,True,,
-Supervised,sub8002,4,20,217.0,2047.0,137.0,2254.0,True,,
-Supervised,sub8002,5,21,1371.0,538.0,492.0,1342.0,False,,
-Supervised,sub8002,6,26,1293.0,714.0,5493.0,1022.0,False,,
+
+## Overall Layout
+
+- Canvas: `1440 × 1024 px`, background `#fafafc`
+- Two side-by-side white cards with `border-radius: 12px` and a subtle drop shadow
+  (`box-shadow: 0 2px 16px rgba(0,0,0,0.07)`)
+- Font: **Inter** throughout. Sizes: 14px bold titles, 10px regular subtitles,
+  9px axis labels/legend, 8px heatmap labels
+- Label colour: `#1a1a26` (titles), `#80808f` (all axis labels, subtitles, legend text)
+- Grid line colour: `#e5e5ed`, 1px height
+
+---
+
+## Colour Tokens
+
 ```
-```txt
-Zone summary (`~/zone_out.csv`)
--------------------------------
-group: Session grouping derived from file path; "Supervised" or "Unsupervised".
-subject: Participant identifier (e.g., sub01).
-week: Study week number associated with the file; nullable.
-session: Session number from filename.
-time_in_allowed_s: Seconds of heart rate within the allowed zone.
-time_above_s: Seconds above the allowed zone.
-time_below_s: Seconds below the allowed zone.
-longest_bounded_bout_s: Duration in seconds of the longest continuous bout within the allowed zone (bounded by excursions).
-bounded_met: Boolean flag indicating whether the bounded-zone adherence criterion was met.
-mazd: Mean Absolute Zone Deviation = (1/T) * sum(|z_i - z_target|); lower values indicate tighter adherence to target zone(s).
-trimp: Banister-Edwards TRIMP score computed from resting/max HR and the HR trace; uses pre-trimmed HR (first 45 minutes for supervised; unsupervised = 5 minutes before first in-zone sample + 40 minutes after); higher values indicate greater training load.
+
+BLUE (Supervised) #3378de 
+ORANGE (Unsupervised) #f5802e 
+GREEN (In Zone) #3bbd8c 
+RED (Above) #f04545 
+LIGHT_BLUE (Below) #8cb8f5 
+GREY (No Data) #e5e5ed
+
 ```
+
+---
+
+## Plot 1 — Zone Time Allocation by Group & Week
+
+### What it shows
+A grouped stacked bar chart. For each of the 6 study weeks, two bars appear
+side-by-side: one for Supervised sessions (blue group), one for Unsupervised
+(orange group). Each bar is divided into three stacked segments representing the
+mean seconds spent **below**, **in**, and **above** the HR target zone.
+
+### Card dimensions
+- Position: top-left of canvas, `x: 60, y: 50`
+- Width: `620px`, Height: `380px`
+
+### Chart area margins (inside the card)
+- Left: `80px` (for y-axis labels)
+- Top: `60px` (for title + subtitle)
+- Right: `20px`
+- Bottom: `80px` (for x-axis labels + legend)
+
+### Data preparation
+Aggregate `zone_out.csv` by `(group, week)`:
+- Compute mean of `time_in_allowed_s`, `time_above_s`, `time_below_s` per group per week.
+- Each bar therefore has exactly three stacked segments.
+
+### Scales
+- **y-axis**: linear, domain `[0, 2401]` (total session seconds), range `[chartHeight, 0]`
+- **x-axis**: two nested levels
+  - Outer: `scaleBand` over weeks 1–6, with `paddingOuter(0.1)` and `paddingInner(0.2)`
+  - Inner: `scaleBand` over `["Supervised", "Unsupervised"]` within each week cluster,
+    with `paddingInner(0.1)`
+
+### Stacking
+Use `d3.stack()` with keys `["time_below_s", "time_in_allowed_s", "time_above_s"]`
+applied separately per group. Stack order bottom-to-top: below → in-zone → above.
+
+### Bar colours
+- `time_below_s` → `#8cb8f5` (light blue)
+- `time_in_allowed_s` → `#3bbd8c` (green)
+- `time_above_s` → `#f04545` (red)
+
+### Grid lines
+Horizontal lines at y = 0, 600, 1200, 1800, 2400 seconds.
+Colour `#e5e5ed`, no tick marks, labels left-aligned at `chartLeft - 4px`.
+
+### Axis labels
+- y-axis title: `"Seconds"`, rotated -90°, positioned mid-chart-height, `14px` left of axis
+- x-axis: week labels `"Wk 1"` … `"Wk 6"` centred on each cluster, `8px` below chart bottom
+
+### Legend (bottom of card)
+Five items in a horizontal row at `y = cardTop + cardHeight - 28`:
+1. Green square → `"In Zone"`
+2. Red square → `"Above"`
+3. Light-blue square → `"Below"`
+4. Blue square → `"Supervised"`
+5. Orange square → `"Unsupervised"`
+
+Each legend marker is a `10×10px` rectangle with `border-radius: 2px`, followed
+by text `12px` to the right. Items spaced `90px` apart horizontally.
+
+### Title block
+- Title: `"Zone Time Allocation by Group & Week"`, `14px`, bold, `#1a1a26`
+- Subtitle: `"Mean seconds per session · Supervised vs Unsupervised"`, `10px`, `#80808f`
+- Both left-aligned, `8px` vertical gap, positioned `18px` from card top, starting
+  at `chartLeft`
+
+---
+
+## Plot 2 — bounded_met Adherence Rate Over Weeks
+
+### What it shows
+This card contains **two stacked panels**:
+1. **(Top) Line chart** — the proportion of sessions per week where `bounded_met == true`,
+   for each group, with a shaded ±1 SD confidence band.
+2. **(Bottom) Heatmap** — individual subject adherence across all 6 weeks; one row per
+   subject, one column per week, coloured by met / not met / no data.
+
+### Card dimensions
+- Position: `x: 723, y: 40`
+- Width: `660px`, Height: `501px`
+
+### Chart area margins (shared left/right)
+- Left: `70px`
+- Right: `20px`
+- Top (line chart): `60px`
+- The line chart occupies the top **~62%** of the inner height
+- The heatmap occupies the lower **~38%**, with a `36px` gap below the line chart's x-axis
+
+---
+
+### Panel A — Line Chart
+
+#### Data preparation
+Group `zone_out.csv` by `(group, week, subject)`. For each `(group, week)`:
+1. Count sessions where `bounded_met == true` divided by total sessions → **adherence rate**
+2. Compute standard deviation of per-subject adherence rates → **SD band**
+
+#### Scales
+- **x**: `scalePoint` over weeks 1–6, range `[0, lineChartWidth]`, padding `0.1`
+- **y**: linear, domain `[0, 1]`, range `[lineChartHeight, 0]`
+
+#### SD band
+Render as a `d3.area()` path for each group:
+- `y0 = rate - sd`, `y1 = rate + sd`, clipped to `[0, 1]`
+- Fill: group colour at **15% opacity**
+- No stroke on the band
+
+#### Lines
+One `d3.line()` path per group, `stroke-width: 2.5px`, no fill.
+- Supervised → `#3378de`
+- Unsupervised → `#f5802e`
+
+#### Dots
+`r: 5px` circle at each data point, filled with group colour, no stroke.
+
+#### Grid lines
+Horizontal lines at 0%, 25%, 50%, 75%, 100%.
+Colour `#e5e5ed`. y-axis labels: `"0%"` … `"100%"` left of axis.
+
+#### x-axis labels
+`"Wk 1"` … `"Wk 6"` centred on each x-position, `8px` below the axis.
+
+#### Legend (top-right of card)
+Two items stacked vertically at top-right of card (`x ≈ cardRight - 80px`):
+- Blue square + `"Supervised"`
+- Orange square + `"Unsupervised"`
+Each `10×10px` marker, `border-radius: 2px`, label `12px` to the right.
+
+---
+
+### Panel B — Heatmap
+
+#### Position
+Starts `36px` below the line chart x-axis baseline.
+
+#### Dimensions
+- **Rows**: one per unique subject (sort alphabetically)
+- **Columns**: 6 (weeks 1–6)
+- Cell width: `(lineChartWidth / 6) - 2px`
+- Cell height: `18px` (or shrink proportionally if more subjects)
+- Row gap: `2px`, column gap: `2px`
+- Cell `border-radius: 2px`
+
+#### Colour encoding
+| `bounded_met` value | Colour |
+|---|---|
+| `true` | `#3bbd8c` (green) |
+| `false` | `#f04545` (red) |
+| missing / no session | `#e5e5ed` (grey) |
+
+#### Labels
+- **Column headers** (`"W1"` … `"W6"`): centred above each column, `8px` font, `#80808f`,
+  `12px` above the first row
+- **Row labels** (subject IDs): right-aligned `60px` to the left of the grid, `8px` font,
+  vertically centred on each row
+
+#### Sub-panel title
+`"Individual Adherence Heatmap (bounded_met per subject × week)"`, `9px`, `#80808f`,
+bold, `14px` above the column headers.
+
+#### Legend (bottom of card)
+Three items horizontal, `4px` below the last heatmap row:
+1. Green square → `"Met"`
+2. Red square → `"Not Met"`
+3. Grey square → `"No Data"`
+
+---
+
+## D3 Implementation Notes
+
+- Use `d3.rollup` or `d3.group` to aggregate the CSV before drawing.
+- Both plots share the same SVG coordinate system if rendered in one `<svg>`; otherwise
+  use two separate SVGs absolutely positioned to match the card layout.
+- The SD band and line chart should use `clipPath` to prevent overflow beyond the
+  chart area.
+- Recommend `d3.v7` (`import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm"`).
+- Load the CSV with `d3.csv("zone_out.csv", d3.autoType)` — `autoType` will correctly
+  parse `bounded_met` as a boolean and numeric columns as numbers.
