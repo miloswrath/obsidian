@@ -8,7 +8,8 @@
 		{"id":"e6a5a102d6c4d593","type":"text","text":"# Status of HR Data\n---\n***Currently up to 8030***","x":1617,"y":120,"width":366,"height":159},
 		{"id":"d4dadcfa7b8dd143","type":"file","file":"hbc/misc/report/hr-plot.md","x":-2200,"y":760,"width":960,"height":1000},
 		{"id":"6be482619851024e","type":"file","file":"Pasted image 20260326102644.png","x":-2570,"y":1991,"width":1700,"height":688},
-		{"id":"8858378bf314c00d","type":"file","file":"Pasted image 20260325104824.png","x":-2468,"y":-1800,"width":1497,"height":1080}
+		{"id":"8858378bf314c00d","type":"file","file":"Pasted image 20260325104824.png","x":-2468,"y":-1800,"width":1497,"height":1080},
+		{"id":"edc9e86e9a68d7c5","x":-3480,"y":416,"width":748,"height":448,"type":"text","text":"Here are some screenshots of the plot ideas that I have along with annotations of things that might be helpful to add/change/remove.\n\nI'm sending them here in hopes for some feedback before I begin implementation next week. I'll create a thread of this message where we can go back and forth with ideas if there are any.\n\nThanks again @olivia for getting the heart rate data ready so fast! \n[[Report Plot Specs]]\n***Accelerometer Data***\n![[Pasted image 20260327113614.png]]\n![[Pasted image 20260327113824.png]]\n![[Pasted image 20260327113836.png]]\n\n***Heart Rate Data***\n"}
 	],
 	"edges":[
 		{"id":"24af9cd5592aae23","fromNode":"0d66d82dbe68b727","fromSide":"right","toNode":"2553eaec14fe4aa9","toSide":"left"},
@@ -17,6 +18,8 @@
 		{"id":"c7be5aa66e7e9553","fromNode":"2553eaec14fe4aa9","fromSide":"right","toNode":"e6a5a102d6c4d593","toSide":"left"},
 		{"id":"88aad664dbcba7c4","fromNode":"d8140584f2e877dd","fromSide":"top","toNode":"8858378bf314c00d","toSide":"bottom"},
 		{"id":"1790d1bd741dbcbd","fromNode":"0d66d82dbe68b727","fromSide":"left","toNode":"d4dadcfa7b8dd143","toSide":"right"},
-		{"id":"0b291d99986df11b","fromNode":"d4dadcfa7b8dd143","fromSide":"bottom","toNode":"6be482619851024e","toSide":"top"}
+		{"id":"0b291d99986df11b","fromNode":"d4dadcfa7b8dd143","fromSide":"bottom","toNode":"6be482619851024e","toSide":"top"},
+		{"id":"e60dda1a3c24e5a5","fromNode":"d8140584f2e877dd","fromSide":"left","toNode":"edc9e86e9a68d7c5","toSide":"right"},
+		{"id":"726c0fdb59b579aa","fromNode":"d4dadcfa7b8dd143","fromSide":"left","toNode":"edc9e86e9a68d7c5","toSide":"right"}
 	]
 }
