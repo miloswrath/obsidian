@@ -3,12 +3,12 @@
 ### Plan
 ---
 - [x] Grab act abstracts into pgdb
-- [ ] contract for plots 1/2
-- [ ] Build plots 1/2
-- [ ] Contract for time series 
-- [ ] contract for plot 3
-- [ ] build plot 3
-- [ ] import hr data
+- [x] contract for plots 1/2
+- [x] Build plots 1/2
+- [x] Contract for time series 
+- [x] contract for plot 3
+- [x] build plot 3
+- [x] import hr data
 - [ ] build contracts for hr plots 1/2/3
 - [ ] run implementation
 
