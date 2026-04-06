@@ -1,11 +1,4 @@
-## Todos
-- [x] Study NVIDIA NIM
-- [ ] Go through example interview questions and practice talking points
-- [x] Understand the questions 
-- [ ] Create a small cheat document
-
 [[nvidia-nim]]
-
 ## STORIES
 ---
 I've been building things with code since I was a kid — it started as curiosity and turned into a career direction pretty quickly once I realized software could actually change how people experience the world. That thread runs through everything I've done since: at the Brain Cognition Lab I built agentic AI tooling and a full-stack reporting platform that 30+ researchers depend on daily, and at Cerebra I architected a clinical communication platform in a HIPAA environment that measurably improved patient outcomes. In both cases I was the person taking something from zero to production — not prototyping, actually shipping.
